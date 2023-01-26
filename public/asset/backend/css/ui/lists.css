@@ -1,0 +1,48 @@
+.list-group .list-group-item.active {
+  background: #0d47a1;
+  color: #fff;
+}
+
+.list-group .list-group-item.list-group-item-white {
+  background: #ffffff;
+}
+
+.list-group .list-group-item.list-group-item-black {
+  background: #000000;
+}
+
+.list-group .list-group-item.list-group-item-light {
+  background: #f5f5f5;
+}
+
+.list-group .list-group-item.list-group-item-dark {
+  background: #212121;
+}
+
+.list-group .list-group-item.list-group-item-default {
+  background: #212121;
+}
+
+.list-group .list-group-item.list-group-item-primary {
+  background: #0d47a1;
+}
+
+.list-group .list-group-item.list-group-item-secondary {
+  background: #c51162;
+}
+
+.list-group .list-group-item.list-group-item-success {
+  background: #388e3c;
+}
+
+.list-group .list-group-item.list-group-item-info {
+  background: #0091ea;
+}
+
+.list-group .list-group-item.list-group-item-warning {
+  background: #ffa000;
+}
+
+.list-group .list-group-item.list-group-item-danger {
+  background: #d32f2f;
+}

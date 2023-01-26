@@ -1,0 +1,48 @@
+.invoice {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  color: #212121;
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+
+.invoice h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.invoice .address p {
+  margin-bottom: 5px;
+}
+
+.invoice .invoice-title {
+  background: #0d47a1;
+  color: #fff;
+}
+
+.invoice .invoice-title h3 {
+  display: block;
+}
+
+.invoice .table thead tr td, .invoice .table tbody tr td {
+  border: 0;
+}
+
+@media (max-width: 543px) {
+  .invoice .pull-right {
+    float: left !important;
+  }
+  .invoice .text-right {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+  .invoice .pull-right {
+    float: left !important;
+  }
+  .invoice .text-right {
+    text-align: left !important;
+  }
+}

@@ -1,0 +1,203 @@
+.checkbox-inline .checkbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checkbox-inline.checkbox-white label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-white input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.checkbox.checkbox-white label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-white input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.checkbox-inline.checkbox-white label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-white label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-white input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #ffffff;
+}
+
+.checkbox-inline.checkbox-black label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-black input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #000000;
+  border-color: #000000;
+}
+
+.checkbox.checkbox-black label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-black input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #000000;
+  border-color: #000000;
+}
+
+.checkbox-inline.checkbox-black label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-black label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-black input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #000000;
+}
+
+.checkbox-inline.checkbox-light label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-light input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+.checkbox.checkbox-light label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-light input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+.checkbox-inline.checkbox-light label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-light label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-light input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #f5f5f5;
+}
+
+.checkbox-inline.checkbox-dark label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-dark input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #212121;
+  border-color: #212121;
+}
+
+.checkbox.checkbox-dark label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-dark input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #212121;
+  border-color: #212121;
+}
+
+.checkbox-inline.checkbox-dark label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-dark label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-dark input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #212121;
+}
+
+.checkbox-inline.checkbox-default label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-default input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #212121;
+  border-color: #212121;
+}
+
+.checkbox.checkbox-default label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-default input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #212121;
+  border-color: #212121;
+}
+
+.checkbox-inline.checkbox-default label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-default label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-default input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #212121;
+}
+
+.checkbox-inline.checkbox-primary label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-primary input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #0d47a1;
+  border-color: #0d47a1;
+}
+
+.checkbox.checkbox-primary label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-primary input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #0d47a1;
+  border-color: #0d47a1;
+}
+
+.checkbox-inline.checkbox-primary label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-primary label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-primary input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #0d47a1;
+}
+
+.checkbox-inline.checkbox-secondary label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-secondary input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #c51162;
+  border-color: #c51162;
+}
+
+.checkbox.checkbox-secondary label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-secondary input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #c51162;
+  border-color: #c51162;
+}
+
+.checkbox-inline.checkbox-secondary label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-secondary label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-secondary input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #c51162;
+}
+
+.checkbox-inline.checkbox-success label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-success input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #388e3c;
+  border-color: #388e3c;
+}
+
+.checkbox.checkbox-success label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-success input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #388e3c;
+  border-color: #388e3c;
+}
+
+.checkbox-inline.checkbox-success label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-success label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-success input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #388e3c;
+}
+
+.checkbox-inline.checkbox-info label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-info input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #0091ea;
+  border-color: #0091ea;
+}
+
+.checkbox.checkbox-info label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-info input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #0091ea;
+  border-color: #0091ea;
+}
+
+.checkbox-inline.checkbox-info label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-info label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-info input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #0091ea;
+}
+
+.checkbox-inline.checkbox-warning label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-warning input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #ffa000;
+  border-color: #ffa000;
+}
+
+.checkbox.checkbox-warning label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-warning input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #ffa000;
+  border-color: #ffa000;
+}
+
+.checkbox-inline.checkbox-warning label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-warning label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-warning input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #ffa000;
+}
+
+.checkbox-inline.checkbox-danger label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-danger input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.checkbox.checkbox-danger label input[type="checkbox"]:checked + .checkbox-decorator .check,
+label.checkbox-inline.checkbox-danger input[type="checkbox"]:checked + .checkbox-decorator .check {
+  color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.checkbox-inline.checkbox-danger label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+.checkbox.checkbox-danger label input[type=checkbox]:checked + .checkbox-decorator .check::before,
+label.checkbox-inline.checkbox-danger input[type=checkbox]:checked + .checkbox-decorator .check::before {
+  color: #d32f2f;
+}

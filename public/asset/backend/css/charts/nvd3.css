@@ -1,0 +1,140 @@
+.nvd3 text {
+  fill: #212121 !important;
+  font-family: "Roboto", "Helvetica", sans-serif !important;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.nvd3-pie .nvd3.nv-pie path,
+.nvd3-donut .nvd3.nv-pie path {
+  stroke: #e0e0e0 !important;
+}
+
+.nvd3-pie .nvd3.nv-pie path,
+.nvd3-donut .nvd3.nv-pie path {
+  fill-opacity: 1;
+}
+
+.nvd3 .nv-axis path {
+  stroke: #e0e0e0 !important;
+}
+
+.nvd3 .nv-axis line {
+  stroke: #e0e0e0 !important;
+}
+
+.nvd3 .nv-bars .hover rect {
+  fill: #f5f5f5 !important;
+}
+
+.nvd3 .nv-bars text {
+  fill: #212121 !important;
+}
+
+.nvd3 .nv-bars .hover text {
+  fill: #212121 !important;
+}
+
+.nvd3 .nv-discretebar .nv-groups text,
+.nvd3 .nv-multibarHorizontal .nv-groups text {
+  fill: #212121 !important;
+}
+
+.nvd3 line.nv-boxplot-median {
+  stroke: #212121 !important;
+}
+
+.nvd3 .nv-point-paths path {
+  stroke: #e0e0e0 !important;
+  fill: #e0e0e0 !important;
+}
+
+.nvd3 text {
+  font-family: "Roboto", "Helvetica", sans-serif !important;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.nvd3 .title {
+  font-family: "Roboto", "Helvetica", sans-serif !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.nvd3 .nv-background {
+  fill: #f5f5f5 !important;
+}
+
+.nv-brush .resize path {
+  fill: #e0e0e0 !important;
+  stroke: #e0e0e0 !important;
+}
+
+.nvd3 .nv-brushBackground rect {
+  stroke: #f5f5f5 !important;
+  fill: #212121 !important;
+}
+
+.nvd3 .background path {
+  stroke: #f5f5f5 !important;
+}
+
+.nvd3 .nv-parallelCoordinates-brush .extent {
+  fill: #212121 !important;
+  stroke: #f5f5f5 !important;
+}
+
+.nvd3 .missingValuesline line {
+  stroke: #f5f5f5 !important;
+}
+
+.nvd3.nv-pie .nv-pie-title {
+  fill: #212121 !important;
+}
+
+.nvd3.nv-pie .nv-slice text {
+  stroke: #212121 !important;
+}
+
+.nvd3.nv-pie path {
+  stroke: #f5f5f5 !important;
+}
+
+.nvd3.nv-sparklineplus .nv-hoverValue line {
+  stroke: #e0e0e0 !important;
+}
+
+.nvd3.nv-sparklineplus .nv-yValue {
+  stroke: #212121 !important;
+}
+
+.nvd3.nv-sparklineplus .nv-maxValue {
+  stroke: #212121 !important;
+  fill: #212121 !important;
+}
+
+.nvd3.nv-sparklineplus .nv-minValue {
+  stroke: #212121 !important;
+  fill: #212121 !important;
+}
+
+.nvtooltip {
+  grey-100: #f5f5f5 !important;
+  color: #212121 !important;
+  border: 1px solid #e0e0e0 !important;
+  font-family: "Roboto", "Helvetica", sans-serif !important;
+}
+
+.nvtooltip h3 {
+  grey-100: #f5f5f5 !important;
+  color: #212121 !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+.nvtooltip table td.legend-color-guide div {
+  border: 1px solid #e0e0e0 !important;
+}
+
+.nvd3 line.nv-guideline {
+  stroke: #e0e0e0 !important;
+}

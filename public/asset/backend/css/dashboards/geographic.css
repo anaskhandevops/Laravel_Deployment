@@ -1,0 +1,18 @@
+#dashboards-geographic .small-line-1,
+#dashboards-geographic .small-line-2,
+#dashboards-geographic .small-line-3,
+#dashboards-geographic .small-line-4 {
+  display: block;
+  min-height: 36px;
+}
+
+#dashboards-geographic .top-charts {
+  min-height: 110px;
+}
+
+@media (max-width: 543px) {
+  .top-charts .col-xs-12,
+  .top-charts .col-sm-6 {
+    margin-bottom: 20px;
+  }
+}

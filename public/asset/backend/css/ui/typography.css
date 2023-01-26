@@ -1,0 +1,87 @@
+.blockquote.blockquote-white:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #ffffff;
+}
+
+.blockquote.blockquote-white.blockquote-reverse {
+  border-right: 0.25rem solid #ffffff;
+}
+
+.blockquote.blockquote-black:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #000000;
+}
+
+.blockquote.blockquote-black.blockquote-reverse {
+  border-right: 0.25rem solid #000000;
+}
+
+.blockquote.blockquote-light:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #f5f5f5;
+}
+
+.blockquote.blockquote-light.blockquote-reverse {
+  border-right: 0.25rem solid #f5f5f5;
+}
+
+.blockquote.blockquote-dark:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #212121;
+}
+
+.blockquote.blockquote-dark.blockquote-reverse {
+  border-right: 0.25rem solid #212121;
+}
+
+.blockquote.blockquote-default:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #212121;
+}
+
+.blockquote.blockquote-default.blockquote-reverse {
+  border-right: 0.25rem solid #212121;
+}
+
+.blockquote.blockquote-primary:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #0d47a1;
+}
+
+.blockquote.blockquote-primary.blockquote-reverse {
+  border-right: 0.25rem solid #0d47a1;
+}
+
+.blockquote.blockquote-secondary:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #c51162;
+}
+
+.blockquote.blockquote-secondary.blockquote-reverse {
+  border-right: 0.25rem solid #c51162;
+}
+
+.blockquote.blockquote-success:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #388e3c;
+}
+
+.blockquote.blockquote-success.blockquote-reverse {
+  border-right: 0.25rem solid #388e3c;
+}
+
+.blockquote.blockquote-info:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #0091ea;
+}
+
+.blockquote.blockquote-info.blockquote-reverse {
+  border-right: 0.25rem solid #0091ea;
+}
+
+.blockquote.blockquote-warning:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #ffa000;
+}
+
+.blockquote.blockquote-warning.blockquote-reverse {
+  border-right: 0.25rem solid #ffa000;
+}
+
+.blockquote.blockquote-danger:not(.blockquote-reverse) {
+  border-left: 0.25rem solid #d32f2f;
+}
+
+.blockquote.blockquote-danger.blockquote-reverse {
+  border-right: 0.25rem solid #d32f2f;
+}

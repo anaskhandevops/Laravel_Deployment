@@ -1,0 +1,26 @@
+.card .card-img,
+.card .card-img-top {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card .card-title {
+  font-weight: 500;
+}
+
+.card .card-block .card-title {
+  font-size: 1.2rem;
+}
+
+.card .card-block.with-icon i {
+  font-size: 22px;
+  float: left !important;
+  margin: 12px 20px 10px 0;
+}
+
+.card .card-block.with-badge .badge {
+  font-size: 22px;
+  float: left !important;
+  margin: 2px 20px 10px 0;
+}

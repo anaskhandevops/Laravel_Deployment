@@ -1,0 +1,15 @@
+#documentation-code-structure .naming-conventions > li {
+  margin-bottom: 20px;
+}
+
+#documentation-code-structure .questions > li {
+  margin-bottom: 40px;
+}
+
+#documentation-code-structure .questions > li p {
+  margin-bottom: 10px;
+}
+
+#documentation-code-structure .questions > li p:nth-child(1) {
+  font-weight: 700;
+}

@@ -1,0 +1,68 @@
+.easy-pie-chart-demos .easy-pie-chart {
+  float: left;
+  margin-right: 20px;
+}
+
+.easy-pie-chart {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.easy-pie-chart .number,
+.easy-pie-chart .percent,
+.easy-pie-chart .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+}
+
+.easy-pie-chart.easy-pie-chart-lg {
+  height: 200px;
+  width: 200px;
+}
+
+.easy-pie-chart.easy-pie-chart-lg .number,
+.easy-pie-chart.easy-pie-chart-lg .percent {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.easy-pie-chart.easy-pie-chart-lg .icon {
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+.easy-pie-chart.easy-pie-chart-md {
+  height: 150px;
+  width: 150px;
+}
+
+.easy-pie-chart.easy-pie-chart-md .number,
+.easy-pie-chart.easy-pie-chart-md .percent {
+  font-size: 48px;
+  margin-top: 38px;
+}
+
+.easy-pie-chart.easy-pie-chart-md .icon {
+  font-size: 60px;
+  margin-top: 32px;
+}
+
+.easy-pie-chart.easy-pie-chart-xs {
+  height: 100px;
+  width: 100px;
+}
+
+.easy-pie-chart.easy-pie-chart-xs .number,
+.easy-pie-chart.easy-pie-chart-xs .percent {
+  font-size: 24px;
+  margin-top: 33px;
+}
+
+.easy-pie-chart.easy-pie-chart-xs .icon {
+  font-size: 36px;
+  margin-top: 25px;
+}

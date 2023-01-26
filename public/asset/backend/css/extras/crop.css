@@ -1,0 +1,29 @@
+.jcrop-holder #preview-pane-1 {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  top: 0px;
+  left: 450px;
+  width: 0;
+  height: 0;
+}
+
+#preview-pane-1 .preview-container {
+  width: 250px;
+  height: 170px;
+  overflow: hidden;
+}
+
+.jcrop-holder #preview-pane-2 {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 0px;
+  left: 450px;
+}
+
+#preview-pane-2 .preview-container {
+  width: 250px;
+  height: 170px;
+  overflow: hidden;
+}

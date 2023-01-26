@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Peak</title>
+    <meta name="description" content="dashboard, admin, template, templates, peak, ui, material design">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/css/flag-icon.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css" />
+    <!-- build:css css/vendor.css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/chartist/dist/chartist.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/morris.js/morris.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/nvd3/build/nv.d3.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/sweetalert2/dist/sweetalert2.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/toastr/toastr.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/summernote/dist/summernote.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/fakeLoader/fakeLoader.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/nouislider/distribute/nouislider.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" href="components/css/zoom.css" />
+    <!-- endbuild -->
+    <!-- build:css css/styles.css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="text/css" href="css/box-shadows.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/default-sidebar-1.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/default-sidebar-2.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-1.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-2.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-3.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-4.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-5.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/empty-view-6.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/top-navigation-1.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/top-navigation-2.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/off-canvas.css">
+    <link rel="stylesheet" type="text/css" href="css/layouts/fixed-navbar-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/left-sidebar-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/navbar-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/navbar-2.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/navbar-3.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/top-search.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/top-navigation-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/right-sidebar-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/jumbotron-1.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/jumbotron-2.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/jumbotron-3.css">
+    <link rel="stylesheet" type="text/css" href="css/dashboards/geographic.css">
+    <link rel="stylesheet" type="text/css" href="css/dashboards/analytics.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/margin.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/padding.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/text.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/border.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/height.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/width.css">
+    <link rel="stylesheet" type="text/css" href="css/helpers/other.css">
+    <link rel="stylesheet" type="text/css" href="css/color-system/material-design-colors.css">
+    <link rel="stylesheet" type="text/css" href="css/icons/flags.css">
+    <link rel="stylesheet" type="text/css" href="css/icons/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/icons/weather-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/icons/material-design-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/charts/chartist.css">
+    <link rel="stylesheet" type="text/css" href="css/charts/easy-pie-chart.css">
+    <link rel="stylesheet" type="text/css" href="css/charts/morris.css">
+    <link rel="stylesheet" type="text/css" href="css/charts/nvd3.css">
+    <link rel="stylesheet" type="text/css" href="css/charts/echarts.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/crop.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/invoice.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/mousetrap.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/pricing-tables.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/syntax-highlighting.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/zoom.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/white-frames.css">
+    <link rel="stylesheet" type="text/css" href="css/extras/search-results.css">
+    <link rel="stylesheet" type="text/css" href="css/editors/summernote.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/basic.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/checkboxes.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/radios.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/sliders.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/toggles.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/file-uploads.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/date-picker.css">
+    <link rel="stylesheet" type="text/css" href="css/forms/steps.css">
+    <link rel="stylesheet" type="text/css" href="css/tables/default.css">
+    <link rel="stylesheet" type="text/css" href="css/tables/datatable.css">
+    <link rel="stylesheet" type="text/css" href="css/tables/sortable.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/index.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/banners.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/error.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/sign-in.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/sign-up.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/coming-soon.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/forgot-password.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/unlock-account.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/alerts.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/badges.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/breadcrumbs.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/cards.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/dropdowns.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/images.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/lists.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/modals.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/overlays.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/pagination.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/popovers.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/progress-bars.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/social-media-buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/sweet-alert.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/tabs.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/tags.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/tooltips.css">
+    <link rel="stylesheet" type="text/css" href="css/ui/typography.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-1.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-10.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-11.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-2.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-6.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-7.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-8.css">
+    <link rel="stylesheet" type="text/css" href="css/user-widgets/user-widget-9.css">
+    <link rel="stylesheet" type="text/css" href="css/maps/google-maps.css">
+    <link rel="stylesheet" type="text/css" href="css/maps/vector-maps.css">
+    <link rel="stylesheet" type="text/css" href="css/email/inbox.css">
+    <link rel="stylesheet" type="text/css" href="css/text-widgets/text-widget-1.css">
+    <link rel="stylesheet" type="text/css" href="css/text-widgets/text-widget-2.css">
+    <link rel="stylesheet" type="text/css" href="css/text-widgets/text-widget-7.css">
+    <link rel="stylesheet" type="text/css" href="css/activity-widgets/activity-widget-1.css">
+    <link rel="stylesheet" type="text/css" href="css/activity-widgets/activity-widget-3.css">
+    <link rel="stylesheet" type="text/css" href="css/activity-widgets/activity-widget-4.css">
+    <link rel="stylesheet" type="text/css" href="css/activity-widgets/activity-widget-5.css">
+    <link rel="stylesheet" type="text/css" href="css/activity-widgets/activity-widget-6.css">
+    <link rel="stylesheet" type="text/css" href="css/documentation/customization.css">
+    <link rel="stylesheet" type="text/css" href="css/documentation/code-structure.css">
+    <link rel="stylesheet" type="text/css" href="css/documentation/credits.css">
+    <link rel="stylesheet" type="text/css" href="css/documentation/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/documentation/styles.css">
+    <!-- endbuild -->
+</head>
+<body id="pages-index" data-layout="homepage">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 main text-center">
+                <div class="row top">
+                    <div class="col-xs-12">
+                        <div class="text">
+                            <i class="fa fa-adjust"></i>
+                            <span>Peak</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tagline">
+                    <div class="col-xs-12">
+                        <h3>Material design <b>Bootstrap 4</b> template</h3>
+                        <h4>6 layouts, 8 color styles, 100+ pages</h4>
+                    </div>
+                </div>
+                <div class="row description">
+                    <div class="col-xs-6">
+                        <a target="_blank" href="https://themeforest.net/item/peak-ui-bootstrap-4-admin-theme/18201408" class="btn btn-white color-default btn-raised pull-right">Purchase now</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a target="_blank" href="default-sidebar-2/primary/primary/documentation/installation.html" class="btn btn-white color-default pull-left btn-raised">View documentation</a>
+                    </div>
+                </div>
+                <div class="row m-b-20 m-t-40">
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/danger/danger/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-danger-danger-dashboards-geographic.png" alt="default-sidebar-1-danger-danger-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/dark/dark/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-dark-dark-dashboards-geographic.png" alt="default-sidebar-1-dark-dark-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/info/info/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-info-info-dashboards-geographic.png" alt="default-sidebar-1-info-info-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/light/light/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-light-light-dashboards-geographic.png" alt="default-sidebar-1-light-light-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/primary/primary/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-primary-primary-dashboards-geographic.png" alt="default-sidebar-1-primary-primary-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/secondary/secondary/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-secondary-secondary-dashboards-geographic.png" alt="default-sidebar-1-secondary-secondary-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/success/success/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-success-success-dashboards-geographic.png" alt="default-sidebar-1-success-success-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3 m-b-20">
+                        <div class="small-screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1/warning/warning/dashboards/geographic.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/palette-screenshots/default-sidebar-1-warning-warning-dashboards-geographic.png" alt="default-sidebar-1-warning-warning-dashboards-geographic.png"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row separator">
+                    <div class="col-xs-12 col-lg-3">
+                        <i class="fa fa-code"></i>
+                        <h5 class="animated fadeIn delay-2000">Multiple layouts and color styles</h5>
+                        <p>6 different layouts with 9 color styles</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-3">
+                        <i class="fa fa-bolt"></i>
+                        <h5 class="animated fadeIn delay-2000">Easy to install</h5>
+                        <p>Just unzip and open in your browser</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-3">
+                        <i class="fa fa-check"></i>
+                        <h5 class="animated fadeIn delay-2000">100% responsive</h5>
+                        <p>Fully responsive views, pages and layouts</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-3">
+                        <i class="fa fa-file"></i>
+                        <h5 class="animated fadeIn delay-2000">100+ pages available</h5>
+                        <p>Lots of options to make it easy to get started</p>
+                    </div>
+                </div>
+                <div class="row middle-1">
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Fixed navbar</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="fixed-navbar-1.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/fixed-navbar-1.png" alt="fixed-navbar-1" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Default sidebar</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-1.1.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/default-sidebar-1.png" alt="default-sidebar-1" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Top navigation 1</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="top-navigation-1.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/top-navigation-1.png" alt="top-navigation-1" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Top navigation 2</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="top-navigation-2.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/top-navigation-2.png" alt="top-navigation-2" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Sidebar overlay</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="default-sidebar-2.1.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/default-sidebar-2.png" alt="default-sidebar-2" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 m-b-20">
+                        <h5 class="animated fadeIn delay-2000">Off canvas</h5>
+                        <div class="screenshot">
+                            <div class="placeholder">
+                                <a target="_blank" href="off-canvas.html">
+                                    <img class="b-lazy img-fluid animated fadeIn" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/screenshots/fullpage/off-canvas.png" alt="off-canvas" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom">
+                    <div class="col-xs-12 text-center">
+                        <p><a target="_blank" href="https://themeforest.net/user/batchthemes">Copyright &copy; 2016 Batchthemes</a></p>
+                        <p>PEAK 1.4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- build:js js/vendor.js -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="components/scripts/modernizr.js"></script>
+    <script src="bower_components/tether/dist/js/tether.js"></script>
+    <script src="bower_components/jquery-storage-api/jquery.storageapi.min.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/peity/jquery.peity.min.js"></script>
+    <script src="bower_components/mousetrap/mousetrap.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/bootstrap-material-design.iife.js"></script>
+    <script src="bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="bower_components/raphael/raphael.min.js"></script>
+    <script src="bower_components/morris.js/morris.min.js"></script>
+    <script src="bower_components/nvd3/build/nv.d3.js"></script>
+    <script src="bower_components/echarts/dist/echarts.min.js"></script>
+    <script src="bower_components/topojson/topojson.min.js"></script>
+    <script src="bower_components/datamaps/dist/datamaps.all.js"></script>
+    <script src="bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+    <script src="bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script src="components/scripts/highlight.min.js"></script>
+    <script src="bower_components/table-export/tableExport.js"></script>
+    <script src="bower_components/table-export/jquery.base64.js"></script>
+    <script src="bower_components/table-export/jspdf/libs/sprintf.js"></script>
+    <script src="bower_components/table-export/jspdf/jspdf.js"></script>
+    <script src="bower_components/table-export/jspdf/libs/base64.js"></script>
+    <script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="bower_components/toastr/toastr.min.js"></script>
+    <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="bower_components/jquery-fullscreen/jquery.fullscreen-min.js"></script>
+    <script src="bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="bower_components/markdown/lib/markdown.js"></script>
+    <script src="bower_components/to-markdown/dist/to-markdown.js"></script>
+    <script src="bower_components/summernote/dist/summernote.js"></script>
+    <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="bower_components/counter-up/jquery.counterup.min.js"></script>
+    <script src="bower_components/velocity/velocity.js"></script>
+    <script src="bower_components/velocity/velocity.ui.js"></script>
+    <script src="bower_components/elevatezoom/jquery.elevatezoom.js"></script>
+    <script src="components/scripts/enhance.js"></script>
+    <script src="bower_components/approvejs/dist/approve.min.js"></script>
+    <script src="bower_components/fakeLoader/fakeLoader.min.js"></script>
+    <script src="bower_components/nouislider/distribute/nouislider.js"></script>
+    <script src="bower_components/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <script src="bower_components/sortable/js/sortable.min.js"></script>
+    <script src="bower_components/bLazy/blazy.min.js"></script>
+    <!-- endbuild -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=weather,visualization,panoramio&key=AIzaSyDRuAzjz4dLpeQnvW4D8qZ7mX-G0pAZEcI"></script>
+    <!-- build:js js/main.js -->
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/colors.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/elements/left-sidebar.js"></script>
+    <script src="scripts/elements/navbar-1.js"></script>
+    <script src="scripts/elements/navbar-2.js"></script>
+    <script src="scripts/elements/navbar-3.js"></script>
+    <script src="scripts/charts/peity.js"></script>
+    <script src="scripts/charts/chart-js.js"></script>
+    <script src="scripts/charts/chartist.js"></script>
+    <script src="scripts/charts/morris.js"></script>
+    <script src="scripts/charts/nvd3.js"></script>
+    <script src="scripts/charts/echarts.js"></script>
+    <script src="scripts/charts/easy-pie-chart.js"></script>
+    <script src="scripts/maps/vector-maps.js"></script>
+    <script src="scripts/maps/google-maps.js"></script>
+    <script src="scripts/icons/material-design-icons.js"></script>
+    <script src="scripts/icons/font-awesome.js"></script>
+    <script src="scripts/icons/flags.js"></script>
+    <script src="scripts/icons/ionicons.js"></script>
+    <script src="scripts/icons/weather-icons.js"></script>
+    <script src="scripts/tables/table-export.js"></script>
+    <script src="scripts/tables/datatable.js"></script>
+    <script src="scripts/tables/sortable.js"></script>
+    <script src="scripts/dashboards/geographic.js"></script>
+    <script src="scripts/dashboards/analytics.js"></script>
+    <script src="scripts/pages/empty.js"></script>
+    <script src="scripts/pages/coming-soon.js"></script>
+    <script src="scripts/ui/notify.js"></script>
+    <script src="scripts/ui/tooltips.js"></script>
+    <script src="scripts/ui/popovers.js"></script>
+    <script src="scripts/ui/sweet-alert.js"></script>
+    <script src="scripts/ui/toastr.js"></script>
+    <script src="scripts/ui/counters.js"></script>
+    <script src="scripts/editors/summernote.js"></script>
+    <script src="scripts/extras/elevate-zoom.js"></script>
+    <script src="scripts/extras/syntax-highlighting.js"></script>
+    <script src="scripts/extras/markdown.js"></script>
+    <script src="scripts/extras/code.js"></script>
+    <script src="scripts/forms/file-uploads.js"></script>
+    <script src="scripts/forms/date-picker.js"></script>
+    <script src="scripts/elements/steps-1.js"></script>
+    <script src="scripts/forms/validation.js"></script>
+    <script src="scripts/forms/sliders.js"></script>
+    <script src="scripts/pages/index.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

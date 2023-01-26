@@ -1,0 +1,11 @@
+.zoom img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.zoom-overlay {
+  background: transparent !important;
+}

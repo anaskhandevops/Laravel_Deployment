@@ -1,0 +1,31 @@
+.show-grid {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.show-grid [class^=col-] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.show-grid [class^=col-]:nth-child(odd) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.show-grid [class^=col-] {
+  color: #fff;
+  background-color: #1976d2;
+}
+
+.show-grid [class^=col-]:nth-child(odd) {
+  color: #fff;
+  background-color: #2196f3;
+}

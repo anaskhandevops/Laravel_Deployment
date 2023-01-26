@@ -1,0 +1,167 @@
+.dropdown.dropdown-sm .dropdown-header,
+.dropdown.dropdown-sm .dropdown-item,
+.btn-group.dropdown-sm .dropdown-header,
+.btn-group.dropdown-sm .dropdown-item {
+  font-size: 14px;
+  min-height: 2rem;
+  max-height: 2.5rem;
+}
+
+.dropdown.dropdown-lg .dropdown-header,
+.dropdown.dropdown-lg .dropdown-item,
+.btn-group.dropdown-lg .dropdown-header,
+.btn-group.dropdown-lg .dropdown-item {
+  font-size: 16px;
+  min-height: 3rem;
+}
+
+.dropdown .dropdown-menu,
+.btn-group .dropdown-menu {
+  left: 0;
+  right: auto;
+  padding: 0;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.dropdown .dropdown-menu.from-left,
+.btn-group .dropdown-menu.from-left {
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.dropdown .dropdown-menu.from-center,
+.btn-group .dropdown-menu.from-center {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.dropdown .dropdown-menu.from-right,
+.btn-group .dropdown-menu.from-right {
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
+
+.dropdown .dropdown-menu.from-top,
+.btn-group .dropdown-menu.from-top {
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+}
+
+.dropdown .dropdown-menu.dropdown-menu-left,
+.btn-group .dropdown-menu.dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+
+.dropdown .dropdown-menu.dropdown-menu-center,
+.btn-group .dropdown-menu.dropdown-menu-center {
+  left: 0;
+  right: 0;
+}
+
+.dropdown .dropdown-menu.dropdown-menu-center .dropdown-item,
+.btn-group .dropdown-menu.dropdown-menu-center .dropdown-item {
+  max-width: 100%;
+}
+
+.dropdown .dropdown-menu.dropdown-menu-right,
+.btn-group .dropdown-menu.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+
+.dropdown .dropdown-menu .dropdown-divider,
+.btn-group .dropdown-menu .dropdown-divider {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.dropup .dropdown-menu,
+.btn-group.dropup .dropdown-menu {
+  left: 0;
+  right: auto;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.dropup .dropdown-menu.from-left,
+.btn-group.dropup .dropdown-menu.from-left {
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.dropup .dropdown-menu.from-center,
+.btn-group.dropup .dropdown-menu.from-center {
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.dropup .dropdown-menu.from-right,
+.btn-group.dropup .dropdown-menu.from-right {
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+.dropdown-menu.dropdown-menu-cols {
+  right: auto;
+  left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-1 {
+  width: 220px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-1 .dropdown-header,
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-1 .dropdown-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-2 {
+  width: 440px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-2 .dropdown-header,
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-2 .dropdown-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-3 {
+  width: 660px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-3 .dropdown-header,
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-3 .dropdown-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-4 {
+  width: 880px;
+}
+
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-4 .dropdown-header,
+.dropdown-menu.dropdown-menu-cols.dropdown-cols-4 .dropdown-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
+}

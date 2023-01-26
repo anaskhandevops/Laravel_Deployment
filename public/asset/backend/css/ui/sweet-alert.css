@@ -1,0 +1,22 @@
+.sweet-overlay {
+  z-index: 1050 !important;
+}
+
+.sweet-alert {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background: #fff;
+  color: #212121;
+  border-color: #fff;
+}
+
+.sweet-alert h2 {
+  color: #0d47a1;
+}
+
+.sweet-alert p {
+  color: #212121;
+}
+
+.sweet-alert button {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}

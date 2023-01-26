@@ -1,0 +1,58 @@
+.pagination .page-item.active a {
+  color: #fff;
+}
+
+.pagination.pagination-white .page-item.active a {
+  color: #fff;
+  background-color: #ffffff;
+}
+
+.pagination.pagination-black .page-item.active a {
+  color: #fff;
+  background-color: #000000;
+}
+
+.pagination.pagination-light .page-item.active a {
+  color: #fff;
+  background-color: #f5f5f5;
+}
+
+.pagination.pagination-dark .page-item.active a {
+  color: #fff;
+  background-color: #212121;
+}
+
+.pagination.pagination-default .page-item.active a {
+  color: #fff;
+  background-color: #212121;
+}
+
+.pagination.pagination-primary .page-item.active a {
+  color: #fff;
+  background-color: #0d47a1;
+}
+
+.pagination.pagination-secondary .page-item.active a {
+  color: #fff;
+  background-color: #c51162;
+}
+
+.pagination.pagination-success .page-item.active a {
+  color: #fff;
+  background-color: #388e3c;
+}
+
+.pagination.pagination-info .page-item.active a {
+  color: #fff;
+  background-color: #0091ea;
+}
+
+.pagination.pagination-warning .page-item.active a {
+  color: #fff;
+  background-color: #ffa000;
+}
+
+.pagination.pagination-danger .page-item.active a {
+  color: #fff;
+  background-color: #d32f2f;
+}

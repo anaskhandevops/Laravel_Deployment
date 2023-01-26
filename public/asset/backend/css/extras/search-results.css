@@ -1,0 +1,27 @@
+.search-results-form {
+  margin-bottom: 40px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.search-results-form .form-custom .form-control {
+  width: 600px;
+}
+
+.search-results-form .form-custom .bmd-label-floating {
+  font-size: 0.85rem;
+}
+
+.search-results-form i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.search-results small {
+  font-size: 13px;
+}
+
+.search-results li {
+  margin-bottom: 30px;
+}

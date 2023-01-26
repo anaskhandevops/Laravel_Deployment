@@ -1,0 +1,85 @@
+.banners .icon {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #ffa000;
+  color: #212121;
+}
+
+.banners .icon .fa {
+  color: #212121;
+  font-size: 44px;
+  margin-top: 4px;
+}
+
+.banners .icon .letter {
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.banners .banner {
+  width: 590px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background: #0091ea;
+  color: #fff;
+}
+
+.banners .banner .screenshot {
+  position: absolute;
+  top: 60px;
+  left: 220px;
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+
+.banners .banner .title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.banners .banner .title .fa {
+  margin-right: 5px;
+  color: #ffa000;
+}
+
+.banners .banner .tagline {
+  font-size: 12px;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  width: 160px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.banners .banner .description {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  width: 160px;
+}
+
+.banners .banner:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  background-image: url(../../assets/images/bg-empty-view-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.35;
+}

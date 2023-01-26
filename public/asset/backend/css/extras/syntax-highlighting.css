@@ -1,0 +1,81 @@
+#extras-syntax-highlighting pre, #extras-syntax-highlighting code {
+  background-color: #eeeeee;
+}
+
+.widget #extras-syntax-highlighting pre, .widget #extras-syntax-highlighting code {
+  background: #fff;
+}
+
+#extras-syntax-highlighting pre .hljs, #extras-syntax-highlighting code .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+#extras-syntax-highlighting pre .hljs-number,
+#extras-syntax-highlighting pre .hljs-literal,
+#extras-syntax-highlighting pre .hljs-symbol,
+#extras-syntax-highlighting pre .hljs-bullet, #extras-syntax-highlighting code .hljs-number,
+#extras-syntax-highlighting code .hljs-literal,
+#extras-syntax-highlighting code .hljs-symbol,
+#extras-syntax-highlighting code .hljs-bullet {
+  color: #546e7a;
+}
+
+#extras-syntax-highlighting pre .hljs-keyword,
+#extras-syntax-highlighting pre .hljs-selector-tag,
+#extras-syntax-highlighting pre .hljs-deletion, #extras-syntax-highlighting code .hljs-keyword,
+#extras-syntax-highlighting code .hljs-selector-tag,
+#extras-syntax-highlighting code .hljs-deletion {
+  color: #ff9800;
+}
+
+#extras-syntax-highlighting pre .hljs-variable,
+#extras-syntax-highlighting pre .hljs-template-variable,
+#extras-syntax-highlighting pre .hljs-link, #extras-syntax-highlighting code .hljs-variable,
+#extras-syntax-highlighting code .hljs-template-variable,
+#extras-syntax-highlighting code .hljs-link {
+  color: #81c784;
+}
+
+#extras-syntax-highlighting pre .hljs-comment,
+#extras-syntax-highlighting pre .hljs-quote, #extras-syntax-highlighting code .hljs-comment,
+#extras-syntax-highlighting code .hljs-quote {
+  color: #212121;
+}
+
+#extras-syntax-highlighting pre .hljs-meta, #extras-syntax-highlighting code .hljs-meta {
+  color: #558b2f;
+}
+
+#extras-syntax-highlighting pre .hljs-string,
+#extras-syntax-highlighting pre .hljs-attribute,
+#extras-syntax-highlighting pre .hljs-addition, #extras-syntax-highlighting code .hljs-string,
+#extras-syntax-highlighting code .hljs-attribute,
+#extras-syntax-highlighting code .hljs-addition {
+  color: #4caf50;
+}
+
+#extras-syntax-highlighting pre .hljs-section,
+#extras-syntax-highlighting pre .hljs-title,
+#extras-syntax-highlighting pre .hljs-type, #extras-syntax-highlighting code .hljs-section,
+#extras-syntax-highlighting code .hljs-title,
+#extras-syntax-highlighting code .hljs-type {
+  color: #3f51b5;
+}
+
+#extras-syntax-highlighting pre .hljs-name,
+#extras-syntax-highlighting pre .hljs-selector-id,
+#extras-syntax-highlighting pre .hljs-selector-class, #extras-syntax-highlighting code .hljs-name,
+#extras-syntax-highlighting code .hljs-selector-id,
+#extras-syntax-highlighting code .hljs-selector-class {
+  color: #b71c1c;
+}
+
+#extras-syntax-highlighting pre .hljs-emphasis, #extras-syntax-highlighting code .hljs-emphasis {
+  font-style: italic;
+}
+
+#extras-syntax-highlighting pre .hljs-strong, #extras-syntax-highlighting code .hljs-strong {
+  font-weight: bold;
+}

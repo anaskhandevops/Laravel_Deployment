@@ -1,0 +1,26 @@
+.text-widget-7 {
+  width: 100%;
+  position: relative;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.text-widget-7 .amount {
+  font-size: 24px;
+}
+
+.text-widget-7 .title {
+  font-size: 12px;
+}
+
+.text-widget-7.text-widget-left {
+  text-align: left !important;
+}
+
+.text-widget-7.text-widget-center {
+  text-align: center !important;
+}
+
+.text-widget-7.text-widget-right {
+  text-align: right !important;
+}

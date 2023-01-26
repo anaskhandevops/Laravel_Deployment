@@ -1,0 +1,7 @@
+#email-inbox .inbox-table {
+  font-size: 15px;
+}
+
+#email-inbox .inbox-table .date {
+  white-space: nowrap;
+}

@@ -1,0 +1,19 @@
+[data-layout="empty-view-2"] {
+  position: relative;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+.loading [data-layout="empty-view-2"] > .form-container {
+  visibility: hidden;
+}
+
+[data-layout="empty-view-2"] ::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+
+html:not(.loading) [data-layout="empty-view-2"] {
+  background: url(../../assets/images/bg-empty-view-2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}

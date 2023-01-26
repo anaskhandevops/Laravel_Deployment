@@ -1,0 +1,155 @@
+.error-page {
+  max-width: 500px;
+  padding: 40px;
+  color: #fff;
+}
+
+.error-page h1 {
+  font-size: 128px;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.error-page h3 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.error-page form {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.error-page form.form-white .form-group [class^='bmd-label'],
+.error-page form.form-white .form-group [class*=' bmd-label'], .error-page form.form-white .form-group.is-focused [class^='bmd-label'],
+.error-page form.form-white .form-group.is-focused [class*=' bmd-label'] {
+  color: #fff;
+}
+
+.error-page form.form-white .form-group .form-control,
+.is-focused .error-page form.form-white .form-group .form-control, .error-page form.form-white .form-group.is-focused .form-control,
+.is-focused .error-page form.form-white .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #fff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #fff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.error-page form.form-white .form-group .form-control:invalid, .error-page form.form-white .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.error-page form.form-white .form-group .form-control:-moz-read-only, .error-page form.form-white .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.error-page form.form-white .form-group .form-control:read-only, .error-page form.form-white .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .error-page form.form-white .form-group .form-control, .error-page form.form-white .form-group .form-control.disabled, .error-page form.form-white .form-group .form-control:disabled, .error-page form.form-white .form-group .form-control[disabled], fieldset[disabled][disabled] .error-page form.form-white .form-group.is-focused .form-control, .error-page form.form-white .form-group.is-focused .form-control.disabled, .error-page form.form-white .form-group.is-focused .form-control:disabled, .error-page form.form-white .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.error-page form.form-white .form-group .form-control.form-control-success,
+.is-focused .error-page form.form-white .form-group .form-control.form-control-success, .error-page form.form-white .form-group.is-focused .form-control.form-control-success,
+.is-focused .error-page form.form-white .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #fff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #fff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.error-page form.form-white .form-group .form-control.form-control-warning,
+.is-focused .error-page form.form-white .form-group .form-control.form-control-warning, .error-page form.form-white .form-group.is-focused .form-control.form-control-warning,
+.is-focused .error-page form.form-white .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #fff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #fff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.error-page form.form-white .form-group .form-control.form-control-danger,
+.is-focused .error-page form.form-white .form-group .form-control.form-control-danger, .error-page form.form-white .form-group.is-focused .form-control.form-control-danger,
+.is-focused .error-page form.form-white .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #fff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #fff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.error-page form.form-white .form-group .is-focused .form-control-feedback,
+.error-page form.form-white .form-group .is-focused .form-control-label,
+.error-page form.form-white .form-group .is-focused .form-check-label,
+.error-page form.form-white .form-group .is-focused .form-check-inline,
+.error-page form.form-white .form-group .is-focused .custom-control, .error-page form.form-white .form-group.is-focused .form-control-feedback,
+.error-page form.form-white .form-group.is-focused .form-control-label,
+.error-page form.form-white .form-group.is-focused .form-check-label,
+.error-page form.form-white .form-group.is-focused .form-check-inline,
+.error-page form.form-white .form-group.is-focused .custom-control, .error-page form.form-white .form-group.is-focused .is-focused .form-control-feedback,
+.error-page form.form-white .form-group.is-focused .is-focused .form-control-label,
+.error-page form.form-white .form-group.is-focused .is-focused .form-check-label,
+.error-page form.form-white .form-group.is-focused .is-focused .form-check-inline,
+.error-page form.form-white .form-group.is-focused .is-focused .custom-control, .error-page form.form-white .form-group.is-focused.is-focused .form-control-feedback,
+.error-page form.form-white .form-group.is-focused.is-focused .form-control-label,
+.error-page form.form-white .form-group.is-focused.is-focused .form-check-label,
+.error-page form.form-white .form-group.is-focused.is-focused .form-check-inline,
+.error-page form.form-white .form-group.is-focused.is-focused .custom-control {
+  color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused .form-control, .error-page form.form-white .form-group.is-focused .form-control, .error-page form.form-white .form-group.is-focused .is-focused .form-control, .error-page form.form-white .form-group.is-focused.is-focused .form-control {
+  border-color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused .input-group-addon, .error-page form.form-white .form-group.is-focused .input-group-addon, .error-page form.form-white .form-group.is-focused .is-focused .input-group-addon, .error-page form.form-white .form-group.is-focused.is-focused .input-group-addon {
+  color: #fff;
+  border-color: #fff;
+  background-color: white;
+}
+
+.error-page form.form-white .form-group .is-focused .form-control-feedback, .error-page form.form-white .form-group.is-focused .form-control-feedback, .error-page form.form-white .form-group.is-focused .is-focused .form-control-feedback, .error-page form.form-white .form-group.is-focused.is-focused .form-control-feedback {
+  color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused [class^='bmd-label'],
+.error-page form.form-white .form-group .is-focused [class*=' bmd-label'], .error-page form.form-white .form-group.is-focused [class^='bmd-label'],
+.error-page form.form-white .form-group.is-focused [class*=' bmd-label'], .error-page form.form-white .form-group.is-focused .is-focused [class^='bmd-label'],
+.error-page form.form-white .form-group.is-focused .is-focused [class*=' bmd-label'], .error-page form.form-white .form-group.is-focused.is-focused [class^='bmd-label'],
+.error-page form.form-white .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused .bmd-label-placeholder, .error-page form.form-white .form-group.is-focused .bmd-label-placeholder, .error-page form.form-white .form-group.is-focused .is-focused .bmd-label-placeholder, .error-page form.form-white .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused .form-control, .error-page form.form-white .form-group.is-focused .form-control, .error-page form.form-white .form-group.is-focused .is-focused .form-control, .error-page form.form-white .form-group.is-focused.is-focused .form-control {
+  border-color: #fff;
+}
+
+.error-page form.form-white .form-group .is-focused .bmd-help, .error-page form.form-white .form-group.is-focused .bmd-help, .error-page form.form-white .form-group.is-focused .is-focused .bmd-help, .error-page form.form-white .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.error-page form.form-white .form-group .form-control, .error-page form.form-white .form-group.is-focused .form-control {
+  color: #fff;
+  background-image: -webkit-linear-gradient(bottom, #fff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, #fff 1px, rgba(255, 255, 255, 0) 1px);
+  background-image: linear-gradient(to top, #fff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, #fff 1px, rgba(255, 255, 255, 0) 1px);
+}
+
+.error-page form.form-white .form-group .bmd-label-floating, .error-page form.form-white .form-group.is-focused .bmd-label-floating {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  font-size: 0.85rem;
+}
+
+.error-page p {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.error-page .btn {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}

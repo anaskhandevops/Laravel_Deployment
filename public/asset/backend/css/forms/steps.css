@@ -1,0 +1,90 @@
+#step-0 .col-xs-12.col-xl-6,
+#step-1 .col-xs-12.col-xl-6,
+#step-2 .col-xs-12.col-xl-6 {
+  padding: 20px;
+}
+
+#step-0 .form-group.has-success .form-control-feedback,
+#step-1 .form-group.has-success .form-control-feedback,
+#step-2 .form-group.has-success .form-control-feedback {
+  visibility: hidden;
+}
+
+.button-steps {
+  display: table;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+
+.button-steps .button-step {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  background: transparent;
+  z-index: 2;
+}
+
+.button-steps .button-step .btn {
+  background: #fff;
+  z-index: 3;
+}
+
+.button-steps .button-step p {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+}
+
+.button-steps .button-step:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 50%;
+  background: #0d47a1;
+  height: 4px;
+  margin-top: -2px;
+  z-index: 1;
+}
+
+.button-steps .button-step:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  content: "";
+  display: block;
+  width: 50%;
+  background: #0d47a1;
+  height: 4px;
+  margin-top: -2px;
+  z-index: -1;
+}
+
+.button-steps .button-step:first-child:before {
+  display: none;
+}
+
+.button-steps .button-step:last-child:after {
+  display: none;
+}
+
+.button-steps .button-step.disabled:before, .button-steps .button-step.disabled:after {
+  background: #e0e0e0;
+}
+
+.button-steps .button-step.disabled .btn {
+  pointer-events: none;
+  cursor: none;
+}
+
+.button-steps .button-step.disabled .btn.btn-primary.bmd-btn-fab {
+  background: #e0e0e0;
+  box-shadow: 0 0 0 transparent;
+}

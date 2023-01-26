@@ -1,0 +1,1392 @@
+#ui-social-media-buttons .btn {
+  margin-right: 5px;
+}
+
+.btn.btn-facebook, .btn.btn-facebook[disabled] {
+  background: #365397;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-facebook.active, .btn.btn-facebook:hover, .btn.btn-facebook:focus, .btn.btn-facebook:focus:active, .btn.btn-facebook:active, .btn.btn-facebook[disabled].active, .btn.btn-facebook[disabled]:hover, .btn.btn-facebook[disabled]:focus, .btn.btn-facebook[disabled]:focus:active, .btn.btn-facebook[disabled]:active {
+  background: #2f4984;
+  color: #fff;
+}
+
+.btn.btn-facebook.btn-raised, .btn.btn-facebook[disabled].btn-raised {
+  background: #365397;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-facebook.btn-raised.active, .btn.btn-facebook.btn-raised:hover, .btn.btn-facebook.btn-raised:focus, .btn.btn-facebook.btn-raised:focus:active, .btn.btn-facebook.btn-raised:active, .btn.btn-facebook[disabled].btn-raised.active, .btn.btn-facebook[disabled].btn-raised:hover, .btn.btn-facebook[disabled].btn-raised:focus, .btn.btn-facebook[disabled].btn-raised:focus:active, .btn.btn-facebook[disabled].btn-raised:active {
+  background: #2f4984;
+  color: #fff;
+}
+
+.btn.btn-facebook.btn-flat, .btn.btn-facebook.btn-flat.bmd-btn-fab, .btn.btn-facebook[disabled].btn-flat, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #365397;
+  border: none;
+}
+
+.btn.btn-facebook.btn-flat.active, .btn.btn-facebook.btn-flat:hover, .btn.btn-facebook.btn-flat:focus, .btn.btn-facebook.btn-flat:focus:active, .btn.btn-facebook.btn-flat:active, .btn.btn-facebook.btn-flat.bmd-btn-fab.active, .btn.btn-facebook.btn-flat.bmd-btn-fab:hover, .btn.btn-facebook.btn-flat.bmd-btn-fab:focus, .btn.btn-facebook.btn-flat.bmd-btn-fab:focus:active, .btn.btn-facebook.btn-flat.bmd-btn-fab:active, .btn.btn-facebook[disabled].btn-flat.active, .btn.btn-facebook[disabled].btn-flat:hover, .btn.btn-facebook[disabled].btn-flat:focus, .btn.btn-facebook[disabled].btn-flat:focus:active, .btn.btn-facebook[disabled].btn-flat:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #2f4984;
+}
+
+.btn.btn-facebook.btn-flat.btn-raised.active, .btn.btn-facebook.btn-flat.btn-raised:hover, .btn.btn-facebook.btn-flat.btn-raised:focus, .btn.btn-facebook.btn-flat.btn-raised:focus:active, .btn.btn-facebook.btn-flat.btn-raised:active, .btn.btn-facebook.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-facebook.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-facebook.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-facebook.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-facebook.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-facebook.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-facebook[disabled].btn-flat.btn-raised.active, .btn.btn-facebook[disabled].btn-flat.btn-raised:hover, .btn.btn-facebook[disabled].btn-flat.btn-raised:focus, .btn.btn-facebook[disabled].btn-flat.btn-raised:focus:active, .btn.btn-facebook[disabled].btn-flat.btn-raised:active, .btn.btn-facebook[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-facebook[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-facebook[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-facebook[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-facebook[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-facebook[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #2f4984;
+}
+
+.btn.btn-facebook.btn-outline, .btn.btn-facebook.btn-outline.bmd-btn-fab, .btn.btn-facebook[disabled].btn-outline, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #365397;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #365397;
+}
+
+.btn.btn-facebook.btn-outline.active, .btn.btn-facebook.btn-outline:hover, .btn.btn-facebook.btn-outline:focus, .btn.btn-facebook.btn-outline:focus:active, .btn.btn-facebook.btn-outline:active, .btn.btn-facebook.btn-outline.bmd-btn-fab.active, .btn.btn-facebook.btn-outline.bmd-btn-fab:hover, .btn.btn-facebook.btn-outline.bmd-btn-fab:focus, .btn.btn-facebook.btn-outline.bmd-btn-fab:focus:active, .btn.btn-facebook.btn-outline.bmd-btn-fab:active, .btn.btn-facebook[disabled].btn-outline.active, .btn.btn-facebook[disabled].btn-outline:hover, .btn.btn-facebook[disabled].btn-outline:focus, .btn.btn-facebook[disabled].btn-outline:focus:active, .btn.btn-facebook[disabled].btn-outline:active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab:active {
+  color: #2f4984;
+  border-color: #2f4984;
+  background: none;
+  color: #365397;
+}
+
+.btn.btn-facebook.btn-outline.btn-raised.active, .btn.btn-facebook.btn-outline.btn-raised:hover, .btn.btn-facebook.btn-outline.btn-raised:focus, .btn.btn-facebook.btn-outline.btn-raised:focus:active, .btn.btn-facebook.btn-outline.btn-raised:active, .btn.btn-facebook.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-facebook.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-facebook.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-facebook.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-facebook.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-facebook[disabled].btn-outline.btn-raised.active, .btn.btn-facebook[disabled].btn-outline.btn-raised:hover, .btn.btn-facebook[disabled].btn-outline.btn-raised:focus, .btn.btn-facebook[disabled].btn-outline.btn-raised:focus:active, .btn.btn-facebook[disabled].btn-outline.btn-raised:active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-facebook[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #2f4984;
+  border-color: #2f4984;
+  background: none;
+  color: #365397;
+}
+
+.btn.btn-facebook.bmd-btn-fab, .btn.btn-facebook[disabled].bmd-btn-fab {
+  background: #365397;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-facebook.bmd-btn-fab.active, .btn.btn-facebook.bmd-btn-fab:hover, .btn.btn-facebook.bmd-btn-fab:focus, .btn.btn-facebook.bmd-btn-fab:focus:active, .btn.btn-facebook.bmd-btn-fab:active, .btn.btn-facebook[disabled].bmd-btn-fab.active, .btn.btn-facebook[disabled].bmd-btn-fab:hover, .btn.btn-facebook[disabled].bmd-btn-fab:focus, .btn.btn-facebook[disabled].bmd-btn-fab:focus:active, .btn.btn-facebook[disabled].bmd-btn-fab:active {
+  background: #2f4984;
+  color: #fff;
+}
+
+.btn.btn-twitter, .btn.btn-twitter[disabled] {
+  background: #00a9f1;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-twitter.active, .btn.btn-twitter:hover, .btn.btn-twitter:focus, .btn.btn-twitter:focus:active, .btn.btn-twitter:active, .btn.btn-twitter[disabled].active, .btn.btn-twitter[disabled]:hover, .btn.btn-twitter[disabled]:focus, .btn.btn-twitter[disabled]:focus:active, .btn.btn-twitter[disabled]:active {
+  background: #0097d8;
+  color: #fff;
+}
+
+.btn.btn-twitter.btn-raised, .btn.btn-twitter[disabled].btn-raised {
+  background: #00a9f1;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-twitter.btn-raised.active, .btn.btn-twitter.btn-raised:hover, .btn.btn-twitter.btn-raised:focus, .btn.btn-twitter.btn-raised:focus:active, .btn.btn-twitter.btn-raised:active, .btn.btn-twitter[disabled].btn-raised.active, .btn.btn-twitter[disabled].btn-raised:hover, .btn.btn-twitter[disabled].btn-raised:focus, .btn.btn-twitter[disabled].btn-raised:focus:active, .btn.btn-twitter[disabled].btn-raised:active {
+  background: #0097d8;
+  color: #fff;
+}
+
+.btn.btn-twitter.btn-flat, .btn.btn-twitter.btn-flat.bmd-btn-fab, .btn.btn-twitter[disabled].btn-flat, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #00a9f1;
+  border: none;
+}
+
+.btn.btn-twitter.btn-flat.active, .btn.btn-twitter.btn-flat:hover, .btn.btn-twitter.btn-flat:focus, .btn.btn-twitter.btn-flat:focus:active, .btn.btn-twitter.btn-flat:active, .btn.btn-twitter.btn-flat.bmd-btn-fab.active, .btn.btn-twitter.btn-flat.bmd-btn-fab:hover, .btn.btn-twitter.btn-flat.bmd-btn-fab:focus, .btn.btn-twitter.btn-flat.bmd-btn-fab:focus:active, .btn.btn-twitter.btn-flat.bmd-btn-fab:active, .btn.btn-twitter[disabled].btn-flat.active, .btn.btn-twitter[disabled].btn-flat:hover, .btn.btn-twitter[disabled].btn-flat:focus, .btn.btn-twitter[disabled].btn-flat:focus:active, .btn.btn-twitter[disabled].btn-flat:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #0097d8;
+}
+
+.btn.btn-twitter.btn-flat.btn-raised.active, .btn.btn-twitter.btn-flat.btn-raised:hover, .btn.btn-twitter.btn-flat.btn-raised:focus, .btn.btn-twitter.btn-flat.btn-raised:focus:active, .btn.btn-twitter.btn-flat.btn-raised:active, .btn.btn-twitter.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-twitter.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-twitter.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-twitter.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-twitter.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-twitter.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-twitter[disabled].btn-flat.btn-raised.active, .btn.btn-twitter[disabled].btn-flat.btn-raised:hover, .btn.btn-twitter[disabled].btn-flat.btn-raised:focus, .btn.btn-twitter[disabled].btn-flat.btn-raised:focus:active, .btn.btn-twitter[disabled].btn-flat.btn-raised:active, .btn.btn-twitter[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-twitter[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-twitter[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-twitter[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-twitter[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-twitter[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #0097d8;
+}
+
+.btn.btn-twitter.btn-outline, .btn.btn-twitter.btn-outline.bmd-btn-fab, .btn.btn-twitter[disabled].btn-outline, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #00a9f1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00a9f1;
+}
+
+.btn.btn-twitter.btn-outline.active, .btn.btn-twitter.btn-outline:hover, .btn.btn-twitter.btn-outline:focus, .btn.btn-twitter.btn-outline:focus:active, .btn.btn-twitter.btn-outline:active, .btn.btn-twitter.btn-outline.bmd-btn-fab.active, .btn.btn-twitter.btn-outline.bmd-btn-fab:hover, .btn.btn-twitter.btn-outline.bmd-btn-fab:focus, .btn.btn-twitter.btn-outline.bmd-btn-fab:focus:active, .btn.btn-twitter.btn-outline.bmd-btn-fab:active, .btn.btn-twitter[disabled].btn-outline.active, .btn.btn-twitter[disabled].btn-outline:hover, .btn.btn-twitter[disabled].btn-outline:focus, .btn.btn-twitter[disabled].btn-outline:focus:active, .btn.btn-twitter[disabled].btn-outline:active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab:active {
+  color: #0097d8;
+  border-color: #0097d8;
+  background: none;
+  color: #00a9f1;
+}
+
+.btn.btn-twitter.btn-outline.btn-raised.active, .btn.btn-twitter.btn-outline.btn-raised:hover, .btn.btn-twitter.btn-outline.btn-raised:focus, .btn.btn-twitter.btn-outline.btn-raised:focus:active, .btn.btn-twitter.btn-outline.btn-raised:active, .btn.btn-twitter.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-twitter.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-twitter.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-twitter.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-twitter.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-twitter[disabled].btn-outline.btn-raised.active, .btn.btn-twitter[disabled].btn-outline.btn-raised:hover, .btn.btn-twitter[disabled].btn-outline.btn-raised:focus, .btn.btn-twitter[disabled].btn-outline.btn-raised:focus:active, .btn.btn-twitter[disabled].btn-outline.btn-raised:active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-twitter[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #0097d8;
+  border-color: #0097d8;
+  background: none;
+  color: #00a9f1;
+}
+
+.btn.btn-twitter.bmd-btn-fab, .btn.btn-twitter[disabled].bmd-btn-fab {
+  background: #00a9f1;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-twitter.bmd-btn-fab.active, .btn.btn-twitter.bmd-btn-fab:hover, .btn.btn-twitter.bmd-btn-fab:focus, .btn.btn-twitter.bmd-btn-fab:focus:active, .btn.btn-twitter.bmd-btn-fab:active, .btn.btn-twitter[disabled].bmd-btn-fab.active, .btn.btn-twitter[disabled].bmd-btn-fab:hover, .btn.btn-twitter[disabled].bmd-btn-fab:focus, .btn.btn-twitter[disabled].bmd-btn-fab:focus:active, .btn.btn-twitter[disabled].bmd-btn-fab:active {
+  background: #0097d8;
+  color: #fff;
+}
+
+.btn.btn-linkedin, .btn.btn-linkedin[disabled] {
+  background: #006db3;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-linkedin.active, .btn.btn-linkedin:hover, .btn.btn-linkedin:focus, .btn.btn-linkedin:focus:active, .btn.btn-linkedin:active, .btn.btn-linkedin[disabled].active, .btn.btn-linkedin[disabled]:hover, .btn.btn-linkedin[disabled]:focus, .btn.btn-linkedin[disabled]:focus:active, .btn.btn-linkedin[disabled]:active {
+  background: #005d9a;
+  color: #fff;
+}
+
+.btn.btn-linkedin.btn-raised, .btn.btn-linkedin[disabled].btn-raised {
+  background: #006db3;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-linkedin.btn-raised.active, .btn.btn-linkedin.btn-raised:hover, .btn.btn-linkedin.btn-raised:focus, .btn.btn-linkedin.btn-raised:focus:active, .btn.btn-linkedin.btn-raised:active, .btn.btn-linkedin[disabled].btn-raised.active, .btn.btn-linkedin[disabled].btn-raised:hover, .btn.btn-linkedin[disabled].btn-raised:focus, .btn.btn-linkedin[disabled].btn-raised:focus:active, .btn.btn-linkedin[disabled].btn-raised:active {
+  background: #005d9a;
+  color: #fff;
+}
+
+.btn.btn-linkedin.btn-flat, .btn.btn-linkedin.btn-flat.bmd-btn-fab, .btn.btn-linkedin[disabled].btn-flat, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #006db3;
+  border: none;
+}
+
+.btn.btn-linkedin.btn-flat.active, .btn.btn-linkedin.btn-flat:hover, .btn.btn-linkedin.btn-flat:focus, .btn.btn-linkedin.btn-flat:focus:active, .btn.btn-linkedin.btn-flat:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.active, .btn.btn-linkedin.btn-flat.bmd-btn-fab:hover, .btn.btn-linkedin.btn-flat.bmd-btn-fab:focus, .btn.btn-linkedin.btn-flat.bmd-btn-fab:focus:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab:active, .btn.btn-linkedin[disabled].btn-flat.active, .btn.btn-linkedin[disabled].btn-flat:hover, .btn.btn-linkedin[disabled].btn-flat:focus, .btn.btn-linkedin[disabled].btn-flat:focus:active, .btn.btn-linkedin[disabled].btn-flat:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #005d9a;
+}
+
+.btn.btn-linkedin.btn-flat.btn-raised.active, .btn.btn-linkedin.btn-flat.btn-raised:hover, .btn.btn-linkedin.btn-flat.btn-raised:focus, .btn.btn-linkedin.btn-flat.btn-raised:focus:active, .btn.btn-linkedin.btn-flat.btn-raised:active, .btn.btn-linkedin.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-linkedin.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-linkedin.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-linkedin.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-linkedin.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-linkedin.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-linkedin[disabled].btn-flat.btn-raised.active, .btn.btn-linkedin[disabled].btn-flat.btn-raised:hover, .btn.btn-linkedin[disabled].btn-flat.btn-raised:focus, .btn.btn-linkedin[disabled].btn-flat.btn-raised:focus:active, .btn.btn-linkedin[disabled].btn-flat.btn-raised:active, .btn.btn-linkedin[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-linkedin[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-linkedin[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-linkedin[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-linkedin[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-linkedin[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #005d9a;
+}
+
+.btn.btn-linkedin.btn-outline, .btn.btn-linkedin.btn-outline.bmd-btn-fab, .btn.btn-linkedin[disabled].btn-outline, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #006db3;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #006db3;
+}
+
+.btn.btn-linkedin.btn-outline.active, .btn.btn-linkedin.btn-outline:hover, .btn.btn-linkedin.btn-outline:focus, .btn.btn-linkedin.btn-outline:focus:active, .btn.btn-linkedin.btn-outline:active, .btn.btn-linkedin.btn-outline.bmd-btn-fab.active, .btn.btn-linkedin.btn-outline.bmd-btn-fab:hover, .btn.btn-linkedin.btn-outline.bmd-btn-fab:focus, .btn.btn-linkedin.btn-outline.bmd-btn-fab:focus:active, .btn.btn-linkedin.btn-outline.bmd-btn-fab:active, .btn.btn-linkedin[disabled].btn-outline.active, .btn.btn-linkedin[disabled].btn-outline:hover, .btn.btn-linkedin[disabled].btn-outline:focus, .btn.btn-linkedin[disabled].btn-outline:focus:active, .btn.btn-linkedin[disabled].btn-outline:active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab:active {
+  color: #005d9a;
+  border-color: #005d9a;
+  background: none;
+  color: #006db3;
+}
+
+.btn.btn-linkedin.btn-outline.btn-raised.active, .btn.btn-linkedin.btn-outline.btn-raised:hover, .btn.btn-linkedin.btn-outline.btn-raised:focus, .btn.btn-linkedin.btn-outline.btn-raised:focus:active, .btn.btn-linkedin.btn-outline.btn-raised:active, .btn.btn-linkedin.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-linkedin.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-linkedin.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-linkedin.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-linkedin.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-linkedin[disabled].btn-outline.btn-raised.active, .btn.btn-linkedin[disabled].btn-outline.btn-raised:hover, .btn.btn-linkedin[disabled].btn-outline.btn-raised:focus, .btn.btn-linkedin[disabled].btn-outline.btn-raised:focus:active, .btn.btn-linkedin[disabled].btn-outline.btn-raised:active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-linkedin[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #005d9a;
+  border-color: #005d9a;
+  background: none;
+  color: #006db3;
+}
+
+.btn.btn-linkedin.bmd-btn-fab, .btn.btn-linkedin[disabled].bmd-btn-fab {
+  background: #006db3;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-linkedin.bmd-btn-fab.active, .btn.btn-linkedin.bmd-btn-fab:hover, .btn.btn-linkedin.bmd-btn-fab:focus, .btn.btn-linkedin.bmd-btn-fab:focus:active, .btn.btn-linkedin.bmd-btn-fab:active, .btn.btn-linkedin[disabled].bmd-btn-fab.active, .btn.btn-linkedin[disabled].bmd-btn-fab:hover, .btn.btn-linkedin[disabled].bmd-btn-fab:focus, .btn.btn-linkedin[disabled].bmd-btn-fab:focus:active, .btn.btn-linkedin[disabled].bmd-btn-fab:active {
+  background: #005d9a;
+  color: #fff;
+}
+
+.btn.btn-apple, .btn.btn-apple[disabled] {
+  background: #737373;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-apple.active, .btn.btn-apple:hover, .btn.btn-apple:focus, .btn.btn-apple:focus:active, .btn.btn-apple:active, .btn.btn-apple[disabled].active, .btn.btn-apple[disabled]:hover, .btn.btn-apple[disabled]:focus, .btn.btn-apple[disabled]:focus:active, .btn.btn-apple[disabled]:active {
+  background: #666666;
+  color: #fff;
+}
+
+.btn.btn-apple.btn-raised, .btn.btn-apple[disabled].btn-raised {
+  background: #737373;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-apple.btn-raised.active, .btn.btn-apple.btn-raised:hover, .btn.btn-apple.btn-raised:focus, .btn.btn-apple.btn-raised:focus:active, .btn.btn-apple.btn-raised:active, .btn.btn-apple[disabled].btn-raised.active, .btn.btn-apple[disabled].btn-raised:hover, .btn.btn-apple[disabled].btn-raised:focus, .btn.btn-apple[disabled].btn-raised:focus:active, .btn.btn-apple[disabled].btn-raised:active {
+  background: #666666;
+  color: #fff;
+}
+
+.btn.btn-apple.btn-flat, .btn.btn-apple.btn-flat.bmd-btn-fab, .btn.btn-apple[disabled].btn-flat, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #737373;
+  border: none;
+}
+
+.btn.btn-apple.btn-flat.active, .btn.btn-apple.btn-flat:hover, .btn.btn-apple.btn-flat:focus, .btn.btn-apple.btn-flat:focus:active, .btn.btn-apple.btn-flat:active, .btn.btn-apple.btn-flat.bmd-btn-fab.active, .btn.btn-apple.btn-flat.bmd-btn-fab:hover, .btn.btn-apple.btn-flat.bmd-btn-fab:focus, .btn.btn-apple.btn-flat.bmd-btn-fab:focus:active, .btn.btn-apple.btn-flat.bmd-btn-fab:active, .btn.btn-apple[disabled].btn-flat.active, .btn.btn-apple[disabled].btn-flat:hover, .btn.btn-apple[disabled].btn-flat:focus, .btn.btn-apple[disabled].btn-flat:focus:active, .btn.btn-apple[disabled].btn-flat:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #666666;
+}
+
+.btn.btn-apple.btn-flat.btn-raised.active, .btn.btn-apple.btn-flat.btn-raised:hover, .btn.btn-apple.btn-flat.btn-raised:focus, .btn.btn-apple.btn-flat.btn-raised:focus:active, .btn.btn-apple.btn-flat.btn-raised:active, .btn.btn-apple.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-apple.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-apple.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-apple.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-apple.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-apple.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-apple[disabled].btn-flat.btn-raised.active, .btn.btn-apple[disabled].btn-flat.btn-raised:hover, .btn.btn-apple[disabled].btn-flat.btn-raised:focus, .btn.btn-apple[disabled].btn-flat.btn-raised:focus:active, .btn.btn-apple[disabled].btn-flat.btn-raised:active, .btn.btn-apple[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-apple[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-apple[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-apple[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-apple[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-apple[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #666666;
+}
+
+.btn.btn-apple.btn-outline, .btn.btn-apple.btn-outline.bmd-btn-fab, .btn.btn-apple[disabled].btn-outline, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #737373;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #737373;
+}
+
+.btn.btn-apple.btn-outline.active, .btn.btn-apple.btn-outline:hover, .btn.btn-apple.btn-outline:focus, .btn.btn-apple.btn-outline:focus:active, .btn.btn-apple.btn-outline:active, .btn.btn-apple.btn-outline.bmd-btn-fab.active, .btn.btn-apple.btn-outline.bmd-btn-fab:hover, .btn.btn-apple.btn-outline.bmd-btn-fab:focus, .btn.btn-apple.btn-outline.bmd-btn-fab:focus:active, .btn.btn-apple.btn-outline.bmd-btn-fab:active, .btn.btn-apple[disabled].btn-outline.active, .btn.btn-apple[disabled].btn-outline:hover, .btn.btn-apple[disabled].btn-outline:focus, .btn.btn-apple[disabled].btn-outline:focus:active, .btn.btn-apple[disabled].btn-outline:active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab:active {
+  color: #666666;
+  border-color: #666666;
+  background: none;
+  color: #737373;
+}
+
+.btn.btn-apple.btn-outline.btn-raised.active, .btn.btn-apple.btn-outline.btn-raised:hover, .btn.btn-apple.btn-outline.btn-raised:focus, .btn.btn-apple.btn-outline.btn-raised:focus:active, .btn.btn-apple.btn-outline.btn-raised:active, .btn.btn-apple.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-apple.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-apple.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-apple.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-apple.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-apple[disabled].btn-outline.btn-raised.active, .btn.btn-apple[disabled].btn-outline.btn-raised:hover, .btn.btn-apple[disabled].btn-outline.btn-raised:focus, .btn.btn-apple[disabled].btn-outline.btn-raised:focus:active, .btn.btn-apple[disabled].btn-outline.btn-raised:active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-apple[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #666666;
+  border-color: #666666;
+  background: none;
+  color: #737373;
+}
+
+.btn.btn-apple.bmd-btn-fab, .btn.btn-apple[disabled].bmd-btn-fab {
+  background: #737373;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-apple.bmd-btn-fab.active, .btn.btn-apple.bmd-btn-fab:hover, .btn.btn-apple.bmd-btn-fab:focus, .btn.btn-apple.bmd-btn-fab:focus:active, .btn.btn-apple.bmd-btn-fab:active, .btn.btn-apple[disabled].bmd-btn-fab.active, .btn.btn-apple[disabled].bmd-btn-fab:hover, .btn.btn-apple[disabled].bmd-btn-fab:focus, .btn.btn-apple[disabled].bmd-btn-fab:focus:active, .btn.btn-apple[disabled].bmd-btn-fab:active {
+  background: #666666;
+  color: #fff;
+}
+
+.btn.btn-google, .btn.btn-google[disabled] {
+  background: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google.active, .btn.btn-google:hover, .btn.btn-google:focus, .btn.btn-google:focus:active, .btn.btn-google:active, .btn.btn-google[disabled].active, .btn.btn-google[disabled]:hover, .btn.btn-google[disabled]:focus, .btn.btn-google[disabled]:focus:active, .btn.btn-google[disabled]:active {
+  background: #2a75f3;
+  color: #fff;
+}
+
+.btn.btn-google.btn-raised, .btn.btn-google[disabled].btn-raised {
+  background: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google.btn-raised.active, .btn.btn-google.btn-raised:hover, .btn.btn-google.btn-raised:focus, .btn.btn-google.btn-raised:focus:active, .btn.btn-google.btn-raised:active, .btn.btn-google[disabled].btn-raised.active, .btn.btn-google[disabled].btn-raised:hover, .btn.btn-google[disabled].btn-raised:focus, .btn.btn-google[disabled].btn-raised:focus:active, .btn.btn-google[disabled].btn-raised:active {
+  background: #2a75f3;
+  color: #fff;
+}
+
+.btn.btn-google.btn-flat, .btn.btn-google.btn-flat.bmd-btn-fab, .btn.btn-google[disabled].btn-flat, .btn.btn-google[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #4285f4;
+  border: none;
+}
+
+.btn.btn-google.btn-flat.active, .btn.btn-google.btn-flat:hover, .btn.btn-google.btn-flat:focus, .btn.btn-google.btn-flat:focus:active, .btn.btn-google.btn-flat:active, .btn.btn-google.btn-flat.bmd-btn-fab.active, .btn.btn-google.btn-flat.bmd-btn-fab:hover, .btn.btn-google.btn-flat.bmd-btn-fab:focus, .btn.btn-google.btn-flat.bmd-btn-fab:focus:active, .btn.btn-google.btn-flat.bmd-btn-fab:active, .btn.btn-google[disabled].btn-flat.active, .btn.btn-google[disabled].btn-flat:hover, .btn.btn-google[disabled].btn-flat:focus, .btn.btn-google[disabled].btn-flat:focus:active, .btn.btn-google[disabled].btn-flat:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-google[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-google[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #2a75f3;
+}
+
+.btn.btn-google.btn-flat.btn-raised.active, .btn.btn-google.btn-flat.btn-raised:hover, .btn.btn-google.btn-flat.btn-raised:focus, .btn.btn-google.btn-flat.btn-raised:focus:active, .btn.btn-google.btn-flat.btn-raised:active, .btn.btn-google.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-google.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-google.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-google.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-google[disabled].btn-flat.btn-raised.active, .btn.btn-google[disabled].btn-flat.btn-raised:hover, .btn.btn-google[disabled].btn-flat.btn-raised:focus, .btn.btn-google[disabled].btn-flat.btn-raised:focus:active, .btn.btn-google[disabled].btn-flat.btn-raised:active, .btn.btn-google[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-google[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-google[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-google[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #2a75f3;
+}
+
+.btn.btn-google.btn-outline, .btn.btn-google.btn-outline.bmd-btn-fab, .btn.btn-google[disabled].btn-outline, .btn.btn-google[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #4285f4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4285f4;
+}
+
+.btn.btn-google.btn-outline.active, .btn.btn-google.btn-outline:hover, .btn.btn-google.btn-outline:focus, .btn.btn-google.btn-outline:focus:active, .btn.btn-google.btn-outline:active, .btn.btn-google.btn-outline.bmd-btn-fab.active, .btn.btn-google.btn-outline.bmd-btn-fab:hover, .btn.btn-google.btn-outline.bmd-btn-fab:focus, .btn.btn-google.btn-outline.bmd-btn-fab:focus:active, .btn.btn-google.btn-outline.bmd-btn-fab:active, .btn.btn-google[disabled].btn-outline.active, .btn.btn-google[disabled].btn-outline:hover, .btn.btn-google[disabled].btn-outline:focus, .btn.btn-google[disabled].btn-outline:focus:active, .btn.btn-google[disabled].btn-outline:active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-google[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-google[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab:active {
+  color: #2a75f3;
+  border-color: #2a75f3;
+  background: none;
+  color: #4285f4;
+}
+
+.btn.btn-google.btn-outline.btn-raised.active, .btn.btn-google.btn-outline.btn-raised:hover, .btn.btn-google.btn-outline.btn-raised:focus, .btn.btn-google.btn-outline.btn-raised:focus:active, .btn.btn-google.btn-outline.btn-raised:active, .btn.btn-google.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-google.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-google.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-google.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-google[disabled].btn-outline.btn-raised.active, .btn.btn-google[disabled].btn-outline.btn-raised:hover, .btn.btn-google[disabled].btn-outline.btn-raised:focus, .btn.btn-google[disabled].btn-outline.btn-raised:focus:active, .btn.btn-google[disabled].btn-outline.btn-raised:active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #2a75f3;
+  border-color: #2a75f3;
+  background: none;
+  color: #4285f4;
+}
+
+.btn.btn-google.bmd-btn-fab, .btn.btn-google[disabled].bmd-btn-fab {
+  background: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google.bmd-btn-fab.active, .btn.btn-google.bmd-btn-fab:hover, .btn.btn-google.bmd-btn-fab:focus, .btn.btn-google.bmd-btn-fab:focus:active, .btn.btn-google.bmd-btn-fab:active, .btn.btn-google[disabled].bmd-btn-fab.active, .btn.btn-google[disabled].bmd-btn-fab:hover, .btn.btn-google[disabled].bmd-btn-fab:focus, .btn.btn-google[disabled].bmd-btn-fab:focus:active, .btn.btn-google[disabled].bmd-btn-fab:active {
+  background: #2a75f3;
+  color: #fff;
+}
+
+.btn.btn-google-plus, .btn.btn-google-plus[disabled] {
+  background: #e0452c;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google-plus.active, .btn.btn-google-plus:hover, .btn.btn-google-plus:focus, .btn.btn-google-plus:focus:active, .btn.btn-google-plus:active, .btn.btn-google-plus[disabled].active, .btn.btn-google-plus[disabled]:hover, .btn.btn-google-plus[disabled]:focus, .btn.btn-google-plus[disabled]:focus:active, .btn.btn-google-plus[disabled]:active {
+  background: #d3381f;
+  color: #fff;
+}
+
+.btn.btn-google-plus.btn-raised, .btn.btn-google-plus[disabled].btn-raised {
+  background: #e0452c;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google-plus.btn-raised.active, .btn.btn-google-plus.btn-raised:hover, .btn.btn-google-plus.btn-raised:focus, .btn.btn-google-plus.btn-raised:focus:active, .btn.btn-google-plus.btn-raised:active, .btn.btn-google-plus[disabled].btn-raised.active, .btn.btn-google-plus[disabled].btn-raised:hover, .btn.btn-google-plus[disabled].btn-raised:focus, .btn.btn-google-plus[disabled].btn-raised:focus:active, .btn.btn-google-plus[disabled].btn-raised:active {
+  background: #d3381f;
+  color: #fff;
+}
+
+.btn.btn-google-plus.btn-flat, .btn.btn-google-plus.btn-flat.bmd-btn-fab, .btn.btn-google-plus[disabled].btn-flat, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #e0452c;
+  border: none;
+}
+
+.btn.btn-google-plus.btn-flat.active, .btn.btn-google-plus.btn-flat:hover, .btn.btn-google-plus.btn-flat:focus, .btn.btn-google-plus.btn-flat:focus:active, .btn.btn-google-plus.btn-flat:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.active, .btn.btn-google-plus.btn-flat.bmd-btn-fab:hover, .btn.btn-google-plus.btn-flat.bmd-btn-fab:focus, .btn.btn-google-plus.btn-flat.bmd-btn-fab:focus:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab:active, .btn.btn-google-plus[disabled].btn-flat.active, .btn.btn-google-plus[disabled].btn-flat:hover, .btn.btn-google-plus[disabled].btn-flat:focus, .btn.btn-google-plus[disabled].btn-flat:focus:active, .btn.btn-google-plus[disabled].btn-flat:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #d3381f;
+}
+
+.btn.btn-google-plus.btn-flat.btn-raised.active, .btn.btn-google-plus.btn-flat.btn-raised:hover, .btn.btn-google-plus.btn-flat.btn-raised:focus, .btn.btn-google-plus.btn-flat.btn-raised:focus:active, .btn.btn-google-plus.btn-flat.btn-raised:active, .btn.btn-google-plus.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-google-plus.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-google-plus.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-google-plus.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google-plus.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google-plus.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-google-plus[disabled].btn-flat.btn-raised.active, .btn.btn-google-plus[disabled].btn-flat.btn-raised:hover, .btn.btn-google-plus[disabled].btn-flat.btn-raised:focus, .btn.btn-google-plus[disabled].btn-flat.btn-raised:focus:active, .btn.btn-google-plus[disabled].btn-flat.btn-raised:active, .btn.btn-google-plus[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-google-plus[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-google-plus[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-google-plus[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google-plus[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-google-plus[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #d3381f;
+}
+
+.btn.btn-google-plus.btn-outline, .btn.btn-google-plus.btn-outline.bmd-btn-fab, .btn.btn-google-plus[disabled].btn-outline, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #e0452c;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0452c;
+}
+
+.btn.btn-google-plus.btn-outline.active, .btn.btn-google-plus.btn-outline:hover, .btn.btn-google-plus.btn-outline:focus, .btn.btn-google-plus.btn-outline:focus:active, .btn.btn-google-plus.btn-outline:active, .btn.btn-google-plus.btn-outline.bmd-btn-fab.active, .btn.btn-google-plus.btn-outline.bmd-btn-fab:hover, .btn.btn-google-plus.btn-outline.bmd-btn-fab:focus, .btn.btn-google-plus.btn-outline.bmd-btn-fab:focus:active, .btn.btn-google-plus.btn-outline.bmd-btn-fab:active, .btn.btn-google-plus[disabled].btn-outline.active, .btn.btn-google-plus[disabled].btn-outline:hover, .btn.btn-google-plus[disabled].btn-outline:focus, .btn.btn-google-plus[disabled].btn-outline:focus:active, .btn.btn-google-plus[disabled].btn-outline:active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab:active {
+  color: #d3381f;
+  border-color: #d3381f;
+  background: none;
+  color: #e0452c;
+}
+
+.btn.btn-google-plus.btn-outline.btn-raised.active, .btn.btn-google-plus.btn-outline.btn-raised:hover, .btn.btn-google-plus.btn-outline.btn-raised:focus, .btn.btn-google-plus.btn-outline.btn-raised:focus:active, .btn.btn-google-plus.btn-outline.btn-raised:active, .btn.btn-google-plus.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-google-plus.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-google-plus.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-google-plus.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google-plus.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-google-plus[disabled].btn-outline.btn-raised.active, .btn.btn-google-plus[disabled].btn-outline.btn-raised:hover, .btn.btn-google-plus[disabled].btn-outline.btn-raised:focus, .btn.btn-google-plus[disabled].btn-outline.btn-raised:focus:active, .btn.btn-google-plus[disabled].btn-outline.btn-raised:active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-google-plus[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #d3381f;
+  border-color: #d3381f;
+  background: none;
+  color: #e0452c;
+}
+
+.btn.btn-google-plus.bmd-btn-fab, .btn.btn-google-plus[disabled].bmd-btn-fab {
+  background: #e0452c;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-google-plus.bmd-btn-fab.active, .btn.btn-google-plus.bmd-btn-fab:hover, .btn.btn-google-plus.bmd-btn-fab:focus, .btn.btn-google-plus.bmd-btn-fab:focus:active, .btn.btn-google-plus.bmd-btn-fab:active, .btn.btn-google-plus[disabled].bmd-btn-fab.active, .btn.btn-google-plus[disabled].bmd-btn-fab:hover, .btn.btn-google-plus[disabled].bmd-btn-fab:focus, .btn.btn-google-plus[disabled].bmd-btn-fab:focus:active, .btn.btn-google-plus[disabled].bmd-btn-fab:active {
+  background: #d3381f;
+  color: #fff;
+}
+
+.btn.btn-youtube, .btn.btn-youtube[disabled] {
+  background: #ff3333;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-youtube.active, .btn.btn-youtube:hover, .btn.btn-youtube:focus, .btn.btn-youtube:focus:active, .btn.btn-youtube:active, .btn.btn-youtube[disabled].active, .btn.btn-youtube[disabled]:hover, .btn.btn-youtube[disabled]:focus, .btn.btn-youtube[disabled]:focus:active, .btn.btn-youtube[disabled]:active {
+  background: #ff1a1a;
+  color: #fff;
+}
+
+.btn.btn-youtube.btn-raised, .btn.btn-youtube[disabled].btn-raised {
+  background: #ff3333;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-youtube.btn-raised.active, .btn.btn-youtube.btn-raised:hover, .btn.btn-youtube.btn-raised:focus, .btn.btn-youtube.btn-raised:focus:active, .btn.btn-youtube.btn-raised:active, .btn.btn-youtube[disabled].btn-raised.active, .btn.btn-youtube[disabled].btn-raised:hover, .btn.btn-youtube[disabled].btn-raised:focus, .btn.btn-youtube[disabled].btn-raised:focus:active, .btn.btn-youtube[disabled].btn-raised:active {
+  background: #ff1a1a;
+  color: #fff;
+}
+
+.btn.btn-youtube.btn-flat, .btn.btn-youtube.btn-flat.bmd-btn-fab, .btn.btn-youtube[disabled].btn-flat, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #ff3333;
+  border: none;
+}
+
+.btn.btn-youtube.btn-flat.active, .btn.btn-youtube.btn-flat:hover, .btn.btn-youtube.btn-flat:focus, .btn.btn-youtube.btn-flat:focus:active, .btn.btn-youtube.btn-flat:active, .btn.btn-youtube.btn-flat.bmd-btn-fab.active, .btn.btn-youtube.btn-flat.bmd-btn-fab:hover, .btn.btn-youtube.btn-flat.bmd-btn-fab:focus, .btn.btn-youtube.btn-flat.bmd-btn-fab:focus:active, .btn.btn-youtube.btn-flat.bmd-btn-fab:active, .btn.btn-youtube[disabled].btn-flat.active, .btn.btn-youtube[disabled].btn-flat:hover, .btn.btn-youtube[disabled].btn-flat:focus, .btn.btn-youtube[disabled].btn-flat:focus:active, .btn.btn-youtube[disabled].btn-flat:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #ff1a1a;
+}
+
+.btn.btn-youtube.btn-flat.btn-raised.active, .btn.btn-youtube.btn-flat.btn-raised:hover, .btn.btn-youtube.btn-flat.btn-raised:focus, .btn.btn-youtube.btn-flat.btn-raised:focus:active, .btn.btn-youtube.btn-flat.btn-raised:active, .btn.btn-youtube.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-youtube.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-youtube.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-youtube.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-youtube.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-youtube.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-youtube[disabled].btn-flat.btn-raised.active, .btn.btn-youtube[disabled].btn-flat.btn-raised:hover, .btn.btn-youtube[disabled].btn-flat.btn-raised:focus, .btn.btn-youtube[disabled].btn-flat.btn-raised:focus:active, .btn.btn-youtube[disabled].btn-flat.btn-raised:active, .btn.btn-youtube[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-youtube[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-youtube[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-youtube[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-youtube[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-youtube[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #ff1a1a;
+}
+
+.btn.btn-youtube.btn-outline, .btn.btn-youtube.btn-outline.bmd-btn-fab, .btn.btn-youtube[disabled].btn-outline, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #ff3333;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff3333;
+}
+
+.btn.btn-youtube.btn-outline.active, .btn.btn-youtube.btn-outline:hover, .btn.btn-youtube.btn-outline:focus, .btn.btn-youtube.btn-outline:focus:active, .btn.btn-youtube.btn-outline:active, .btn.btn-youtube.btn-outline.bmd-btn-fab.active, .btn.btn-youtube.btn-outline.bmd-btn-fab:hover, .btn.btn-youtube.btn-outline.bmd-btn-fab:focus, .btn.btn-youtube.btn-outline.bmd-btn-fab:focus:active, .btn.btn-youtube.btn-outline.bmd-btn-fab:active, .btn.btn-youtube[disabled].btn-outline.active, .btn.btn-youtube[disabled].btn-outline:hover, .btn.btn-youtube[disabled].btn-outline:focus, .btn.btn-youtube[disabled].btn-outline:focus:active, .btn.btn-youtube[disabled].btn-outline:active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab:active {
+  color: #ff1a1a;
+  border-color: #ff1a1a;
+  background: none;
+  color: #ff3333;
+}
+
+.btn.btn-youtube.btn-outline.btn-raised.active, .btn.btn-youtube.btn-outline.btn-raised:hover, .btn.btn-youtube.btn-outline.btn-raised:focus, .btn.btn-youtube.btn-outline.btn-raised:focus:active, .btn.btn-youtube.btn-outline.btn-raised:active, .btn.btn-youtube.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-youtube.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-youtube.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-youtube.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-youtube.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-youtube[disabled].btn-outline.btn-raised.active, .btn.btn-youtube[disabled].btn-outline.btn-raised:hover, .btn.btn-youtube[disabled].btn-outline.btn-raised:focus, .btn.btn-youtube[disabled].btn-outline.btn-raised:focus:active, .btn.btn-youtube[disabled].btn-outline.btn-raised:active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-youtube[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #ff1a1a;
+  border-color: #ff1a1a;
+  background: none;
+  color: #ff3333;
+}
+
+.btn.btn-youtube.bmd-btn-fab, .btn.btn-youtube[disabled].bmd-btn-fab {
+  background: #ff3333;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-youtube.bmd-btn-fab.active, .btn.btn-youtube.bmd-btn-fab:hover, .btn.btn-youtube.bmd-btn-fab:focus, .btn.btn-youtube.bmd-btn-fab:focus:active, .btn.btn-youtube.bmd-btn-fab:active, .btn.btn-youtube[disabled].bmd-btn-fab.active, .btn.btn-youtube[disabled].bmd-btn-fab:hover, .btn.btn-youtube[disabled].bmd-btn-fab:focus, .btn.btn-youtube[disabled].bmd-btn-fab:focus:active, .btn.btn-youtube[disabled].bmd-btn-fab:active {
+  background: #ff1a1a;
+  color: #fff;
+}
+
+.btn.btn-vimeo, .btn.btn-vimeo[disabled] {
+  background: #48b6ed;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-vimeo.active, .btn.btn-vimeo:hover, .btn.btn-vimeo:focus, .btn.btn-vimeo:focus:active, .btn.btn-vimeo:active, .btn.btn-vimeo[disabled].active, .btn.btn-vimeo[disabled]:hover, .btn.btn-vimeo[disabled]:focus, .btn.btn-vimeo[disabled]:focus:active, .btn.btn-vimeo[disabled]:active {
+  background: #31adeb;
+  color: #fff;
+}
+
+.btn.btn-vimeo.btn-raised, .btn.btn-vimeo[disabled].btn-raised {
+  background: #48b6ed;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-vimeo.btn-raised.active, .btn.btn-vimeo.btn-raised:hover, .btn.btn-vimeo.btn-raised:focus, .btn.btn-vimeo.btn-raised:focus:active, .btn.btn-vimeo.btn-raised:active, .btn.btn-vimeo[disabled].btn-raised.active, .btn.btn-vimeo[disabled].btn-raised:hover, .btn.btn-vimeo[disabled].btn-raised:focus, .btn.btn-vimeo[disabled].btn-raised:focus:active, .btn.btn-vimeo[disabled].btn-raised:active {
+  background: #31adeb;
+  color: #fff;
+}
+
+.btn.btn-vimeo.btn-flat, .btn.btn-vimeo.btn-flat.bmd-btn-fab, .btn.btn-vimeo[disabled].btn-flat, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #48b6ed;
+  border: none;
+}
+
+.btn.btn-vimeo.btn-flat.active, .btn.btn-vimeo.btn-flat:hover, .btn.btn-vimeo.btn-flat:focus, .btn.btn-vimeo.btn-flat:focus:active, .btn.btn-vimeo.btn-flat:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.active, .btn.btn-vimeo.btn-flat.bmd-btn-fab:hover, .btn.btn-vimeo.btn-flat.bmd-btn-fab:focus, .btn.btn-vimeo.btn-flat.bmd-btn-fab:focus:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab:active, .btn.btn-vimeo[disabled].btn-flat.active, .btn.btn-vimeo[disabled].btn-flat:hover, .btn.btn-vimeo[disabled].btn-flat:focus, .btn.btn-vimeo[disabled].btn-flat:focus:active, .btn.btn-vimeo[disabled].btn-flat:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #31adeb;
+}
+
+.btn.btn-vimeo.btn-flat.btn-raised.active, .btn.btn-vimeo.btn-flat.btn-raised:hover, .btn.btn-vimeo.btn-flat.btn-raised:focus, .btn.btn-vimeo.btn-flat.btn-raised:focus:active, .btn.btn-vimeo.btn-flat.btn-raised:active, .btn.btn-vimeo.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-vimeo.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-vimeo.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-vimeo.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-vimeo.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-vimeo.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-vimeo[disabled].btn-flat.btn-raised.active, .btn.btn-vimeo[disabled].btn-flat.btn-raised:hover, .btn.btn-vimeo[disabled].btn-flat.btn-raised:focus, .btn.btn-vimeo[disabled].btn-flat.btn-raised:focus:active, .btn.btn-vimeo[disabled].btn-flat.btn-raised:active, .btn.btn-vimeo[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-vimeo[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-vimeo[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-vimeo[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-vimeo[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-vimeo[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #31adeb;
+}
+
+.btn.btn-vimeo.btn-outline, .btn.btn-vimeo.btn-outline.bmd-btn-fab, .btn.btn-vimeo[disabled].btn-outline, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #48b6ed;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #48b6ed;
+}
+
+.btn.btn-vimeo.btn-outline.active, .btn.btn-vimeo.btn-outline:hover, .btn.btn-vimeo.btn-outline:focus, .btn.btn-vimeo.btn-outline:focus:active, .btn.btn-vimeo.btn-outline:active, .btn.btn-vimeo.btn-outline.bmd-btn-fab.active, .btn.btn-vimeo.btn-outline.bmd-btn-fab:hover, .btn.btn-vimeo.btn-outline.bmd-btn-fab:focus, .btn.btn-vimeo.btn-outline.bmd-btn-fab:focus:active, .btn.btn-vimeo.btn-outline.bmd-btn-fab:active, .btn.btn-vimeo[disabled].btn-outline.active, .btn.btn-vimeo[disabled].btn-outline:hover, .btn.btn-vimeo[disabled].btn-outline:focus, .btn.btn-vimeo[disabled].btn-outline:focus:active, .btn.btn-vimeo[disabled].btn-outline:active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab:active {
+  color: #31adeb;
+  border-color: #31adeb;
+  background: none;
+  color: #48b6ed;
+}
+
+.btn.btn-vimeo.btn-outline.btn-raised.active, .btn.btn-vimeo.btn-outline.btn-raised:hover, .btn.btn-vimeo.btn-outline.btn-raised:focus, .btn.btn-vimeo.btn-outline.btn-raised:focus:active, .btn.btn-vimeo.btn-outline.btn-raised:active, .btn.btn-vimeo.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-vimeo.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-vimeo.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-vimeo.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-vimeo.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-vimeo[disabled].btn-outline.btn-raised.active, .btn.btn-vimeo[disabled].btn-outline.btn-raised:hover, .btn.btn-vimeo[disabled].btn-outline.btn-raised:focus, .btn.btn-vimeo[disabled].btn-outline.btn-raised:focus:active, .btn.btn-vimeo[disabled].btn-outline.btn-raised:active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-vimeo[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #31adeb;
+  border-color: #31adeb;
+  background: none;
+  color: #48b6ed;
+}
+
+.btn.btn-vimeo.bmd-btn-fab, .btn.btn-vimeo[disabled].bmd-btn-fab {
+  background: #48b6ed;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-vimeo.bmd-btn-fab.active, .btn.btn-vimeo.bmd-btn-fab:hover, .btn.btn-vimeo.bmd-btn-fab:focus, .btn.btn-vimeo.bmd-btn-fab:focus:active, .btn.btn-vimeo.bmd-btn-fab:active, .btn.btn-vimeo[disabled].bmd-btn-fab.active, .btn.btn-vimeo[disabled].bmd-btn-fab:hover, .btn.btn-vimeo[disabled].bmd-btn-fab:focus, .btn.btn-vimeo[disabled].bmd-btn-fab:focus:active, .btn.btn-vimeo[disabled].bmd-btn-fab:active {
+  background: #31adeb;
+  color: #fff;
+}
+
+.btn.btn-pinterest, .btn.btn-pinterest[disabled] {
+  background: #ce1a19;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-pinterest.active, .btn.btn-pinterest:hover, .btn.btn-pinterest:focus, .btn.btn-pinterest:focus:active, .btn.btn-pinterest:active, .btn.btn-pinterest[disabled].active, .btn.btn-pinterest[disabled]:hover, .btn.btn-pinterest[disabled]:focus, .btn.btn-pinterest[disabled]:focus:active, .btn.btn-pinterest[disabled]:active {
+  background: #b71716;
+  color: #fff;
+}
+
+.btn.btn-pinterest.btn-raised, .btn.btn-pinterest[disabled].btn-raised {
+  background: #ce1a19;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-pinterest.btn-raised.active, .btn.btn-pinterest.btn-raised:hover, .btn.btn-pinterest.btn-raised:focus, .btn.btn-pinterest.btn-raised:focus:active, .btn.btn-pinterest.btn-raised:active, .btn.btn-pinterest[disabled].btn-raised.active, .btn.btn-pinterest[disabled].btn-raised:hover, .btn.btn-pinterest[disabled].btn-raised:focus, .btn.btn-pinterest[disabled].btn-raised:focus:active, .btn.btn-pinterest[disabled].btn-raised:active {
+  background: #b71716;
+  color: #fff;
+}
+
+.btn.btn-pinterest.btn-flat, .btn.btn-pinterest.btn-flat.bmd-btn-fab, .btn.btn-pinterest[disabled].btn-flat, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #ce1a19;
+  border: none;
+}
+
+.btn.btn-pinterest.btn-flat.active, .btn.btn-pinterest.btn-flat:hover, .btn.btn-pinterest.btn-flat:focus, .btn.btn-pinterest.btn-flat:focus:active, .btn.btn-pinterest.btn-flat:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.active, .btn.btn-pinterest.btn-flat.bmd-btn-fab:hover, .btn.btn-pinterest.btn-flat.bmd-btn-fab:focus, .btn.btn-pinterest.btn-flat.bmd-btn-fab:focus:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab:active, .btn.btn-pinterest[disabled].btn-flat.active, .btn.btn-pinterest[disabled].btn-flat:hover, .btn.btn-pinterest[disabled].btn-flat:focus, .btn.btn-pinterest[disabled].btn-flat:focus:active, .btn.btn-pinterest[disabled].btn-flat:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #b71716;
+}
+
+.btn.btn-pinterest.btn-flat.btn-raised.active, .btn.btn-pinterest.btn-flat.btn-raised:hover, .btn.btn-pinterest.btn-flat.btn-raised:focus, .btn.btn-pinterest.btn-flat.btn-raised:focus:active, .btn.btn-pinterest.btn-flat.btn-raised:active, .btn.btn-pinterest.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-pinterest.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-pinterest.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-pinterest.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-pinterest.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-pinterest.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-pinterest[disabled].btn-flat.btn-raised.active, .btn.btn-pinterest[disabled].btn-flat.btn-raised:hover, .btn.btn-pinterest[disabled].btn-flat.btn-raised:focus, .btn.btn-pinterest[disabled].btn-flat.btn-raised:focus:active, .btn.btn-pinterest[disabled].btn-flat.btn-raised:active, .btn.btn-pinterest[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-pinterest[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-pinterest[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-pinterest[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-pinterest[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-pinterest[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #b71716;
+}
+
+.btn.btn-pinterest.btn-outline, .btn.btn-pinterest.btn-outline.bmd-btn-fab, .btn.btn-pinterest[disabled].btn-outline, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #ce1a19;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ce1a19;
+}
+
+.btn.btn-pinterest.btn-outline.active, .btn.btn-pinterest.btn-outline:hover, .btn.btn-pinterest.btn-outline:focus, .btn.btn-pinterest.btn-outline:focus:active, .btn.btn-pinterest.btn-outline:active, .btn.btn-pinterest.btn-outline.bmd-btn-fab.active, .btn.btn-pinterest.btn-outline.bmd-btn-fab:hover, .btn.btn-pinterest.btn-outline.bmd-btn-fab:focus, .btn.btn-pinterest.btn-outline.bmd-btn-fab:focus:active, .btn.btn-pinterest.btn-outline.bmd-btn-fab:active, .btn.btn-pinterest[disabled].btn-outline.active, .btn.btn-pinterest[disabled].btn-outline:hover, .btn.btn-pinterest[disabled].btn-outline:focus, .btn.btn-pinterest[disabled].btn-outline:focus:active, .btn.btn-pinterest[disabled].btn-outline:active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab:active {
+  color: #b71716;
+  border-color: #b71716;
+  background: none;
+  color: #ce1a19;
+}
+
+.btn.btn-pinterest.btn-outline.btn-raised.active, .btn.btn-pinterest.btn-outline.btn-raised:hover, .btn.btn-pinterest.btn-outline.btn-raised:focus, .btn.btn-pinterest.btn-outline.btn-raised:focus:active, .btn.btn-pinterest.btn-outline.btn-raised:active, .btn.btn-pinterest.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-pinterest.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-pinterest.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-pinterest.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-pinterest.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-pinterest[disabled].btn-outline.btn-raised.active, .btn.btn-pinterest[disabled].btn-outline.btn-raised:hover, .btn.btn-pinterest[disabled].btn-outline.btn-raised:focus, .btn.btn-pinterest[disabled].btn-outline.btn-raised:focus:active, .btn.btn-pinterest[disabled].btn-outline.btn-raised:active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-pinterest[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #b71716;
+  border-color: #b71716;
+  background: none;
+  color: #ce1a19;
+}
+
+.btn.btn-pinterest.bmd-btn-fab, .btn.btn-pinterest[disabled].bmd-btn-fab {
+  background: #ce1a19;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-pinterest.bmd-btn-fab.active, .btn.btn-pinterest.bmd-btn-fab:hover, .btn.btn-pinterest.bmd-btn-fab:focus, .btn.btn-pinterest.bmd-btn-fab:focus:active, .btn.btn-pinterest.bmd-btn-fab:active, .btn.btn-pinterest[disabled].bmd-btn-fab.active, .btn.btn-pinterest[disabled].bmd-btn-fab:hover, .btn.btn-pinterest[disabled].bmd-btn-fab:focus, .btn.btn-pinterest[disabled].bmd-btn-fab:focus:active, .btn.btn-pinterest[disabled].bmd-btn-fab:active {
+  background: #b71716;
+  color: #fff;
+}
+
+.btn.btn-yelp, .btn.btn-yelp[disabled] {
+  background: #c30f00;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-yelp.active, .btn.btn-yelp:hover, .btn.btn-yelp:focus, .btn.btn-yelp:focus:active, .btn.btn-yelp:active, .btn.btn-yelp[disabled].active, .btn.btn-yelp[disabled]:hover, .btn.btn-yelp[disabled]:focus, .btn.btn-yelp[disabled]:focus:active, .btn.btn-yelp[disabled]:active {
+  background: #aa0d00;
+  color: #fff;
+}
+
+.btn.btn-yelp.btn-raised, .btn.btn-yelp[disabled].btn-raised {
+  background: #c30f00;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-yelp.btn-raised.active, .btn.btn-yelp.btn-raised:hover, .btn.btn-yelp.btn-raised:focus, .btn.btn-yelp.btn-raised:focus:active, .btn.btn-yelp.btn-raised:active, .btn.btn-yelp[disabled].btn-raised.active, .btn.btn-yelp[disabled].btn-raised:hover, .btn.btn-yelp[disabled].btn-raised:focus, .btn.btn-yelp[disabled].btn-raised:focus:active, .btn.btn-yelp[disabled].btn-raised:active {
+  background: #aa0d00;
+  color: #fff;
+}
+
+.btn.btn-yelp.btn-flat, .btn.btn-yelp.btn-flat.bmd-btn-fab, .btn.btn-yelp[disabled].btn-flat, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #c30f00;
+  border: none;
+}
+
+.btn.btn-yelp.btn-flat.active, .btn.btn-yelp.btn-flat:hover, .btn.btn-yelp.btn-flat:focus, .btn.btn-yelp.btn-flat:focus:active, .btn.btn-yelp.btn-flat:active, .btn.btn-yelp.btn-flat.bmd-btn-fab.active, .btn.btn-yelp.btn-flat.bmd-btn-fab:hover, .btn.btn-yelp.btn-flat.bmd-btn-fab:focus, .btn.btn-yelp.btn-flat.bmd-btn-fab:focus:active, .btn.btn-yelp.btn-flat.bmd-btn-fab:active, .btn.btn-yelp[disabled].btn-flat.active, .btn.btn-yelp[disabled].btn-flat:hover, .btn.btn-yelp[disabled].btn-flat:focus, .btn.btn-yelp[disabled].btn-flat:focus:active, .btn.btn-yelp[disabled].btn-flat:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #aa0d00;
+}
+
+.btn.btn-yelp.btn-flat.btn-raised.active, .btn.btn-yelp.btn-flat.btn-raised:hover, .btn.btn-yelp.btn-flat.btn-raised:focus, .btn.btn-yelp.btn-flat.btn-raised:focus:active, .btn.btn-yelp.btn-flat.btn-raised:active, .btn.btn-yelp.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-yelp.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-yelp.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-yelp.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-yelp.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-yelp.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-yelp[disabled].btn-flat.btn-raised.active, .btn.btn-yelp[disabled].btn-flat.btn-raised:hover, .btn.btn-yelp[disabled].btn-flat.btn-raised:focus, .btn.btn-yelp[disabled].btn-flat.btn-raised:focus:active, .btn.btn-yelp[disabled].btn-flat.btn-raised:active, .btn.btn-yelp[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-yelp[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-yelp[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-yelp[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-yelp[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-yelp[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #aa0d00;
+}
+
+.btn.btn-yelp.btn-outline, .btn.btn-yelp.btn-outline.bmd-btn-fab, .btn.btn-yelp[disabled].btn-outline, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #c30f00;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c30f00;
+}
+
+.btn.btn-yelp.btn-outline.active, .btn.btn-yelp.btn-outline:hover, .btn.btn-yelp.btn-outline:focus, .btn.btn-yelp.btn-outline:focus:active, .btn.btn-yelp.btn-outline:active, .btn.btn-yelp.btn-outline.bmd-btn-fab.active, .btn.btn-yelp.btn-outline.bmd-btn-fab:hover, .btn.btn-yelp.btn-outline.bmd-btn-fab:focus, .btn.btn-yelp.btn-outline.bmd-btn-fab:focus:active, .btn.btn-yelp.btn-outline.bmd-btn-fab:active, .btn.btn-yelp[disabled].btn-outline.active, .btn.btn-yelp[disabled].btn-outline:hover, .btn.btn-yelp[disabled].btn-outline:focus, .btn.btn-yelp[disabled].btn-outline:focus:active, .btn.btn-yelp[disabled].btn-outline:active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab:active {
+  color: #aa0d00;
+  border-color: #aa0d00;
+  background: none;
+  color: #c30f00;
+}
+
+.btn.btn-yelp.btn-outline.btn-raised.active, .btn.btn-yelp.btn-outline.btn-raised:hover, .btn.btn-yelp.btn-outline.btn-raised:focus, .btn.btn-yelp.btn-outline.btn-raised:focus:active, .btn.btn-yelp.btn-outline.btn-raised:active, .btn.btn-yelp.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-yelp.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-yelp.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-yelp.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-yelp.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-yelp[disabled].btn-outline.btn-raised.active, .btn.btn-yelp[disabled].btn-outline.btn-raised:hover, .btn.btn-yelp[disabled].btn-outline.btn-raised:focus, .btn.btn-yelp[disabled].btn-outline.btn-raised:focus:active, .btn.btn-yelp[disabled].btn-outline.btn-raised:active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-yelp[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #aa0d00;
+  border-color: #aa0d00;
+  background: none;
+  color: #c30f00;
+}
+
+.btn.btn-yelp.bmd-btn-fab, .btn.btn-yelp[disabled].bmd-btn-fab {
+  background: #c30f00;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-yelp.bmd-btn-fab.active, .btn.btn-yelp.bmd-btn-fab:hover, .btn.btn-yelp.bmd-btn-fab:focus, .btn.btn-yelp.bmd-btn-fab:focus:active, .btn.btn-yelp.bmd-btn-fab:active, .btn.btn-yelp[disabled].bmd-btn-fab.active, .btn.btn-yelp[disabled].bmd-btn-fab:hover, .btn.btn-yelp[disabled].bmd-btn-fab:focus, .btn.btn-yelp[disabled].bmd-btn-fab:focus:active, .btn.btn-yelp[disabled].bmd-btn-fab:active {
+  background: #aa0d00;
+  color: #fff;
+}
+
+.btn.btn-dribbble, .btn.btn-dribbble[disabled] {
+  background: #ed4584;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dribbble.active, .btn.btn-dribbble:hover, .btn.btn-dribbble:focus, .btn.btn-dribbble:focus:active, .btn.btn-dribbble:active, .btn.btn-dribbble[disabled].active, .btn.btn-dribbble[disabled]:hover, .btn.btn-dribbble[disabled]:focus, .btn.btn-dribbble[disabled]:focus:active, .btn.btn-dribbble[disabled]:active {
+  background: #eb2e75;
+  color: #fff;
+}
+
+.btn.btn-dribbble.btn-raised, .btn.btn-dribbble[disabled].btn-raised {
+  background: #ed4584;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dribbble.btn-raised.active, .btn.btn-dribbble.btn-raised:hover, .btn.btn-dribbble.btn-raised:focus, .btn.btn-dribbble.btn-raised:focus:active, .btn.btn-dribbble.btn-raised:active, .btn.btn-dribbble[disabled].btn-raised.active, .btn.btn-dribbble[disabled].btn-raised:hover, .btn.btn-dribbble[disabled].btn-raised:focus, .btn.btn-dribbble[disabled].btn-raised:focus:active, .btn.btn-dribbble[disabled].btn-raised:active {
+  background: #eb2e75;
+  color: #fff;
+}
+
+.btn.btn-dribbble.btn-flat, .btn.btn-dribbble.btn-flat.bmd-btn-fab, .btn.btn-dribbble[disabled].btn-flat, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #ed4584;
+  border: none;
+}
+
+.btn.btn-dribbble.btn-flat.active, .btn.btn-dribbble.btn-flat:hover, .btn.btn-dribbble.btn-flat:focus, .btn.btn-dribbble.btn-flat:focus:active, .btn.btn-dribbble.btn-flat:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.active, .btn.btn-dribbble.btn-flat.bmd-btn-fab:hover, .btn.btn-dribbble.btn-flat.bmd-btn-fab:focus, .btn.btn-dribbble.btn-flat.bmd-btn-fab:focus:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab:active, .btn.btn-dribbble[disabled].btn-flat.active, .btn.btn-dribbble[disabled].btn-flat:hover, .btn.btn-dribbble[disabled].btn-flat:focus, .btn.btn-dribbble[disabled].btn-flat:focus:active, .btn.btn-dribbble[disabled].btn-flat:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #eb2e75;
+}
+
+.btn.btn-dribbble.btn-flat.btn-raised.active, .btn.btn-dribbble.btn-flat.btn-raised:hover, .btn.btn-dribbble.btn-flat.btn-raised:focus, .btn.btn-dribbble.btn-flat.btn-raised:focus:active, .btn.btn-dribbble.btn-flat.btn-raised:active, .btn.btn-dribbble.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-dribbble.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-dribbble.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-dribbble.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dribbble.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dribbble.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-dribbble[disabled].btn-flat.btn-raised.active, .btn.btn-dribbble[disabled].btn-flat.btn-raised:hover, .btn.btn-dribbble[disabled].btn-flat.btn-raised:focus, .btn.btn-dribbble[disabled].btn-flat.btn-raised:focus:active, .btn.btn-dribbble[disabled].btn-flat.btn-raised:active, .btn.btn-dribbble[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-dribbble[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-dribbble[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-dribbble[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dribbble[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dribbble[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #eb2e75;
+}
+
+.btn.btn-dribbble.btn-outline, .btn.btn-dribbble.btn-outline.bmd-btn-fab, .btn.btn-dribbble[disabled].btn-outline, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #ed4584;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ed4584;
+}
+
+.btn.btn-dribbble.btn-outline.active, .btn.btn-dribbble.btn-outline:hover, .btn.btn-dribbble.btn-outline:focus, .btn.btn-dribbble.btn-outline:focus:active, .btn.btn-dribbble.btn-outline:active, .btn.btn-dribbble.btn-outline.bmd-btn-fab.active, .btn.btn-dribbble.btn-outline.bmd-btn-fab:hover, .btn.btn-dribbble.btn-outline.bmd-btn-fab:focus, .btn.btn-dribbble.btn-outline.bmd-btn-fab:focus:active, .btn.btn-dribbble.btn-outline.bmd-btn-fab:active, .btn.btn-dribbble[disabled].btn-outline.active, .btn.btn-dribbble[disabled].btn-outline:hover, .btn.btn-dribbble[disabled].btn-outline:focus, .btn.btn-dribbble[disabled].btn-outline:focus:active, .btn.btn-dribbble[disabled].btn-outline:active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab:active {
+  color: #eb2e75;
+  border-color: #eb2e75;
+  background: none;
+  color: #ed4584;
+}
+
+.btn.btn-dribbble.btn-outline.btn-raised.active, .btn.btn-dribbble.btn-outline.btn-raised:hover, .btn.btn-dribbble.btn-outline.btn-raised:focus, .btn.btn-dribbble.btn-outline.btn-raised:focus:active, .btn.btn-dribbble.btn-outline.btn-raised:active, .btn.btn-dribbble.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-dribbble.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-dribbble.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-dribbble.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dribbble.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-dribbble[disabled].btn-outline.btn-raised.active, .btn.btn-dribbble[disabled].btn-outline.btn-raised:hover, .btn.btn-dribbble[disabled].btn-outline.btn-raised:focus, .btn.btn-dribbble[disabled].btn-outline.btn-raised:focus:active, .btn.btn-dribbble[disabled].btn-outline.btn-raised:active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dribbble[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #eb2e75;
+  border-color: #eb2e75;
+  background: none;
+  color: #ed4584;
+}
+
+.btn.btn-dribbble.bmd-btn-fab, .btn.btn-dribbble[disabled].bmd-btn-fab {
+  background: #ed4584;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dribbble.bmd-btn-fab.active, .btn.btn-dribbble.bmd-btn-fab:hover, .btn.btn-dribbble.bmd-btn-fab:focus, .btn.btn-dribbble.bmd-btn-fab:focus:active, .btn.btn-dribbble.bmd-btn-fab:active, .btn.btn-dribbble[disabled].bmd-btn-fab.active, .btn.btn-dribbble[disabled].bmd-btn-fab:hover, .btn.btn-dribbble[disabled].bmd-btn-fab:focus, .btn.btn-dribbble[disabled].bmd-btn-fab:focus:active, .btn.btn-dribbble[disabled].bmd-btn-fab:active {
+  background: #eb2e75;
+  color: #fff;
+}
+
+.btn.btn-amazon, .btn.btn-amazon[disabled] {
+  background: #ff9700;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-amazon.active, .btn.btn-amazon:hover, .btn.btn-amazon:focus, .btn.btn-amazon:focus:active, .btn.btn-amazon:active, .btn.btn-amazon[disabled].active, .btn.btn-amazon[disabled]:hover, .btn.btn-amazon[disabled]:focus, .btn.btn-amazon[disabled]:focus:active, .btn.btn-amazon[disabled]:active {
+  background: #e68800;
+  color: #fff;
+}
+
+.btn.btn-amazon.btn-raised, .btn.btn-amazon[disabled].btn-raised {
+  background: #ff9700;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-amazon.btn-raised.active, .btn.btn-amazon.btn-raised:hover, .btn.btn-amazon.btn-raised:focus, .btn.btn-amazon.btn-raised:focus:active, .btn.btn-amazon.btn-raised:active, .btn.btn-amazon[disabled].btn-raised.active, .btn.btn-amazon[disabled].btn-raised:hover, .btn.btn-amazon[disabled].btn-raised:focus, .btn.btn-amazon[disabled].btn-raised:focus:active, .btn.btn-amazon[disabled].btn-raised:active {
+  background: #e68800;
+  color: #fff;
+}
+
+.btn.btn-amazon.btn-flat, .btn.btn-amazon.btn-flat.bmd-btn-fab, .btn.btn-amazon[disabled].btn-flat, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #ff9700;
+  border: none;
+}
+
+.btn.btn-amazon.btn-flat.active, .btn.btn-amazon.btn-flat:hover, .btn.btn-amazon.btn-flat:focus, .btn.btn-amazon.btn-flat:focus:active, .btn.btn-amazon.btn-flat:active, .btn.btn-amazon.btn-flat.bmd-btn-fab.active, .btn.btn-amazon.btn-flat.bmd-btn-fab:hover, .btn.btn-amazon.btn-flat.bmd-btn-fab:focus, .btn.btn-amazon.btn-flat.bmd-btn-fab:focus:active, .btn.btn-amazon.btn-flat.bmd-btn-fab:active, .btn.btn-amazon[disabled].btn-flat.active, .btn.btn-amazon[disabled].btn-flat:hover, .btn.btn-amazon[disabled].btn-flat:focus, .btn.btn-amazon[disabled].btn-flat:focus:active, .btn.btn-amazon[disabled].btn-flat:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #e68800;
+}
+
+.btn.btn-amazon.btn-flat.btn-raised.active, .btn.btn-amazon.btn-flat.btn-raised:hover, .btn.btn-amazon.btn-flat.btn-raised:focus, .btn.btn-amazon.btn-flat.btn-raised:focus:active, .btn.btn-amazon.btn-flat.btn-raised:active, .btn.btn-amazon.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-amazon.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-amazon.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-amazon.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-amazon.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-amazon.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-amazon[disabled].btn-flat.btn-raised.active, .btn.btn-amazon[disabled].btn-flat.btn-raised:hover, .btn.btn-amazon[disabled].btn-flat.btn-raised:focus, .btn.btn-amazon[disabled].btn-flat.btn-raised:focus:active, .btn.btn-amazon[disabled].btn-flat.btn-raised:active, .btn.btn-amazon[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-amazon[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-amazon[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-amazon[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-amazon[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-amazon[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #e68800;
+}
+
+.btn.btn-amazon.btn-outline, .btn.btn-amazon.btn-outline.bmd-btn-fab, .btn.btn-amazon[disabled].btn-outline, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #ff9700;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff9700;
+}
+
+.btn.btn-amazon.btn-outline.active, .btn.btn-amazon.btn-outline:hover, .btn.btn-amazon.btn-outline:focus, .btn.btn-amazon.btn-outline:focus:active, .btn.btn-amazon.btn-outline:active, .btn.btn-amazon.btn-outline.bmd-btn-fab.active, .btn.btn-amazon.btn-outline.bmd-btn-fab:hover, .btn.btn-amazon.btn-outline.bmd-btn-fab:focus, .btn.btn-amazon.btn-outline.bmd-btn-fab:focus:active, .btn.btn-amazon.btn-outline.bmd-btn-fab:active, .btn.btn-amazon[disabled].btn-outline.active, .btn.btn-amazon[disabled].btn-outline:hover, .btn.btn-amazon[disabled].btn-outline:focus, .btn.btn-amazon[disabled].btn-outline:focus:active, .btn.btn-amazon[disabled].btn-outline:active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab:active {
+  color: #e68800;
+  border-color: #e68800;
+  background: none;
+  color: #ff9700;
+}
+
+.btn.btn-amazon.btn-outline.btn-raised.active, .btn.btn-amazon.btn-outline.btn-raised:hover, .btn.btn-amazon.btn-outline.btn-raised:focus, .btn.btn-amazon.btn-outline.btn-raised:focus:active, .btn.btn-amazon.btn-outline.btn-raised:active, .btn.btn-amazon.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-amazon.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-amazon.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-amazon.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-amazon.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-amazon[disabled].btn-outline.btn-raised.active, .btn.btn-amazon[disabled].btn-outline.btn-raised:hover, .btn.btn-amazon[disabled].btn-outline.btn-raised:focus, .btn.btn-amazon[disabled].btn-outline.btn-raised:focus:active, .btn.btn-amazon[disabled].btn-outline.btn-raised:active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-amazon[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #e68800;
+  border-color: #e68800;
+  background: none;
+  color: #ff9700;
+}
+
+.btn.btn-amazon.bmd-btn-fab, .btn.btn-amazon[disabled].bmd-btn-fab {
+  background: #ff9700;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-amazon.bmd-btn-fab.active, .btn.btn-amazon.bmd-btn-fab:hover, .btn.btn-amazon.bmd-btn-fab:focus, .btn.btn-amazon.bmd-btn-fab:focus:active, .btn.btn-amazon.bmd-btn-fab:active, .btn.btn-amazon[disabled].bmd-btn-fab.active, .btn.btn-amazon[disabled].bmd-btn-fab:hover, .btn.btn-amazon[disabled].bmd-btn-fab:focus, .btn.btn-amazon[disabled].bmd-btn-fab:focus:active, .btn.btn-amazon[disabled].bmd-btn-fab:active {
+  background: #e68800;
+  color: #fff;
+}
+
+.btn.btn-skype, .btn.btn-skype[disabled] {
+  background: #00acf4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-skype.active, .btn.btn-skype:hover, .btn.btn-skype:focus, .btn.btn-skype:focus:active, .btn.btn-skype:active, .btn.btn-skype[disabled].active, .btn.btn-skype[disabled]:hover, .btn.btn-skype[disabled]:focus, .btn.btn-skype[disabled]:focus:active, .btn.btn-skype[disabled]:active {
+  background: #009adb;
+  color: #fff;
+}
+
+.btn.btn-skype.btn-raised, .btn.btn-skype[disabled].btn-raised {
+  background: #00acf4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-skype.btn-raised.active, .btn.btn-skype.btn-raised:hover, .btn.btn-skype.btn-raised:focus, .btn.btn-skype.btn-raised:focus:active, .btn.btn-skype.btn-raised:active, .btn.btn-skype[disabled].btn-raised.active, .btn.btn-skype[disabled].btn-raised:hover, .btn.btn-skype[disabled].btn-raised:focus, .btn.btn-skype[disabled].btn-raised:focus:active, .btn.btn-skype[disabled].btn-raised:active {
+  background: #009adb;
+  color: #fff;
+}
+
+.btn.btn-skype.btn-flat, .btn.btn-skype.btn-flat.bmd-btn-fab, .btn.btn-skype[disabled].btn-flat, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #00acf4;
+  border: none;
+}
+
+.btn.btn-skype.btn-flat.active, .btn.btn-skype.btn-flat:hover, .btn.btn-skype.btn-flat:focus, .btn.btn-skype.btn-flat:focus:active, .btn.btn-skype.btn-flat:active, .btn.btn-skype.btn-flat.bmd-btn-fab.active, .btn.btn-skype.btn-flat.bmd-btn-fab:hover, .btn.btn-skype.btn-flat.bmd-btn-fab:focus, .btn.btn-skype.btn-flat.bmd-btn-fab:focus:active, .btn.btn-skype.btn-flat.bmd-btn-fab:active, .btn.btn-skype[disabled].btn-flat.active, .btn.btn-skype[disabled].btn-flat:hover, .btn.btn-skype[disabled].btn-flat:focus, .btn.btn-skype[disabled].btn-flat:focus:active, .btn.btn-skype[disabled].btn-flat:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #009adb;
+}
+
+.btn.btn-skype.btn-flat.btn-raised.active, .btn.btn-skype.btn-flat.btn-raised:hover, .btn.btn-skype.btn-flat.btn-raised:focus, .btn.btn-skype.btn-flat.btn-raised:focus:active, .btn.btn-skype.btn-flat.btn-raised:active, .btn.btn-skype.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-skype.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-skype.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-skype.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-skype.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-skype.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-skype[disabled].btn-flat.btn-raised.active, .btn.btn-skype[disabled].btn-flat.btn-raised:hover, .btn.btn-skype[disabled].btn-flat.btn-raised:focus, .btn.btn-skype[disabled].btn-flat.btn-raised:focus:active, .btn.btn-skype[disabled].btn-flat.btn-raised:active, .btn.btn-skype[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-skype[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-skype[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-skype[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-skype[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-skype[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #009adb;
+}
+
+.btn.btn-skype.btn-outline, .btn.btn-skype.btn-outline.bmd-btn-fab, .btn.btn-skype[disabled].btn-outline, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #00acf4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00acf4;
+}
+
+.btn.btn-skype.btn-outline.active, .btn.btn-skype.btn-outline:hover, .btn.btn-skype.btn-outline:focus, .btn.btn-skype.btn-outline:focus:active, .btn.btn-skype.btn-outline:active, .btn.btn-skype.btn-outline.bmd-btn-fab.active, .btn.btn-skype.btn-outline.bmd-btn-fab:hover, .btn.btn-skype.btn-outline.bmd-btn-fab:focus, .btn.btn-skype.btn-outline.bmd-btn-fab:focus:active, .btn.btn-skype.btn-outline.bmd-btn-fab:active, .btn.btn-skype[disabled].btn-outline.active, .btn.btn-skype[disabled].btn-outline:hover, .btn.btn-skype[disabled].btn-outline:focus, .btn.btn-skype[disabled].btn-outline:focus:active, .btn.btn-skype[disabled].btn-outline:active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab:active {
+  color: #009adb;
+  border-color: #009adb;
+  background: none;
+  color: #00acf4;
+}
+
+.btn.btn-skype.btn-outline.btn-raised.active, .btn.btn-skype.btn-outline.btn-raised:hover, .btn.btn-skype.btn-outline.btn-raised:focus, .btn.btn-skype.btn-outline.btn-raised:focus:active, .btn.btn-skype.btn-outline.btn-raised:active, .btn.btn-skype.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-skype.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-skype.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-skype.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-skype.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-skype[disabled].btn-outline.btn-raised.active, .btn.btn-skype[disabled].btn-outline.btn-raised:hover, .btn.btn-skype[disabled].btn-outline.btn-raised:focus, .btn.btn-skype[disabled].btn-outline.btn-raised:focus:active, .btn.btn-skype[disabled].btn-outline.btn-raised:active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-skype[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #009adb;
+  border-color: #009adb;
+  background: none;
+  color: #00acf4;
+}
+
+.btn.btn-skype.bmd-btn-fab, .btn.btn-skype[disabled].bmd-btn-fab {
+  background: #00acf4;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-skype.bmd-btn-fab.active, .btn.btn-skype.bmd-btn-fab:hover, .btn.btn-skype.bmd-btn-fab:focus, .btn.btn-skype.bmd-btn-fab:focus:active, .btn.btn-skype.bmd-btn-fab:active, .btn.btn-skype[disabled].bmd-btn-fab.active, .btn.btn-skype[disabled].bmd-btn-fab:hover, .btn.btn-skype[disabled].bmd-btn-fab:focus, .btn.btn-skype[disabled].bmd-btn-fab:focus:active, .btn.btn-skype[disabled].bmd-btn-fab:active {
+  background: #009adb;
+  color: #fff;
+}
+
+.btn.btn-instagram, .btn.btn-instagram[disabled] {
+  background: #396d9a;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-instagram.active, .btn.btn-instagram:hover, .btn.btn-instagram:focus, .btn.btn-instagram:focus:active, .btn.btn-instagram:active, .btn.btn-instagram[disabled].active, .btn.btn-instagram[disabled]:hover, .btn.btn-instagram[disabled]:focus, .btn.btn-instagram[disabled]:focus:active, .btn.btn-instagram[disabled]:active {
+  background: #326087;
+  color: #fff;
+}
+
+.btn.btn-instagram.btn-raised, .btn.btn-instagram[disabled].btn-raised {
+  background: #396d9a;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-instagram.btn-raised.active, .btn.btn-instagram.btn-raised:hover, .btn.btn-instagram.btn-raised:focus, .btn.btn-instagram.btn-raised:focus:active, .btn.btn-instagram.btn-raised:active, .btn.btn-instagram[disabled].btn-raised.active, .btn.btn-instagram[disabled].btn-raised:hover, .btn.btn-instagram[disabled].btn-raised:focus, .btn.btn-instagram[disabled].btn-raised:focus:active, .btn.btn-instagram[disabled].btn-raised:active {
+  background: #326087;
+  color: #fff;
+}
+
+.btn.btn-instagram.btn-flat, .btn.btn-instagram.btn-flat.bmd-btn-fab, .btn.btn-instagram[disabled].btn-flat, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #396d9a;
+  border: none;
+}
+
+.btn.btn-instagram.btn-flat.active, .btn.btn-instagram.btn-flat:hover, .btn.btn-instagram.btn-flat:focus, .btn.btn-instagram.btn-flat:focus:active, .btn.btn-instagram.btn-flat:active, .btn.btn-instagram.btn-flat.bmd-btn-fab.active, .btn.btn-instagram.btn-flat.bmd-btn-fab:hover, .btn.btn-instagram.btn-flat.bmd-btn-fab:focus, .btn.btn-instagram.btn-flat.bmd-btn-fab:focus:active, .btn.btn-instagram.btn-flat.bmd-btn-fab:active, .btn.btn-instagram[disabled].btn-flat.active, .btn.btn-instagram[disabled].btn-flat:hover, .btn.btn-instagram[disabled].btn-flat:focus, .btn.btn-instagram[disabled].btn-flat:focus:active, .btn.btn-instagram[disabled].btn-flat:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #326087;
+}
+
+.btn.btn-instagram.btn-flat.btn-raised.active, .btn.btn-instagram.btn-flat.btn-raised:hover, .btn.btn-instagram.btn-flat.btn-raised:focus, .btn.btn-instagram.btn-flat.btn-raised:focus:active, .btn.btn-instagram.btn-flat.btn-raised:active, .btn.btn-instagram.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-instagram.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-instagram.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-instagram.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-instagram.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-instagram.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-instagram[disabled].btn-flat.btn-raised.active, .btn.btn-instagram[disabled].btn-flat.btn-raised:hover, .btn.btn-instagram[disabled].btn-flat.btn-raised:focus, .btn.btn-instagram[disabled].btn-flat.btn-raised:focus:active, .btn.btn-instagram[disabled].btn-flat.btn-raised:active, .btn.btn-instagram[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-instagram[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-instagram[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-instagram[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-instagram[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-instagram[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #326087;
+}
+
+.btn.btn-instagram.btn-outline, .btn.btn-instagram.btn-outline.bmd-btn-fab, .btn.btn-instagram[disabled].btn-outline, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #396d9a;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #396d9a;
+}
+
+.btn.btn-instagram.btn-outline.active, .btn.btn-instagram.btn-outline:hover, .btn.btn-instagram.btn-outline:focus, .btn.btn-instagram.btn-outline:focus:active, .btn.btn-instagram.btn-outline:active, .btn.btn-instagram.btn-outline.bmd-btn-fab.active, .btn.btn-instagram.btn-outline.bmd-btn-fab:hover, .btn.btn-instagram.btn-outline.bmd-btn-fab:focus, .btn.btn-instagram.btn-outline.bmd-btn-fab:focus:active, .btn.btn-instagram.btn-outline.bmd-btn-fab:active, .btn.btn-instagram[disabled].btn-outline.active, .btn.btn-instagram[disabled].btn-outline:hover, .btn.btn-instagram[disabled].btn-outline:focus, .btn.btn-instagram[disabled].btn-outline:focus:active, .btn.btn-instagram[disabled].btn-outline:active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab:active {
+  color: #326087;
+  border-color: #326087;
+  background: none;
+  color: #396d9a;
+}
+
+.btn.btn-instagram.btn-outline.btn-raised.active, .btn.btn-instagram.btn-outline.btn-raised:hover, .btn.btn-instagram.btn-outline.btn-raised:focus, .btn.btn-instagram.btn-outline.btn-raised:focus:active, .btn.btn-instagram.btn-outline.btn-raised:active, .btn.btn-instagram.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-instagram.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-instagram.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-instagram.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-instagram.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-instagram[disabled].btn-outline.btn-raised.active, .btn.btn-instagram[disabled].btn-outline.btn-raised:hover, .btn.btn-instagram[disabled].btn-outline.btn-raised:focus, .btn.btn-instagram[disabled].btn-outline.btn-raised:focus:active, .btn.btn-instagram[disabled].btn-outline.btn-raised:active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-instagram[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #326087;
+  border-color: #326087;
+  background: none;
+  color: #396d9a;
+}
+
+.btn.btn-instagram.bmd-btn-fab, .btn.btn-instagram[disabled].bmd-btn-fab {
+  background: #396d9a;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-instagram.bmd-btn-fab.active, .btn.btn-instagram.bmd-btn-fab:hover, .btn.btn-instagram.bmd-btn-fab:focus, .btn.btn-instagram.bmd-btn-fab:focus:active, .btn.btn-instagram.bmd-btn-fab:active, .btn.btn-instagram[disabled].bmd-btn-fab.active, .btn.btn-instagram[disabled].bmd-btn-fab:hover, .btn.btn-instagram[disabled].bmd-btn-fab:focus, .btn.btn-instagram[disabled].bmd-btn-fab:focus:active, .btn.btn-instagram[disabled].bmd-btn-fab:active {
+  background: #326087;
+  color: #fff;
+}
+
+.btn.btn-dropbox, .btn.btn-dropbox[disabled] {
+  background: #0d84de;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dropbox.active, .btn.btn-dropbox:hover, .btn.btn-dropbox:focus, .btn.btn-dropbox:focus:active, .btn.btn-dropbox:active, .btn.btn-dropbox[disabled].active, .btn.btn-dropbox[disabled]:hover, .btn.btn-dropbox[disabled]:focus, .btn.btn-dropbox[disabled]:focus:active, .btn.btn-dropbox[disabled]:active {
+  background: #0c76c6;
+  color: #fff;
+}
+
+.btn.btn-dropbox.btn-raised, .btn.btn-dropbox[disabled].btn-raised {
+  background: #0d84de;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dropbox.btn-raised.active, .btn.btn-dropbox.btn-raised:hover, .btn.btn-dropbox.btn-raised:focus, .btn.btn-dropbox.btn-raised:focus:active, .btn.btn-dropbox.btn-raised:active, .btn.btn-dropbox[disabled].btn-raised.active, .btn.btn-dropbox[disabled].btn-raised:hover, .btn.btn-dropbox[disabled].btn-raised:focus, .btn.btn-dropbox[disabled].btn-raised:focus:active, .btn.btn-dropbox[disabled].btn-raised:active {
+  background: #0c76c6;
+  color: #fff;
+}
+
+.btn.btn-dropbox.btn-flat, .btn.btn-dropbox.btn-flat.bmd-btn-fab, .btn.btn-dropbox[disabled].btn-flat, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #0d84de;
+  border: none;
+}
+
+.btn.btn-dropbox.btn-flat.active, .btn.btn-dropbox.btn-flat:hover, .btn.btn-dropbox.btn-flat:focus, .btn.btn-dropbox.btn-flat:focus:active, .btn.btn-dropbox.btn-flat:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.active, .btn.btn-dropbox.btn-flat.bmd-btn-fab:hover, .btn.btn-dropbox.btn-flat.bmd-btn-fab:focus, .btn.btn-dropbox.btn-flat.bmd-btn-fab:focus:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab:active, .btn.btn-dropbox[disabled].btn-flat.active, .btn.btn-dropbox[disabled].btn-flat:hover, .btn.btn-dropbox[disabled].btn-flat:focus, .btn.btn-dropbox[disabled].btn-flat:focus:active, .btn.btn-dropbox[disabled].btn-flat:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #0c76c6;
+}
+
+.btn.btn-dropbox.btn-flat.btn-raised.active, .btn.btn-dropbox.btn-flat.btn-raised:hover, .btn.btn-dropbox.btn-flat.btn-raised:focus, .btn.btn-dropbox.btn-flat.btn-raised:focus:active, .btn.btn-dropbox.btn-flat.btn-raised:active, .btn.btn-dropbox.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-dropbox.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-dropbox.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-dropbox.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dropbox.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dropbox.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-dropbox[disabled].btn-flat.btn-raised.active, .btn.btn-dropbox[disabled].btn-flat.btn-raised:hover, .btn.btn-dropbox[disabled].btn-flat.btn-raised:focus, .btn.btn-dropbox[disabled].btn-flat.btn-raised:focus:active, .btn.btn-dropbox[disabled].btn-flat.btn-raised:active, .btn.btn-dropbox[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-dropbox[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-dropbox[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-dropbox[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dropbox[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-dropbox[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #0c76c6;
+}
+
+.btn.btn-dropbox.btn-outline, .btn.btn-dropbox.btn-outline.bmd-btn-fab, .btn.btn-dropbox[disabled].btn-outline, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #0d84de;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0d84de;
+}
+
+.btn.btn-dropbox.btn-outline.active, .btn.btn-dropbox.btn-outline:hover, .btn.btn-dropbox.btn-outline:focus, .btn.btn-dropbox.btn-outline:focus:active, .btn.btn-dropbox.btn-outline:active, .btn.btn-dropbox.btn-outline.bmd-btn-fab.active, .btn.btn-dropbox.btn-outline.bmd-btn-fab:hover, .btn.btn-dropbox.btn-outline.bmd-btn-fab:focus, .btn.btn-dropbox.btn-outline.bmd-btn-fab:focus:active, .btn.btn-dropbox.btn-outline.bmd-btn-fab:active, .btn.btn-dropbox[disabled].btn-outline.active, .btn.btn-dropbox[disabled].btn-outline:hover, .btn.btn-dropbox[disabled].btn-outline:focus, .btn.btn-dropbox[disabled].btn-outline:focus:active, .btn.btn-dropbox[disabled].btn-outline:active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab:active {
+  color: #0c76c6;
+  border-color: #0c76c6;
+  background: none;
+  color: #0d84de;
+}
+
+.btn.btn-dropbox.btn-outline.btn-raised.active, .btn.btn-dropbox.btn-outline.btn-raised:hover, .btn.btn-dropbox.btn-outline.btn-raised:focus, .btn.btn-dropbox.btn-outline.btn-raised:focus:active, .btn.btn-dropbox.btn-outline.btn-raised:active, .btn.btn-dropbox.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-dropbox.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-dropbox.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-dropbox.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dropbox.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-dropbox[disabled].btn-outline.btn-raised.active, .btn.btn-dropbox[disabled].btn-outline.btn-raised:hover, .btn.btn-dropbox[disabled].btn-outline.btn-raised:focus, .btn.btn-dropbox[disabled].btn-outline.btn-raised:focus:active, .btn.btn-dropbox[disabled].btn-outline.btn-raised:active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-dropbox[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #0c76c6;
+  border-color: #0c76c6;
+  background: none;
+  color: #0d84de;
+}
+
+.btn.btn-dropbox.bmd-btn-fab, .btn.btn-dropbox[disabled].bmd-btn-fab {
+  background: #0d84de;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-dropbox.bmd-btn-fab.active, .btn.btn-dropbox.bmd-btn-fab:hover, .btn.btn-dropbox.bmd-btn-fab:focus, .btn.btn-dropbox.bmd-btn-fab:focus:active, .btn.btn-dropbox.bmd-btn-fab:active, .btn.btn-dropbox[disabled].bmd-btn-fab.active, .btn.btn-dropbox[disabled].bmd-btn-fab:hover, .btn.btn-dropbox[disabled].bmd-btn-fab:focus, .btn.btn-dropbox[disabled].bmd-btn-fab:focus:active, .btn.btn-dropbox[disabled].bmd-btn-fab:active {
+  background: #0c76c6;
+  color: #fff;
+}
+
+.btn.btn-flickr, .btn.btn-flickr[disabled] {
+  background: #ea0066;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-flickr.active, .btn.btn-flickr:hover, .btn.btn-flickr:focus, .btn.btn-flickr:focus:active, .btn.btn-flickr:active, .btn.btn-flickr[disabled].active, .btn.btn-flickr[disabled]:hover, .btn.btn-flickr[disabled]:focus, .btn.btn-flickr[disabled]:focus:active, .btn.btn-flickr[disabled]:active {
+  background: #d1005b;
+  color: #fff;
+}
+
+.btn.btn-flickr.btn-raised, .btn.btn-flickr[disabled].btn-raised {
+  background: #ea0066;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-flickr.btn-raised.active, .btn.btn-flickr.btn-raised:hover, .btn.btn-flickr.btn-raised:focus, .btn.btn-flickr.btn-raised:focus:active, .btn.btn-flickr.btn-raised:active, .btn.btn-flickr[disabled].btn-raised.active, .btn.btn-flickr[disabled].btn-raised:hover, .btn.btn-flickr[disabled].btn-raised:focus, .btn.btn-flickr[disabled].btn-raised:focus:active, .btn.btn-flickr[disabled].btn-raised:active {
+  background: #d1005b;
+  color: #fff;
+}
+
+.btn.btn-flickr.btn-flat, .btn.btn-flickr.btn-flat.bmd-btn-fab, .btn.btn-flickr[disabled].btn-flat, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #ea0066;
+  border: none;
+}
+
+.btn.btn-flickr.btn-flat.active, .btn.btn-flickr.btn-flat:hover, .btn.btn-flickr.btn-flat:focus, .btn.btn-flickr.btn-flat:focus:active, .btn.btn-flickr.btn-flat:active, .btn.btn-flickr.btn-flat.bmd-btn-fab.active, .btn.btn-flickr.btn-flat.bmd-btn-fab:hover, .btn.btn-flickr.btn-flat.bmd-btn-fab:focus, .btn.btn-flickr.btn-flat.bmd-btn-fab:focus:active, .btn.btn-flickr.btn-flat.bmd-btn-fab:active, .btn.btn-flickr[disabled].btn-flat.active, .btn.btn-flickr[disabled].btn-flat:hover, .btn.btn-flickr[disabled].btn-flat:focus, .btn.btn-flickr[disabled].btn-flat:focus:active, .btn.btn-flickr[disabled].btn-flat:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #d1005b;
+}
+
+.btn.btn-flickr.btn-flat.btn-raised.active, .btn.btn-flickr.btn-flat.btn-raised:hover, .btn.btn-flickr.btn-flat.btn-raised:focus, .btn.btn-flickr.btn-flat.btn-raised:focus:active, .btn.btn-flickr.btn-flat.btn-raised:active, .btn.btn-flickr.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-flickr.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-flickr.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-flickr.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-flickr.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-flickr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-flickr[disabled].btn-flat.btn-raised.active, .btn.btn-flickr[disabled].btn-flat.btn-raised:hover, .btn.btn-flickr[disabled].btn-flat.btn-raised:focus, .btn.btn-flickr[disabled].btn-flat.btn-raised:focus:active, .btn.btn-flickr[disabled].btn-flat.btn-raised:active, .btn.btn-flickr[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-flickr[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-flickr[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-flickr[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-flickr[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-flickr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #d1005b;
+}
+
+.btn.btn-flickr.btn-outline, .btn.btn-flickr.btn-outline.bmd-btn-fab, .btn.btn-flickr[disabled].btn-outline, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #ea0066;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ea0066;
+}
+
+.btn.btn-flickr.btn-outline.active, .btn.btn-flickr.btn-outline:hover, .btn.btn-flickr.btn-outline:focus, .btn.btn-flickr.btn-outline:focus:active, .btn.btn-flickr.btn-outline:active, .btn.btn-flickr.btn-outline.bmd-btn-fab.active, .btn.btn-flickr.btn-outline.bmd-btn-fab:hover, .btn.btn-flickr.btn-outline.bmd-btn-fab:focus, .btn.btn-flickr.btn-outline.bmd-btn-fab:focus:active, .btn.btn-flickr.btn-outline.bmd-btn-fab:active, .btn.btn-flickr[disabled].btn-outline.active, .btn.btn-flickr[disabled].btn-outline:hover, .btn.btn-flickr[disabled].btn-outline:focus, .btn.btn-flickr[disabled].btn-outline:focus:active, .btn.btn-flickr[disabled].btn-outline:active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab:active {
+  color: #d1005b;
+  border-color: #d1005b;
+  background: none;
+  color: #ea0066;
+}
+
+.btn.btn-flickr.btn-outline.btn-raised.active, .btn.btn-flickr.btn-outline.btn-raised:hover, .btn.btn-flickr.btn-outline.btn-raised:focus, .btn.btn-flickr.btn-outline.btn-raised:focus:active, .btn.btn-flickr.btn-outline.btn-raised:active, .btn.btn-flickr.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-flickr.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-flickr.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-flickr.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-flickr.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-flickr[disabled].btn-outline.btn-raised.active, .btn.btn-flickr[disabled].btn-outline.btn-raised:hover, .btn.btn-flickr[disabled].btn-outline.btn-raised:focus, .btn.btn-flickr[disabled].btn-outline.btn-raised:focus:active, .btn.btn-flickr[disabled].btn-outline.btn-raised:active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-flickr[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #d1005b;
+  border-color: #d1005b;
+  background: none;
+  color: #ea0066;
+}
+
+.btn.btn-flickr.bmd-btn-fab, .btn.btn-flickr[disabled].bmd-btn-fab {
+  background: #ea0066;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-flickr.bmd-btn-fab.active, .btn.btn-flickr.bmd-btn-fab:hover, .btn.btn-flickr.bmd-btn-fab:focus, .btn.btn-flickr.bmd-btn-fab:focus:active, .btn.btn-flickr.bmd-btn-fab:active, .btn.btn-flickr[disabled].bmd-btn-fab.active, .btn.btn-flickr[disabled].bmd-btn-fab:hover, .btn.btn-flickr[disabled].bmd-btn-fab:focus, .btn.btn-flickr[disabled].bmd-btn-fab:focus:active, .btn.btn-flickr[disabled].bmd-btn-fab:active {
+  background: #d1005b;
+  color: #fff;
+}
+
+.btn.btn-github, .btn.btn-github[disabled] {
+  background: #2f2f2f;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-github.active, .btn.btn-github:hover, .btn.btn-github:focus, .btn.btn-github:focus:active, .btn.btn-github:active, .btn.btn-github[disabled].active, .btn.btn-github[disabled]:hover, .btn.btn-github[disabled]:focus, .btn.btn-github[disabled]:focus:active, .btn.btn-github[disabled]:active {
+  background: #222222;
+  color: #fff;
+}
+
+.btn.btn-github.btn-raised, .btn.btn-github[disabled].btn-raised {
+  background: #2f2f2f;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-github.btn-raised.active, .btn.btn-github.btn-raised:hover, .btn.btn-github.btn-raised:focus, .btn.btn-github.btn-raised:focus:active, .btn.btn-github.btn-raised:active, .btn.btn-github[disabled].btn-raised.active, .btn.btn-github[disabled].btn-raised:hover, .btn.btn-github[disabled].btn-raised:focus, .btn.btn-github[disabled].btn-raised:focus:active, .btn.btn-github[disabled].btn-raised:active {
+  background: #222222;
+  color: #fff;
+}
+
+.btn.btn-github.btn-flat, .btn.btn-github.btn-flat.bmd-btn-fab, .btn.btn-github[disabled].btn-flat, .btn.btn-github[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #2f2f2f;
+  border: none;
+}
+
+.btn.btn-github.btn-flat.active, .btn.btn-github.btn-flat:hover, .btn.btn-github.btn-flat:focus, .btn.btn-github.btn-flat:focus:active, .btn.btn-github.btn-flat:active, .btn.btn-github.btn-flat.bmd-btn-fab.active, .btn.btn-github.btn-flat.bmd-btn-fab:hover, .btn.btn-github.btn-flat.bmd-btn-fab:focus, .btn.btn-github.btn-flat.bmd-btn-fab:focus:active, .btn.btn-github.btn-flat.bmd-btn-fab:active, .btn.btn-github[disabled].btn-flat.active, .btn.btn-github[disabled].btn-flat:hover, .btn.btn-github[disabled].btn-flat:focus, .btn.btn-github[disabled].btn-flat:focus:active, .btn.btn-github[disabled].btn-flat:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-github[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-github[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #222222;
+}
+
+.btn.btn-github.btn-flat.btn-raised.active, .btn.btn-github.btn-flat.btn-raised:hover, .btn.btn-github.btn-flat.btn-raised:focus, .btn.btn-github.btn-flat.btn-raised:focus:active, .btn.btn-github.btn-flat.btn-raised:active, .btn.btn-github.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-github.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-github.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-github.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-github.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-github.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-github[disabled].btn-flat.btn-raised.active, .btn.btn-github[disabled].btn-flat.btn-raised:hover, .btn.btn-github[disabled].btn-flat.btn-raised:focus, .btn.btn-github[disabled].btn-flat.btn-raised:focus:active, .btn.btn-github[disabled].btn-flat.btn-raised:active, .btn.btn-github[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-github[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-github[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-github[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-github[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-github[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #222222;
+}
+
+.btn.btn-github.btn-outline, .btn.btn-github.btn-outline.bmd-btn-fab, .btn.btn-github[disabled].btn-outline, .btn.btn-github[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #2f2f2f;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2f2f2f;
+}
+
+.btn.btn-github.btn-outline.active, .btn.btn-github.btn-outline:hover, .btn.btn-github.btn-outline:focus, .btn.btn-github.btn-outline:focus:active, .btn.btn-github.btn-outline:active, .btn.btn-github.btn-outline.bmd-btn-fab.active, .btn.btn-github.btn-outline.bmd-btn-fab:hover, .btn.btn-github.btn-outline.bmd-btn-fab:focus, .btn.btn-github.btn-outline.bmd-btn-fab:focus:active, .btn.btn-github.btn-outline.bmd-btn-fab:active, .btn.btn-github[disabled].btn-outline.active, .btn.btn-github[disabled].btn-outline:hover, .btn.btn-github[disabled].btn-outline:focus, .btn.btn-github[disabled].btn-outline:focus:active, .btn.btn-github[disabled].btn-outline:active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-github[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-github[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab:active {
+  color: #222222;
+  border-color: #222222;
+  background: none;
+  color: #2f2f2f;
+}
+
+.btn.btn-github.btn-outline.btn-raised.active, .btn.btn-github.btn-outline.btn-raised:hover, .btn.btn-github.btn-outline.btn-raised:focus, .btn.btn-github.btn-outline.btn-raised:focus:active, .btn.btn-github.btn-outline.btn-raised:active, .btn.btn-github.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-github.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-github.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-github.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-github.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-github[disabled].btn-outline.btn-raised.active, .btn.btn-github[disabled].btn-outline.btn-raised:hover, .btn.btn-github[disabled].btn-outline.btn-raised:focus, .btn.btn-github[disabled].btn-outline.btn-raised:focus:active, .btn.btn-github[disabled].btn-outline.btn-raised:active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-github[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #222222;
+  border-color: #222222;
+  background: none;
+  color: #2f2f2f;
+}
+
+.btn.btn-github.bmd-btn-fab, .btn.btn-github[disabled].bmd-btn-fab {
+  background: #2f2f2f;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-github.bmd-btn-fab.active, .btn.btn-github.bmd-btn-fab:hover, .btn.btn-github.bmd-btn-fab:focus, .btn.btn-github.bmd-btn-fab:focus:active, .btn.btn-github.bmd-btn-fab:active, .btn.btn-github[disabled].bmd-btn-fab.active, .btn.btn-github[disabled].bmd-btn-fab:hover, .btn.btn-github[disabled].bmd-btn-fab:focus, .btn.btn-github[disabled].bmd-btn-fab:focus:active, .btn.btn-github[disabled].bmd-btn-fab:active {
+  background: #222222;
+  color: #fff;
+}
+
+.btn.btn-tumblr, .btn.btn-tumblr[disabled] {
+  background: #304c68;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-tumblr.active, .btn.btn-tumblr:hover, .btn.btn-tumblr:focus, .btn.btn-tumblr:focus:active, .btn.btn-tumblr:active, .btn.btn-tumblr[disabled].active, .btn.btn-tumblr[disabled]:hover, .btn.btn-tumblr[disabled]:focus, .btn.btn-tumblr[disabled]:focus:active, .btn.btn-tumblr[disabled]:active {
+  background: #283f57;
+  color: #fff;
+}
+
+.btn.btn-tumblr.btn-raised, .btn.btn-tumblr[disabled].btn-raised {
+  background: #304c68;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-tumblr.btn-raised.active, .btn.btn-tumblr.btn-raised:hover, .btn.btn-tumblr.btn-raised:focus, .btn.btn-tumblr.btn-raised:focus:active, .btn.btn-tumblr.btn-raised:active, .btn.btn-tumblr[disabled].btn-raised.active, .btn.btn-tumblr[disabled].btn-raised:hover, .btn.btn-tumblr[disabled].btn-raised:focus, .btn.btn-tumblr[disabled].btn-raised:focus:active, .btn.btn-tumblr[disabled].btn-raised:active {
+  background: #283f57;
+  color: #fff;
+}
+
+.btn.btn-tumblr.btn-flat, .btn.btn-tumblr.btn-flat.bmd-btn-fab, .btn.btn-tumblr[disabled].btn-flat, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #304c68;
+  border: none;
+}
+
+.btn.btn-tumblr.btn-flat.active, .btn.btn-tumblr.btn-flat:hover, .btn.btn-tumblr.btn-flat:focus, .btn.btn-tumblr.btn-flat:focus:active, .btn.btn-tumblr.btn-flat:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.active, .btn.btn-tumblr.btn-flat.bmd-btn-fab:hover, .btn.btn-tumblr.btn-flat.bmd-btn-fab:focus, .btn.btn-tumblr.btn-flat.bmd-btn-fab:focus:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab:active, .btn.btn-tumblr[disabled].btn-flat.active, .btn.btn-tumblr[disabled].btn-flat:hover, .btn.btn-tumblr[disabled].btn-flat:focus, .btn.btn-tumblr[disabled].btn-flat:focus:active, .btn.btn-tumblr[disabled].btn-flat:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #283f57;
+}
+
+.btn.btn-tumblr.btn-flat.btn-raised.active, .btn.btn-tumblr.btn-flat.btn-raised:hover, .btn.btn-tumblr.btn-flat.btn-raised:focus, .btn.btn-tumblr.btn-flat.btn-raised:focus:active, .btn.btn-tumblr.btn-flat.btn-raised:active, .btn.btn-tumblr.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-tumblr.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-tumblr.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-tumblr.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-tumblr.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-tumblr.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-tumblr[disabled].btn-flat.btn-raised.active, .btn.btn-tumblr[disabled].btn-flat.btn-raised:hover, .btn.btn-tumblr[disabled].btn-flat.btn-raised:focus, .btn.btn-tumblr[disabled].btn-flat.btn-raised:focus:active, .btn.btn-tumblr[disabled].btn-flat.btn-raised:active, .btn.btn-tumblr[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-tumblr[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-tumblr[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-tumblr[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-tumblr[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-tumblr[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #283f57;
+}
+
+.btn.btn-tumblr.btn-outline, .btn.btn-tumblr.btn-outline.bmd-btn-fab, .btn.btn-tumblr[disabled].btn-outline, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #304c68;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304c68;
+}
+
+.btn.btn-tumblr.btn-outline.active, .btn.btn-tumblr.btn-outline:hover, .btn.btn-tumblr.btn-outline:focus, .btn.btn-tumblr.btn-outline:focus:active, .btn.btn-tumblr.btn-outline:active, .btn.btn-tumblr.btn-outline.bmd-btn-fab.active, .btn.btn-tumblr.btn-outline.bmd-btn-fab:hover, .btn.btn-tumblr.btn-outline.bmd-btn-fab:focus, .btn.btn-tumblr.btn-outline.bmd-btn-fab:focus:active, .btn.btn-tumblr.btn-outline.bmd-btn-fab:active, .btn.btn-tumblr[disabled].btn-outline.active, .btn.btn-tumblr[disabled].btn-outline:hover, .btn.btn-tumblr[disabled].btn-outline:focus, .btn.btn-tumblr[disabled].btn-outline:focus:active, .btn.btn-tumblr[disabled].btn-outline:active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab:active {
+  color: #283f57;
+  border-color: #283f57;
+  background: none;
+  color: #304c68;
+}
+
+.btn.btn-tumblr.btn-outline.btn-raised.active, .btn.btn-tumblr.btn-outline.btn-raised:hover, .btn.btn-tumblr.btn-outline.btn-raised:focus, .btn.btn-tumblr.btn-outline.btn-raised:focus:active, .btn.btn-tumblr.btn-outline.btn-raised:active, .btn.btn-tumblr.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-tumblr.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-tumblr.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-tumblr.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-tumblr.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-tumblr[disabled].btn-outline.btn-raised.active, .btn.btn-tumblr[disabled].btn-outline.btn-raised:hover, .btn.btn-tumblr[disabled].btn-outline.btn-raised:focus, .btn.btn-tumblr[disabled].btn-outline.btn-raised:focus:active, .btn.btn-tumblr[disabled].btn-outline.btn-raised:active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-tumblr[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #283f57;
+  border-color: #283f57;
+  background: none;
+  color: #304c68;
+}
+
+.btn.btn-tumblr.bmd-btn-fab, .btn.btn-tumblr[disabled].bmd-btn-fab {
+  background: #304c68;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-tumblr.bmd-btn-fab.active, .btn.btn-tumblr.bmd-btn-fab:hover, .btn.btn-tumblr.bmd-btn-fab:focus, .btn.btn-tumblr.bmd-btn-fab:focus:active, .btn.btn-tumblr.bmd-btn-fab:active, .btn.btn-tumblr[disabled].bmd-btn-fab.active, .btn.btn-tumblr[disabled].bmd-btn-fab:hover, .btn.btn-tumblr[disabled].bmd-btn-fab:focus, .btn.btn-tumblr[disabled].bmd-btn-fab:focus:active, .btn.btn-tumblr[disabled].bmd-btn-fab:active {
+  background: #283f57;
+  color: #fff;
+}
+
+.btn.btn-foursquare, .btn.btn-foursquare[disabled] {
+  background: #207dc5;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-foursquare.active, .btn.btn-foursquare:hover, .btn.btn-foursquare:focus, .btn.btn-foursquare:focus:active, .btn.btn-foursquare:active, .btn.btn-foursquare[disabled].active, .btn.btn-foursquare[disabled]:hover, .btn.btn-foursquare[disabled]:focus, .btn.btn-foursquare[disabled]:focus:active, .btn.btn-foursquare[disabled]:active {
+  background: #1c6faf;
+  color: #fff;
+}
+
+.btn.btn-foursquare.btn-raised, .btn.btn-foursquare[disabled].btn-raised {
+  background: #207dc5;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-foursquare.btn-raised.active, .btn.btn-foursquare.btn-raised:hover, .btn.btn-foursquare.btn-raised:focus, .btn.btn-foursquare.btn-raised:focus:active, .btn.btn-foursquare.btn-raised:active, .btn.btn-foursquare[disabled].btn-raised.active, .btn.btn-foursquare[disabled].btn-raised:hover, .btn.btn-foursquare[disabled].btn-raised:focus, .btn.btn-foursquare[disabled].btn-raised:focus:active, .btn.btn-foursquare[disabled].btn-raised:active {
+  background: #1c6faf;
+  color: #fff;
+}
+
+.btn.btn-foursquare.btn-flat, .btn.btn-foursquare.btn-flat.bmd-btn-fab, .btn.btn-foursquare[disabled].btn-flat, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab {
+  background: none;
+  color: #207dc5;
+  border: none;
+}
+
+.btn.btn-foursquare.btn-flat.active, .btn.btn-foursquare.btn-flat:hover, .btn.btn-foursquare.btn-flat:focus, .btn.btn-foursquare.btn-flat:focus:active, .btn.btn-foursquare.btn-flat:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.active, .btn.btn-foursquare.btn-flat.bmd-btn-fab:hover, .btn.btn-foursquare.btn-flat.bmd-btn-fab:focus, .btn.btn-foursquare.btn-flat.bmd-btn-fab:focus:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab:active, .btn.btn-foursquare[disabled].btn-flat.active, .btn.btn-foursquare[disabled].btn-flat:hover, .btn.btn-foursquare[disabled].btn-flat:focus, .btn.btn-foursquare[disabled].btn-flat:focus:active, .btn.btn-foursquare[disabled].btn-flat:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab:hover, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab:focus, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab:focus:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #1c6faf;
+}
+
+.btn.btn-foursquare.btn-flat.btn-raised.active, .btn.btn-foursquare.btn-flat.btn-raised:hover, .btn.btn-foursquare.btn-flat.btn-raised:focus, .btn.btn-foursquare.btn-flat.btn-raised:focus:active, .btn.btn-foursquare.btn-flat.btn-raised:active, .btn.btn-foursquare.btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-foursquare.btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-foursquare.btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-foursquare.btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-foursquare.btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-foursquare.btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active, .btn.btn-foursquare[disabled].btn-flat.btn-raised.active, .btn.btn-foursquare[disabled].btn-flat.btn-raised:hover, .btn.btn-foursquare[disabled].btn-flat.btn-raised:focus, .btn.btn-foursquare[disabled].btn-flat.btn-raised:focus:active, .btn.btn-foursquare[disabled].btn-flat.btn-raised:active, .btn.btn-foursquare[disabled].btn-flat.btn-raised.bmd-btn-fab.active, .btn.btn-foursquare[disabled].btn-flat.btn-raised.bmd-btn-fab:hover, .btn.btn-foursquare[disabled].btn-flat.btn-raised.bmd-btn-fab:focus, .btn.btn-foursquare[disabled].btn-flat.btn-raised.bmd-btn-fab:focus:active, .btn.btn-foursquare[disabled].btn-flat.btn-raised.bmd-btn-fab:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised:hover, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised:focus, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised:focus:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab.active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:hover, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:focus:active, .btn.btn-foursquare[disabled].btn-flat.bmd-btn-fab.btn-raised.bmd-btn-fab:active {
+  background: #eeeeee;
+  color: #1c6faf;
+}
+
+.btn.btn-foursquare.btn-outline, .btn.btn-foursquare.btn-outline.bmd-btn-fab, .btn.btn-foursquare[disabled].btn-outline, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab {
+  background: none;
+  color: #207dc5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #207dc5;
+}
+
+.btn.btn-foursquare.btn-outline.active, .btn.btn-foursquare.btn-outline:hover, .btn.btn-foursquare.btn-outline:focus, .btn.btn-foursquare.btn-outline:focus:active, .btn.btn-foursquare.btn-outline:active, .btn.btn-foursquare.btn-outline.bmd-btn-fab.active, .btn.btn-foursquare.btn-outline.bmd-btn-fab:hover, .btn.btn-foursquare.btn-outline.bmd-btn-fab:focus, .btn.btn-foursquare.btn-outline.bmd-btn-fab:focus:active, .btn.btn-foursquare.btn-outline.bmd-btn-fab:active, .btn.btn-foursquare[disabled].btn-outline.active, .btn.btn-foursquare[disabled].btn-outline:hover, .btn.btn-foursquare[disabled].btn-outline:focus, .btn.btn-foursquare[disabled].btn-outline:focus:active, .btn.btn-foursquare[disabled].btn-outline:active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab:hover, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab:focus, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab:focus:active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab:active {
+  color: #1c6faf;
+  border-color: #1c6faf;
+  background: none;
+  color: #207dc5;
+}
+
+.btn.btn-foursquare.btn-outline.btn-raised.active, .btn.btn-foursquare.btn-outline.btn-raised:hover, .btn.btn-foursquare.btn-outline.btn-raised:focus, .btn.btn-foursquare.btn-outline.btn-raised:focus:active, .btn.btn-foursquare.btn-outline.btn-raised:active, .btn.btn-foursquare.btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-foursquare.btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-foursquare.btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-foursquare.btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-foursquare.btn-outline.bmd-btn-fab.btn-raised:active, .btn.btn-foursquare[disabled].btn-outline.btn-raised.active, .btn.btn-foursquare[disabled].btn-outline.btn-raised:hover, .btn.btn-foursquare[disabled].btn-outline.btn-raised:focus, .btn.btn-foursquare[disabled].btn-outline.btn-raised:focus:active, .btn.btn-foursquare[disabled].btn-outline.btn-raised:active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.btn-raised.active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.btn-raised:hover, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.btn-raised:focus, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.btn-raised:focus:active, .btn.btn-foursquare[disabled].btn-outline.bmd-btn-fab.btn-raised:active {
+  color: #1c6faf;
+  border-color: #1c6faf;
+  background: none;
+  color: #207dc5;
+}
+
+.btn.btn-foursquare.bmd-btn-fab, .btn.btn-foursquare[disabled].bmd-btn-fab {
+  background: #207dc5;
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-foursquare.bmd-btn-fab.active, .btn.btn-foursquare.bmd-btn-fab:hover, .btn.btn-foursquare.bmd-btn-fab:focus, .btn.btn-foursquare.bmd-btn-fab:focus:active, .btn.btn-foursquare.bmd-btn-fab:active, .btn.btn-foursquare[disabled].bmd-btn-fab.active, .btn.btn-foursquare[disabled].bmd-btn-fab:hover, .btn.btn-foursquare[disabled].bmd-btn-fab:focus, .btn.btn-foursquare[disabled].bmd-btn-fab:focus:active, .btn.btn-foursquare[disabled].bmd-btn-fab:active {
+  background: #1c6faf;
+  color: #fff;
+}
+
+.btn.btn-rounded {
+  border-radius: 15px;
+}
+
+.btn.btn-icon i {
+  margin-right: 5px;
+}
+
+.btn.bmd-btn-fab i {
+  text-align: center;
+}
+
+.btn.bmd-btn-fab.bmd-btn-fab-sm i {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.btn.btn-stacked-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60px;
+  font-size: 0.75rem;
+  height: 60px;
+}
+
+.btn.btn-stacked-icon i, .btn.btn-stacked-icon .btn-text {
+  margin: auto;
+}

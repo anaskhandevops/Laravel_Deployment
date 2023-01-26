@@ -1,0 +1,7 @@
+#documentation-layout .questions > li {
+  margin-bottom: 40px;
+}
+
+#documentation-layout .questions > li p:nth-child(1) {
+  font-weight: 700;
+}

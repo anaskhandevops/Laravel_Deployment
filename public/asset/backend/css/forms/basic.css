@@ -1,0 +1,1099 @@
+.form-white .form-group.is-focused [class^='bmd-label'],
+.form-white .form-group.is-focused [class*=' bmd-label'] {
+  color: #ffffff;
+}
+
+.form-white .form-group.is-focused .form-control,
+.is-focused .form-white .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #ffffff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #ffffff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-white .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-white .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-white .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-white .form-group.is-focused .form-control, .form-white .form-group.is-focused .form-control.disabled, .form-white .form-group.is-focused .form-control:disabled, .form-white .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-white .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-white .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #ffffff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffffff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-white .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-white .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #ffffff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffffff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-white .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-white .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #ffffff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffffff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-white .form-group.is-focused .is-focused .form-control-feedback,
+.form-white .form-group.is-focused .is-focused .form-control-label,
+.form-white .form-group.is-focused .is-focused .form-check-label,
+.form-white .form-group.is-focused .is-focused .form-check-inline,
+.form-white .form-group.is-focused .is-focused .custom-control, .form-white .form-group.is-focused.is-focused .form-control-feedback,
+.form-white .form-group.is-focused.is-focused .form-control-label,
+.form-white .form-group.is-focused.is-focused .form-check-label,
+.form-white .form-group.is-focused.is-focused .form-check-inline,
+.form-white .form-group.is-focused.is-focused .custom-control {
+  color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused .form-control, .form-white .form-group.is-focused.is-focused .form-control {
+  border-color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused .input-group-addon, .form-white .form-group.is-focused.is-focused .input-group-addon {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: white;
+}
+
+.form-white .form-group.is-focused .is-focused .form-control-feedback, .form-white .form-group.is-focused.is-focused .form-control-feedback {
+  color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-white .form-group.is-focused .is-focused [class*=' bmd-label'], .form-white .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-white .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused .bmd-label-placeholder, .form-white .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused .form-control, .form-white .form-group.is-focused.is-focused .form-control {
+  border-color: #ffffff;
+}
+
+.form-white .form-group.is-focused .is-focused .bmd-help, .form-white .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-white .form-group.is-focused .form-control {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(bottom, #ffffff 2px, rgba(255, 255, 255, 0) 2px), -webkit-linear-gradient(bottom, #ffffff 1px, rgba(255, 255, 255, 0) 1px);
+  background-image: linear-gradient(to top, #ffffff 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, #ffffff 1px, rgba(255, 255, 255, 0) 1px);
+}
+
+.form-black .form-group.is-focused [class^='bmd-label'],
+.form-black .form-group.is-focused [class*=' bmd-label'] {
+  color: #000000;
+}
+
+.form-black .form-group.is-focused .form-control,
+.is-focused .form-black .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #000000 2px, transparent 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #000000 2px, transparent 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-black .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-black .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-black .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-black .form-group.is-focused .form-control, .form-black .form-group.is-focused .form-control.disabled, .form-black .form-group.is-focused .form-control:disabled, .form-black .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-black .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-black .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #000000 2px, transparent 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #000000 2px, transparent 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-black .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-black .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #000000 2px, transparent 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #000000 2px, transparent 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-black .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-black .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #000000 2px, transparent 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #000000 2px, transparent 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-black .form-group.is-focused .is-focused .form-control-feedback,
+.form-black .form-group.is-focused .is-focused .form-control-label,
+.form-black .form-group.is-focused .is-focused .form-check-label,
+.form-black .form-group.is-focused .is-focused .form-check-inline,
+.form-black .form-group.is-focused .is-focused .custom-control, .form-black .form-group.is-focused.is-focused .form-control-feedback,
+.form-black .form-group.is-focused.is-focused .form-control-label,
+.form-black .form-group.is-focused.is-focused .form-check-label,
+.form-black .form-group.is-focused.is-focused .form-check-inline,
+.form-black .form-group.is-focused.is-focused .custom-control {
+  color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused .form-control, .form-black .form-group.is-focused.is-focused .form-control {
+  border-color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused .input-group-addon, .form-black .form-group.is-focused.is-focused .input-group-addon {
+  color: #000000;
+  border-color: #000000;
+  background-color: #666666;
+}
+
+.form-black .form-group.is-focused .is-focused .form-control-feedback, .form-black .form-group.is-focused.is-focused .form-control-feedback {
+  color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-black .form-group.is-focused .is-focused [class*=' bmd-label'], .form-black .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-black .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused .bmd-label-placeholder, .form-black .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused .form-control, .form-black .form-group.is-focused.is-focused .form-control {
+  border-color: #000000;
+}
+
+.form-black .form-group.is-focused .is-focused .bmd-help, .form-black .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-black .form-group.is-focused .form-control {
+  color: #000000;
+  background-image: -webkit-linear-gradient(bottom, #000000 2px, transparent 2px), -webkit-linear-gradient(bottom, #000000 1px, transparent 1px);
+  background-image: linear-gradient(to top, #000000 2px, transparent 2px), linear-gradient(to top, #000000 1px, transparent 1px);
+}
+
+.form-light .form-group.is-focused [class^='bmd-label'],
+.form-light .form-group.is-focused [class*=' bmd-label'] {
+  color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .form-control,
+.is-focused .form-light .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-light .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-light .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-light .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-light .form-group.is-focused .form-control, .form-light .form-group.is-focused .form-control.disabled, .form-light .form-group.is-focused .form-control:disabled, .form-light .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-light .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-light .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-light .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-light .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-light .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-light .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-light .form-group.is-focused .is-focused .form-control-feedback,
+.form-light .form-group.is-focused .is-focused .form-control-label,
+.form-light .form-group.is-focused .is-focused .form-check-label,
+.form-light .form-group.is-focused .is-focused .form-check-inline,
+.form-light .form-group.is-focused .is-focused .custom-control, .form-light .form-group.is-focused.is-focused .form-control-feedback,
+.form-light .form-group.is-focused.is-focused .form-control-label,
+.form-light .form-group.is-focused.is-focused .form-check-label,
+.form-light .form-group.is-focused.is-focused .form-check-inline,
+.form-light .form-group.is-focused.is-focused .custom-control {
+  color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused .form-control, .form-light .form-group.is-focused.is-focused .form-control {
+  border-color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused .input-group-addon, .form-light .form-group.is-focused.is-focused .input-group-addon {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+  background-color: white;
+}
+
+.form-light .form-group.is-focused .is-focused .form-control-feedback, .form-light .form-group.is-focused.is-focused .form-control-feedback {
+  color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-light .form-group.is-focused .is-focused [class*=' bmd-label'], .form-light .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-light .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused .bmd-label-placeholder, .form-light .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused .form-control, .form-light .form-group.is-focused.is-focused .form-control {
+  border-color: #f5f5f5;
+}
+
+.form-light .form-group.is-focused .is-focused .bmd-help, .form-light .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-light .form-group.is-focused .form-control {
+  color: #f5f5f5;
+  background-image: -webkit-linear-gradient(bottom, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), -webkit-linear-gradient(bottom, #f5f5f5 1px, rgba(245, 245, 245, 0) 1px);
+  background-image: linear-gradient(to top, #f5f5f5 2px, rgba(245, 245, 245, 0) 2px), linear-gradient(to top, #f5f5f5 1px, rgba(245, 245, 245, 0) 1px);
+}
+
+.form-dark .form-group.is-focused [class^='bmd-label'],
+.form-dark .form-group.is-focused [class*=' bmd-label'] {
+  color: #212121;
+}
+
+.form-dark .form-group.is-focused .form-control,
+.is-focused .form-dark .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-dark .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-dark .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-dark .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-dark .form-group.is-focused .form-control, .form-dark .form-group.is-focused .form-control.disabled, .form-dark .form-group.is-focused .form-control:disabled, .form-dark .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-dark .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-dark .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-dark .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-dark .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-dark .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-dark .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-dark .form-group.is-focused .is-focused .form-control-feedback,
+.form-dark .form-group.is-focused .is-focused .form-control-label,
+.form-dark .form-group.is-focused .is-focused .form-check-label,
+.form-dark .form-group.is-focused .is-focused .form-check-inline,
+.form-dark .form-group.is-focused .is-focused .custom-control, .form-dark .form-group.is-focused.is-focused .form-control-feedback,
+.form-dark .form-group.is-focused.is-focused .form-control-label,
+.form-dark .form-group.is-focused.is-focused .form-check-label,
+.form-dark .form-group.is-focused.is-focused .form-check-inline,
+.form-dark .form-group.is-focused.is-focused .custom-control {
+  color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused .form-control, .form-dark .form-group.is-focused.is-focused .form-control {
+  border-color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused .input-group-addon, .form-dark .form-group.is-focused.is-focused .input-group-addon {
+  color: #212121;
+  border-color: #212121;
+  background-color: #878787;
+}
+
+.form-dark .form-group.is-focused .is-focused .form-control-feedback, .form-dark .form-group.is-focused.is-focused .form-control-feedback {
+  color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-dark .form-group.is-focused .is-focused [class*=' bmd-label'], .form-dark .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-dark .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused .bmd-label-placeholder, .form-dark .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused .form-control, .form-dark .form-group.is-focused.is-focused .form-control {
+  border-color: #212121;
+}
+
+.form-dark .form-group.is-focused .is-focused .bmd-help, .form-dark .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-dark .form-group.is-focused .form-control {
+  color: #212121;
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, #212121 1px, rgba(33, 33, 33, 0) 1px);
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, #212121 1px, rgba(33, 33, 33, 0) 1px);
+}
+
+.form-default .form-group.is-focused [class^='bmd-label'],
+.form-default .form-group.is-focused [class*=' bmd-label'] {
+  color: #212121;
+}
+
+.form-default .form-group.is-focused .form-control,
+.is-focused .form-default .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-default .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-default .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-default .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-default .form-group.is-focused .form-control, .form-default .form-group.is-focused .form-control.disabled, .form-default .form-group.is-focused .form-control:disabled, .form-default .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-default .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-default .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-default .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-default .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-default .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-default .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-default .form-group.is-focused .is-focused .form-control-feedback,
+.form-default .form-group.is-focused .is-focused .form-control-label,
+.form-default .form-group.is-focused .is-focused .form-check-label,
+.form-default .form-group.is-focused .is-focused .form-check-inline,
+.form-default .form-group.is-focused .is-focused .custom-control, .form-default .form-group.is-focused.is-focused .form-control-feedback,
+.form-default .form-group.is-focused.is-focused .form-control-label,
+.form-default .form-group.is-focused.is-focused .form-check-label,
+.form-default .form-group.is-focused.is-focused .form-check-inline,
+.form-default .form-group.is-focused.is-focused .custom-control {
+  color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused .form-control, .form-default .form-group.is-focused.is-focused .form-control {
+  border-color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused .input-group-addon, .form-default .form-group.is-focused.is-focused .input-group-addon {
+  color: #212121;
+  border-color: #212121;
+  background-color: #878787;
+}
+
+.form-default .form-group.is-focused .is-focused .form-control-feedback, .form-default .form-group.is-focused.is-focused .form-control-feedback {
+  color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-default .form-group.is-focused .is-focused [class*=' bmd-label'], .form-default .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-default .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused .bmd-label-placeholder, .form-default .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused .form-control, .form-default .form-group.is-focused.is-focused .form-control {
+  border-color: #212121;
+}
+
+.form-default .form-group.is-focused .is-focused .bmd-help, .form-default .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-default .form-group.is-focused .form-control {
+  color: #212121;
+  background-image: -webkit-linear-gradient(bottom, #212121 2px, rgba(33, 33, 33, 0) 2px), -webkit-linear-gradient(bottom, #212121 1px, rgba(33, 33, 33, 0) 1px);
+  background-image: linear-gradient(to top, #212121 2px, rgba(33, 33, 33, 0) 2px), linear-gradient(to top, #212121 1px, rgba(33, 33, 33, 0) 1px);
+}
+
+.form-primary .form-group.is-focused [class^='bmd-label'],
+.form-primary .form-group.is-focused [class*=' bmd-label'] {
+  color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .form-control,
+.is-focused .form-primary .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-primary .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-primary .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-primary .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-primary .form-group.is-focused .form-control, .form-primary .form-group.is-focused .form-control.disabled, .form-primary .form-group.is-focused .form-control:disabled, .form-primary .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-primary .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-primary .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-primary .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-primary .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-primary .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-primary .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-primary .form-group.is-focused .is-focused .form-control-feedback,
+.form-primary .form-group.is-focused .is-focused .form-control-label,
+.form-primary .form-group.is-focused .is-focused .form-check-label,
+.form-primary .form-group.is-focused .is-focused .form-check-inline,
+.form-primary .form-group.is-focused .is-focused .custom-control, .form-primary .form-group.is-focused.is-focused .form-control-feedback,
+.form-primary .form-group.is-focused.is-focused .form-control-label,
+.form-primary .form-group.is-focused.is-focused .form-check-label,
+.form-primary .form-group.is-focused.is-focused .form-check-inline,
+.form-primary .form-group.is-focused.is-focused .custom-control {
+  color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused .form-control, .form-primary .form-group.is-focused.is-focused .form-control {
+  border-color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused .input-group-addon, .form-primary .form-group.is-focused.is-focused .input-group-addon {
+  color: #0d47a1;
+  border-color: #0d47a1;
+  background-color: #85b1f5;
+}
+
+.form-primary .form-group.is-focused .is-focused .form-control-feedback, .form-primary .form-group.is-focused.is-focused .form-control-feedback {
+  color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-primary .form-group.is-focused .is-focused [class*=' bmd-label'], .form-primary .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-primary .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused .bmd-label-placeholder, .form-primary .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused .form-control, .form-primary .form-group.is-focused.is-focused .form-control {
+  border-color: #0d47a1;
+}
+
+.form-primary .form-group.is-focused .is-focused .bmd-help, .form-primary .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-primary .form-group.is-focused .form-control {
+  color: #0d47a1;
+  background-image: -webkit-linear-gradient(bottom, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), -webkit-linear-gradient(bottom, #0d47a1 1px, rgba(13, 71, 161, 0) 1px);
+  background-image: linear-gradient(to top, #0d47a1 2px, rgba(13, 71, 161, 0) 2px), linear-gradient(to top, #0d47a1 1px, rgba(13, 71, 161, 0) 1px);
+}
+
+.form-secondary .form-group.is-focused [class^='bmd-label'],
+.form-secondary .form-group.is-focused [class*=' bmd-label'] {
+  color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .form-control,
+.is-focused .form-secondary .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #c51162 2px, rgba(197, 17, 98, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #c51162 2px, rgba(197, 17, 98, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-secondary .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-secondary .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-secondary .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-secondary .form-group.is-focused .form-control, .form-secondary .form-group.is-focused .form-control.disabled, .form-secondary .form-group.is-focused .form-control:disabled, .form-secondary .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-secondary .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-secondary .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #c51162 2px, rgba(197, 17, 98, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #c51162 2px, rgba(197, 17, 98, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-secondary .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-secondary .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #c51162 2px, rgba(197, 17, 98, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #c51162 2px, rgba(197, 17, 98, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-secondary .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-secondary .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #c51162 2px, rgba(197, 17, 98, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #c51162 2px, rgba(197, 17, 98, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-secondary .form-group.is-focused .is-focused .form-control-feedback,
+.form-secondary .form-group.is-focused .is-focused .form-control-label,
+.form-secondary .form-group.is-focused .is-focused .form-check-label,
+.form-secondary .form-group.is-focused .is-focused .form-check-inline,
+.form-secondary .form-group.is-focused .is-focused .custom-control, .form-secondary .form-group.is-focused.is-focused .form-control-feedback,
+.form-secondary .form-group.is-focused.is-focused .form-control-label,
+.form-secondary .form-group.is-focused.is-focused .form-check-label,
+.form-secondary .form-group.is-focused.is-focused .form-check-inline,
+.form-secondary .form-group.is-focused.is-focused .custom-control {
+  color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused .form-control, .form-secondary .form-group.is-focused.is-focused .form-control {
+  border-color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused .input-group-addon, .form-secondary .form-group.is-focused.is-focused .input-group-addon {
+  color: #c51162;
+  border-color: #c51162;
+  background-color: #f8aacd;
+}
+
+.form-secondary .form-group.is-focused .is-focused .form-control-feedback, .form-secondary .form-group.is-focused.is-focused .form-control-feedback {
+  color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-secondary .form-group.is-focused .is-focused [class*=' bmd-label'], .form-secondary .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-secondary .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused .bmd-label-placeholder, .form-secondary .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused .form-control, .form-secondary .form-group.is-focused.is-focused .form-control {
+  border-color: #c51162;
+}
+
+.form-secondary .form-group.is-focused .is-focused .bmd-help, .form-secondary .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-secondary .form-group.is-focused .form-control {
+  color: #c51162;
+  background-image: -webkit-linear-gradient(bottom, #c51162 2px, rgba(197, 17, 98, 0) 2px), -webkit-linear-gradient(bottom, #c51162 1px, rgba(197, 17, 98, 0) 1px);
+  background-image: linear-gradient(to top, #c51162 2px, rgba(197, 17, 98, 0) 2px), linear-gradient(to top, #c51162 1px, rgba(197, 17, 98, 0) 1px);
+}
+
+.form-success .form-group.is-focused [class^='bmd-label'],
+.form-success .form-group.is-focused [class*=' bmd-label'] {
+  color: #388e3c;
+}
+
+.form-success .form-group.is-focused .form-control,
+.is-focused .form-success .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #388e3c 2px, rgba(56, 142, 60, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #388e3c 2px, rgba(56, 142, 60, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-success .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-success .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-success .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-success .form-group.is-focused .form-control, .form-success .form-group.is-focused .form-control.disabled, .form-success .form-group.is-focused .form-control:disabled, .form-success .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-success .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-success .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #388e3c 2px, rgba(56, 142, 60, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #388e3c 2px, rgba(56, 142, 60, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-success .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-success .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #388e3c 2px, rgba(56, 142, 60, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #388e3c 2px, rgba(56, 142, 60, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-success .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-success .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #388e3c 2px, rgba(56, 142, 60, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #388e3c 2px, rgba(56, 142, 60, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-success .form-group.is-focused .is-focused .form-control-feedback,
+.form-success .form-group.is-focused .is-focused .form-control-label,
+.form-success .form-group.is-focused .is-focused .form-check-label,
+.form-success .form-group.is-focused .is-focused .form-check-inline,
+.form-success .form-group.is-focused .is-focused .custom-control, .form-success .form-group.is-focused.is-focused .form-control-feedback,
+.form-success .form-group.is-focused.is-focused .form-control-label,
+.form-success .form-group.is-focused.is-focused .form-check-label,
+.form-success .form-group.is-focused.is-focused .form-check-inline,
+.form-success .form-group.is-focused.is-focused .custom-control {
+  color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused .form-control, .form-success .form-group.is-focused.is-focused .form-control {
+  border-color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused .input-group-addon, .form-success .form-group.is-focused.is-focused .input-group-addon {
+  color: #388e3c;
+  border-color: #388e3c;
+  background-color: #b2e0b4;
+}
+
+.form-success .form-group.is-focused .is-focused .form-control-feedback, .form-success .form-group.is-focused.is-focused .form-control-feedback {
+  color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-success .form-group.is-focused .is-focused [class*=' bmd-label'], .form-success .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-success .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused .bmd-label-placeholder, .form-success .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused .form-control, .form-success .form-group.is-focused.is-focused .form-control {
+  border-color: #388e3c;
+}
+
+.form-success .form-group.is-focused .is-focused .bmd-help, .form-success .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-success .form-group.is-focused .form-control {
+  color: #388e3c;
+  background-image: -webkit-linear-gradient(bottom, #388e3c 2px, rgba(56, 142, 60, 0) 2px), -webkit-linear-gradient(bottom, #388e3c 1px, rgba(56, 142, 60, 0) 1px);
+  background-image: linear-gradient(to top, #388e3c 2px, rgba(56, 142, 60, 0) 2px), linear-gradient(to top, #388e3c 1px, rgba(56, 142, 60, 0) 1px);
+}
+
+.form-info .form-group.is-focused [class^='bmd-label'],
+.form-info .form-group.is-focused [class*=' bmd-label'] {
+  color: #0091ea;
+}
+
+.form-info .form-group.is-focused .form-control,
+.is-focused .form-info .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #0091ea 2px, rgba(0, 145, 234, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #0091ea 2px, rgba(0, 145, 234, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-info .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-info .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-info .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-info .form-group.is-focused .form-control, .form-info .form-group.is-focused .form-control.disabled, .form-info .form-group.is-focused .form-control:disabled, .form-info .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-info .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-info .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #0091ea 2px, rgba(0, 145, 234, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0091ea 2px, rgba(0, 145, 234, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-info .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-info .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #0091ea 2px, rgba(0, 145, 234, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0091ea 2px, rgba(0, 145, 234, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-info .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-info .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #0091ea 2px, rgba(0, 145, 234, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #0091ea 2px, rgba(0, 145, 234, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-info .form-group.is-focused .is-focused .form-control-feedback,
+.form-info .form-group.is-focused .is-focused .form-control-label,
+.form-info .form-group.is-focused .is-focused .form-check-label,
+.form-info .form-group.is-focused .is-focused .form-check-inline,
+.form-info .form-group.is-focused .is-focused .custom-control, .form-info .form-group.is-focused.is-focused .form-control-feedback,
+.form-info .form-group.is-focused.is-focused .form-control-label,
+.form-info .form-group.is-focused.is-focused .form-check-label,
+.form-info .form-group.is-focused.is-focused .form-check-inline,
+.form-info .form-group.is-focused.is-focused .custom-control {
+  color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused .form-control, .form-info .form-group.is-focused.is-focused .form-control {
+  border-color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused .input-group-addon, .form-info .form-group.is-focused.is-focused .input-group-addon {
+  color: #0091ea;
+  border-color: #0091ea;
+  background-color: #b7e4ff;
+}
+
+.form-info .form-group.is-focused .is-focused .form-control-feedback, .form-info .form-group.is-focused.is-focused .form-control-feedback {
+  color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-info .form-group.is-focused .is-focused [class*=' bmd-label'], .form-info .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-info .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused .bmd-label-placeholder, .form-info .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused .form-control, .form-info .form-group.is-focused.is-focused .form-control {
+  border-color: #0091ea;
+}
+
+.form-info .form-group.is-focused .is-focused .bmd-help, .form-info .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-info .form-group.is-focused .form-control {
+  color: #0091ea;
+  background-image: -webkit-linear-gradient(bottom, #0091ea 2px, rgba(0, 145, 234, 0) 2px), -webkit-linear-gradient(bottom, #0091ea 1px, rgba(0, 145, 234, 0) 1px);
+  background-image: linear-gradient(to top, #0091ea 2px, rgba(0, 145, 234, 0) 2px), linear-gradient(to top, #0091ea 1px, rgba(0, 145, 234, 0) 1px);
+}
+
+.form-warning .form-group.is-focused [class^='bmd-label'],
+.form-warning .form-group.is-focused [class*=' bmd-label'] {
+  color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .form-control,
+.is-focused .form-warning .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #ffa000 2px, rgba(255, 160, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #ffa000 2px, rgba(255, 160, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-warning .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-warning .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-warning .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-warning .form-group.is-focused .form-control, .form-warning .form-group.is-focused .form-control.disabled, .form-warning .form-group.is-focused .form-control:disabled, .form-warning .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-warning .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-warning .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #ffa000 2px, rgba(255, 160, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffa000 2px, rgba(255, 160, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-warning .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-warning .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #ffa000 2px, rgba(255, 160, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffa000 2px, rgba(255, 160, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-warning .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-warning .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #ffa000 2px, rgba(255, 160, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #ffa000 2px, rgba(255, 160, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-warning .form-group.is-focused .is-focused .form-control-feedback,
+.form-warning .form-group.is-focused .is-focused .form-control-label,
+.form-warning .form-group.is-focused .is-focused .form-check-label,
+.form-warning .form-group.is-focused .is-focused .form-check-inline,
+.form-warning .form-group.is-focused .is-focused .custom-control, .form-warning .form-group.is-focused.is-focused .form-control-feedback,
+.form-warning .form-group.is-focused.is-focused .form-control-label,
+.form-warning .form-group.is-focused.is-focused .form-check-label,
+.form-warning .form-group.is-focused.is-focused .form-check-inline,
+.form-warning .form-group.is-focused.is-focused .custom-control {
+  color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused .form-control, .form-warning .form-group.is-focused.is-focused .form-control {
+  border-color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused .input-group-addon, .form-warning .form-group.is-focused.is-focused .input-group-addon {
+  color: #ffa000;
+  border-color: #ffa000;
+  background-color: #ffeccc;
+}
+
+.form-warning .form-group.is-focused .is-focused .form-control-feedback, .form-warning .form-group.is-focused.is-focused .form-control-feedback {
+  color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-warning .form-group.is-focused .is-focused [class*=' bmd-label'], .form-warning .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-warning .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused .bmd-label-placeholder, .form-warning .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused .form-control, .form-warning .form-group.is-focused.is-focused .form-control {
+  border-color: #ffa000;
+}
+
+.form-warning .form-group.is-focused .is-focused .bmd-help, .form-warning .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-warning .form-group.is-focused .form-control {
+  color: #ffa000;
+  background-image: -webkit-linear-gradient(bottom, #ffa000 2px, rgba(255, 160, 0, 0) 2px), -webkit-linear-gradient(bottom, #ffa000 1px, rgba(255, 160, 0, 0) 1px);
+  background-image: linear-gradient(to top, #ffa000 2px, rgba(255, 160, 0, 0) 2px), linear-gradient(to top, #ffa000 1px, rgba(255, 160, 0, 0) 1px);
+}
+
+.form-danger .form-group.is-focused [class^='bmd-label'],
+.form-danger .form-group.is-focused [class*=' bmd-label'] {
+  color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .form-control,
+.is-focused .form-danger .form-group.is-focused .form-control {
+  background-image: -webkit-linear-gradient(bottom, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-danger .form-group.is-focused .form-control:invalid {
+  background-image: -webkit-linear-gradient(bottom, #d50000 2px, rgba(213, 0, 0, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, #d50000 2px, rgba(213, 0, 0, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-danger .form-group.is-focused .form-control:-moz-read-only {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+.form-danger .form-group.is-focused .form-control:read-only {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+}
+
+fieldset[disabled][disabled] .form-danger .form-group.is-focused .form-control, .form-danger .form-group.is-focused .form-control.disabled, .form-danger .form-group.is-focused .form-control:disabled, .form-danger .form-group.is-focused .form-control[disabled] {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 30%, transparent 100%);
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
+
+.form-danger .form-group.is-focused .form-control.form-control-success,
+.is-focused .form-danger .form-group.is-focused .form-control.form-control-success {
+  background-image: -webkit-linear-gradient(bottom, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
+}
+
+.form-danger .form-group.is-focused .form-control.form-control-warning,
+.is-focused .form-danger .form-group.is-focused .form-control.form-control-warning {
+  background-image: -webkit-linear-gradient(bottom, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E");
+}
+
+.form-danger .form-group.is-focused .form-control.form-control-danger,
+.is-focused .form-danger .form-group.is-focused .form-control.form-control-danger {
+  background-image: -webkit-linear-gradient(bottom, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+  background-image: linear-gradient(to top, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.15) 1px, transparent 1px), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
+}
+
+.form-danger .form-group.is-focused .is-focused .form-control-feedback,
+.form-danger .form-group.is-focused .is-focused .form-control-label,
+.form-danger .form-group.is-focused .is-focused .form-check-label,
+.form-danger .form-group.is-focused .is-focused .form-check-inline,
+.form-danger .form-group.is-focused .is-focused .custom-control, .form-danger .form-group.is-focused.is-focused .form-control-feedback,
+.form-danger .form-group.is-focused.is-focused .form-control-label,
+.form-danger .form-group.is-focused.is-focused .form-check-label,
+.form-danger .form-group.is-focused.is-focused .form-check-inline,
+.form-danger .form-group.is-focused.is-focused .custom-control {
+  color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused .form-control, .form-danger .form-group.is-focused.is-focused .form-control {
+  border-color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused .input-group-addon, .form-danger .form-group.is-focused.is-focused .input-group-addon {
+  color: #d32f2f;
+  border-color: #d32f2f;
+  background-color: #f7d7d7;
+}
+
+.form-danger .form-group.is-focused .is-focused .form-control-feedback, .form-danger .form-group.is-focused.is-focused .form-control-feedback {
+  color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused [class^='bmd-label'],
+.form-danger .form-group.is-focused .is-focused [class*=' bmd-label'], .form-danger .form-group.is-focused.is-focused [class^='bmd-label'],
+.form-danger .form-group.is-focused.is-focused [class*=' bmd-label'] {
+  color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused .bmd-label-placeholder, .form-danger .form-group.is-focused.is-focused .bmd-label-placeholder {
+  color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused .form-control, .form-danger .form-group.is-focused.is-focused .form-control {
+  border-color: #d32f2f;
+}
+
+.form-danger .form-group.is-focused .is-focused .bmd-help, .form-danger .form-group.is-focused.is-focused .bmd-help {
+  color: #55595c;
+}
+
+.form-danger .form-group.is-focused .form-control {
+  color: #d32f2f;
+  background-image: -webkit-linear-gradient(bottom, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), -webkit-linear-gradient(bottom, #d32f2f 1px, rgba(211, 47, 47, 0) 1px);
+  background-image: linear-gradient(to top, #d32f2f 2px, rgba(211, 47, 47, 0) 2px), linear-gradient(to top, #d32f2f 1px, rgba(211, 47, 47, 0) 1px);
+}

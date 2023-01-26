@@ -1,0 +1,109 @@
+.radio.radio-white label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-white input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #ffffff;
+}
+
+.radio.radio-white label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-white input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #ffffff;
+}
+
+.radio.radio-black label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-black input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #000000;
+}
+
+.radio.radio-black label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-black input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #000000;
+}
+
+.radio.radio-light label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-light input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #f5f5f5;
+}
+
+.radio.radio-light label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-light input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #f5f5f5;
+}
+
+.radio.radio-dark label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-dark input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #212121;
+}
+
+.radio.radio-dark label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-dark input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #212121;
+}
+
+.radio.radio-default label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-default input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #212121;
+}
+
+.radio.radio-default label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-default input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #212121;
+}
+
+.radio.radio-primary label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-primary input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #0d47a1;
+}
+
+.radio.radio-primary label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-primary input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #0d47a1;
+}
+
+.radio.radio-secondary label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-secondary input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #c51162;
+}
+
+.radio.radio-secondary label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-secondary input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #c51162;
+}
+
+.radio.radio-success label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-success input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #388e3c;
+}
+
+.radio.radio-success label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-success input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #388e3c;
+}
+
+.radio.radio-info label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-info input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #0091ea;
+}
+
+.radio.radio-info label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-info input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #0091ea;
+}
+
+.radio.radio-warning label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-warning input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #ffa000;
+}
+
+.radio.radio-warning label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-warning input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #ffa000;
+}
+
+.radio.radio-danger label input[type=radio]:checked ~ .bmd-radio-inner-circle,
+label.radio-inline.radio-danger input[type=radio]:checked ~ .bmd-radio-inner-circle {
+  background-color: #d32f2f;
+}
+
+.radio.radio-danger label input[type=radio]:checked ~ .bmd-radio-outer-circle,
+label.radio-inline.radio-danger input[type=radio]:checked ~ .bmd-radio-outer-circle {
+  border-color: #d32f2f;
+}

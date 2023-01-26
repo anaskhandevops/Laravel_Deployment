@@ -1,0 +1,33 @@
+/*
+.ta-toolbar {
+	margin: 10px 0;
+	.btn {
+		&.btn-default {
+			margin-bottom: 5px;
+			background-color: map-get(-colors, 'warning');
+			@extend .bg-warning-hover;
+			border-color: map-get(-colors, 'warning');
+			@extend .border-color-warning-hover;
+		}
+	}
+}
+
+.note-btn {
+	&.btn {
+		&.btn-default {
+			background-color: map-get(-colors, 'warning');
+			@extend .bg-warning-hover;
+			border-color: map-get(-colors, 'warning');
+			@extend .border-color-warning-hover;
+		}
+	}
+}
+.note-btn-group {
+	.dropdown-menu {
+		.dropdown-item {
+			font-size: 15px;
+			position: relative;
+		}
+	}
+}
+*/

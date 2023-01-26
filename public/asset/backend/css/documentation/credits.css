@@ -1,0 +1,11 @@
+#documentation-credits .credits > li {
+  margin-bottom: 40px;
+}
+
+#documentation-credits .credits > li p {
+  margin-bottom: 10px;
+}
+
+#documentation-credits .credits > li p:nth-child(1) {
+  font-weight: 700;
+}

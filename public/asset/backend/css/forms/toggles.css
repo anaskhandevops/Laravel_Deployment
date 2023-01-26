@@ -1,0 +1,153 @@
+.switch.switch-white label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffffff 50%, #ffffff 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffffff 50%, #ffffff 100%);
+}
+
+.switch.switch-white label input:checked + .bmd-switch-track::after {
+  background-color: #ffffff;
+}
+
+.switch.switch-white label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, white 50%, white 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, white 50%, white 100%);
+}
+
+.switch.switch-black label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #000000 50%, #000000 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #000000 50%, #000000 100%);
+}
+
+.switch.switch-black label input:checked + .bmd-switch-track::after {
+  background-color: #000000;
+}
+
+.switch.switch-black label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #545454 50%, #545454 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #545454 50%, #545454 100%);
+}
+
+.switch.switch-light label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f5f5f5 50%, #f5f5f5 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f5f5f5 50%, #f5f5f5 100%);
+}
+
+.switch.switch-light label input:checked + .bmd-switch-track::after {
+  background-color: #f5f5f5;
+}
+
+.switch.switch-light label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, white 50%, white 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, white 50%, white 100%);
+}
+
+.switch.switch-dark label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #212121 50%, #212121 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #212121 50%, #212121 100%);
+}
+
+.switch.switch-dark label input:checked + .bmd-switch-track::after {
+  background-color: #212121;
+}
+
+.switch.switch-dark label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #757575 50%, #757575 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #757575 50%, #757575 100%);
+}
+
+.switch.switch-default label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #212121 50%, #212121 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #212121 50%, #212121 100%);
+}
+
+.switch.switch-default label input:checked + .bmd-switch-track::after {
+  background-color: #212121;
+}
+
+.switch.switch-default label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #757575 50%, #757575 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #757575 50%, #757575 100%);
+}
+
+.switch.switch-primary label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #0d47a1 50%, #0d47a1 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #0d47a1 50%, #0d47a1 100%);
+}
+
+.switch.switch-primary label input:checked + .bmd-switch-track::after {
+  background-color: #0d47a1;
+}
+
+.switch.switch-primary label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #649cf2 50%, #649cf2 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #649cf2 50%, #649cf2 100%);
+}
+
+.switch.switch-secondary label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #c51162 50%, #c51162 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #c51162 50%, #c51162 100%);
+}
+
+.switch.switch-secondary label input:checked + .bmd-switch-track::after {
+  background-color: #c51162;
+}
+
+.switch.switch-secondary label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f589ba 50%, #f589ba 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f589ba 50%, #f589ba 100%);
+}
+
+.switch.switch-success label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #388e3c 50%, #388e3c 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #388e3c 50%, #388e3c 100%);
+}
+
+.switch.switch-success label input:checked + .bmd-switch-track::after {
+  background-color: #388e3c;
+}
+
+.switch.switch-success label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #98d69b 50%, #98d69b 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #98d69b 50%, #98d69b 100%);
+}
+
+.switch.switch-info label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #0091ea 50%, #0091ea 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #0091ea 50%, #0091ea 100%);
+}
+
+.switch.switch-info label input:checked + .bmd-switch-track::after {
+  background-color: #0091ea;
+}
+
+.switch.switch-info label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #93d6ff 50%, #93d6ff 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #93d6ff 50%, #93d6ff 100%);
+}
+
+.switch.switch-warning label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffa000 50%, #ffa000 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffa000 50%, #ffa000 100%);
+}
+
+.switch.switch-warning label input:checked + .bmd-switch-track::after {
+  background-color: #ffa000;
+}
+
+.switch.switch-warning label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffdfa8 50%, #ffdfa8 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #ffdfa8 50%, #ffdfa8 100%);
+}
+
+.switch.switch-danger label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #d32f2f 50%, #d32f2f 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #d32f2f 50%, #d32f2f 100%);
+}
+
+.switch.switch-danger label input:checked + .bmd-switch-track::after {
+  background-color: #d32f2f;
+}
+
+.switch.switch-danger label .bmd-switch-track {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f0baba 50%, #f0baba 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0.26) 50%, #f0baba 50%, #f0baba 100%);
+}
