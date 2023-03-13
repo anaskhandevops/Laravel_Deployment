@@ -12,6 +12,10 @@
 
     cd /Path/to/Project && cp .env.example .env
     
+#### Change the permission of Project Direoctory
+
+    chmod -R 777 /Path/to/Project
+    
 #### Up the containers 
     
     docker-compose up
