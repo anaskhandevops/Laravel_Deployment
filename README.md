@@ -2,7 +2,7 @@
 
 #### Clone repo
 
-    git clone https://github.com/1DevOps2/Laravel_App_Deployment
+    git clone https://github.com/1DevOps2/Laravel_Deployment.git
     
 #### Copy the "Dockerfile" , "docker-compose.yml" and "Docker" to your project directory.
 
