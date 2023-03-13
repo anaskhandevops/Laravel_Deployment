@@ -6,7 +6,7 @@
     
 #### Copy the "Dockerfile" , "docker-compose.yml" and "Docker" to your project directory.
 
-    cp -r -t /Path/to/Project Docker/ Dockerfile docker-compose.yml .env.example
+    cd Laravel_Deployment && cp -r -t /Path/to/Project Docker/ Dockerfile docker-compose.yml .env.example
     
 #### Go to the Project directory & copy the env file and make changes if you want i-e. (db name)
 
